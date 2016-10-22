@@ -1,4 +1,5 @@
 #Magic:the Gathering Comprehensive Rules Korean Translate Project.
+
 매직 더 개더링 종합 규칙서(Comprehensive Rules)의 한국어 번역 프로젝트입니다.
 번역자 : B.F.M. 99/99 (DCI 공인 Lv1 심판)
 
