@@ -16,4 +16,5 @@
 
 [이곳](http://www.yawgatog.com/resources/rules-changes/)에서 버전별 변경점을 확인 가능
 
+2016.10.24 - Update CR until 20160930(Kaladesh)
 2016.10.22 - Update CR until 20160722
