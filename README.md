@@ -18,5 +18,6 @@
 
 [이곳](http://www.yawgatog.com/resources/rules-changes/)에서 버전별 diff를 확인 가능
 
+ * 2016.11.11 - Update CR until 20161111(Commander 2016)
  * 2016.10.24 - Update CR until 20160930(Kaladesh)
  * 2016.10.22 - Update CR until 20160722(Eldritch Moon)
