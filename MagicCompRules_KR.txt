@@ -1,6 +1,6 @@
 ¸ÅÁ÷: ´õ °³´õ¸µ Á¾ÇÕ ±ÔÄ¢¼­
 
-ÀÌ ±ÔÄ¢Àº 2016³â 9¿ù 30ÀÏºÎÅÍ ½ÃÇàµË´Ï´Ù.
+ÀÌ ±ÔÄ¢Àº 2016³â 11¿ù 11ÀÏºÎÅÍ ½ÃÇàµË´Ï´Ù.
 
 ¼Ò°³
 
@@ -17,7 +17,7 @@
  
 ¸ñÂ÷
 
-1. °ÔÀÓÀÇ ÄÁ¼Á
+1. °ÔÀÓÀÇ ÄÁ¼Á Game Concepts
 100. ÀÏ¹Ý General
 101. ¸ÅÁ÷ÀÇ È²±Ý·ü The Magic Golden Rules
 102. ÇÃ·¹ÀÌ¾î Players
@@ -41,7 +41,7 @@
 120. Ä«µå »Ì±â Drawing a Card
 121. Ä«¿îÅÍ Counters
 
-2. Ä«µåÀÇ ±¸¼ºParts of a Card
+2. Ä«µåÀÇ ±¸¼º Parts of a Card
 200. ÀÏ¹Ý General
 201. ÀÌ¸§ Name
 202. ¸¶³ª ºñ¿ë°ú »ö Mana Cost and Color
@@ -196,7 +196,7 @@
 
 100.5. µ¦ Àå¼öÀÇ »óÇÑ¼±Àº ¾ø½À´Ï´Ù.
 
-100.6. ´ëºÎºÐÀÇ Magic Åä³Ê¸ÕÆ®µéÀº Magic: The Gathering Tournament Rules (WPN.Wizards.com/en/resources/rules-documents)¿¡ ÀÖ´Â Ãß°¡ÀûÀÎ ±ÔÄ¢À» µû¸¨´Ï´Ù. ÀÌ ±ÔÄ¢Àº ¸î¸î Ä«µåÀÇ »ç¿ëÀ» Á¦ÇÑÇÏ°Å³ª Æ¯Á¤ ¼¼Æ® ÀüÃ¼¸¦ Á¦ÇÑÇÒ ¼ö ÀÖ½À´Ï´Ù. 
+100.6. ´ëºÎºÐÀÇ Magic Åä³Ê¸ÕÆ®µéÀº Magic: The Gathering Åä³Ê¸ÕÆ® ±ÔÄ¢ (WPN.Wizards.com/en/resources/rules-documents)¿¡ ÀÖ´Â Ãß°¡ÀûÀÎ ±ÔÄ¢À» µû¸¨´Ï´Ù. ÀÌ ±ÔÄ¢Àº ¸î¸î Ä«µåÀÇ »ç¿ëÀ» Á¦ÇÑÇÏ°Å³ª Æ¯Á¤ ¼¼Æ® ÀüÃ¼¸¦ Á¦ÇÑÇÒ ¼ö ÀÖ½À´Ï´Ù. 
 
 100.6a Åä³Ê¸ÕÆ®´Â º¸Åë ¸ÅÄ¡ÀÇ ¿¬¼ÓÀ¸·Î ÀÌ·ç¾î Áý´Ï´Ù. 2ÀÎÀü ¸ÅÄ¡´Â º¸Åë 3ÆÇ 2¼±½ÂÀÔ´Ï´Ù. ´ÙÀÎÀü ¸ÅÄ¡´Â º¸Åë ´ÜÆÇÀÔ´Ï´Ù.
 
@@ -400,7 +400,7 @@ Example: Exotic Orchard´Â ´ÙÀ½°ú °°Àº ´É·ÂÀ» °¡Áö°í ÀÖ½À´Ï´Ù. "{T}: ´ç½ÅÀÇ ¸¶³ªÇ
 
 106.10. ¾î¶² È¿°ú°¡ ¸¶³ªÇ®¿¡ ÀÏ¹Ý ¸¶³ª(Generic mana) ½Éº¼·Î ´ëÇ¥µÇ´Â Á¾·ùÀÇ ¸¶³ª¸¦ ³ÖÀ¸·Á ÇÑ´Ù¸é, ±×¸¸Å­ÀÇ ¹«»ö ¸¶³ª¸¦ ÇÃ·¹ÀÌ¾îÀÇ ¸¶³ªÇ®¿¡ ´ã½À´Ï´Ù.
 
-106.11. "¸¶³ª¸¦ »ý»êÇÏ±â À§ÇØ ÅÇ"ÇÏ´Â °ÍÀº È°¼ºÈ­ ºñ¿ë¿¡ ÅÇÀÌ ÀÖ´Â ¸¶³ª ´É·ÂÀ» È°¼ºÈ­ ÇÏ´Â °ÍÀ» ¸»ÇÕ´Ï´Ù. See rule 605, "Mana Abilities."
+106.11 ¸¶³ª¸¦ »ý»êÇÏ±â À§ÇØ ÅÇ"ÇÏ´Â °ÍÀº È°¼ºÈ­ ºñ¿ë¿¡ ÅÇÀÌ ÀÖ´Â ¸¶³ª ´É·ÂÀ» È°¼ºÈ­ ÇÏ´Â °ÍÀ» ¸»ÇÕ´Ï´Ù. See rule 605, "Mana Abilities."
 
 106.11a Áö¼Ó¹°ÀÌ ¡°¸¶³ª¸¦ »ý»êÇÏ±â À§ÇØ ÅÇ¡±ÇÏ°Å³ª ¡°[Æ¯Á¤ Å¸ÀÔ]ÀÇ ¸¶³ª¸¦ »ý»êÇÏ±â À§ÇØ ÅÇ¡±ÇÒ ¶§ °Ý¹ßµÇ´Â ´É·ÂÀº ÀÌ·¯ÇÑ ¸¶³ª ´É·ÂÀÌ ÇØ°áµÇ°í (Æ¯Á¤ Å¸ÀÔÀÇ) ¸¶³ª°¡ »ý¼ºµÇ¾úÀ» ¶§ °Ý¹ßµË´Ï´Ù.
 
@@ -468,9 +468,9 @@ Example: {W/P}{W/P}´Â {W}{W}À» ÁöºÒÇÒ ¼öµµ, {W}¿Í »ý¸íÁ¡ 2Á¡À» ÁöºÒÇÒ ¼öµµ, »ý¸í
 
 107.8. ·¹º§·¯ Ä«µå(leveler card)ÀÇ ÅØ½ºÆ® ¹Ú½º¿¡´Â 2°³ÀÇ ·¹º§ ½Éº¼ÀÌ ÀÖ½À´Ï´Ù. ÀÌ°ÍÀº Á¤Àû ´É·Â¿¡ ÇØ´çÇÏ´Â Å°¿öµå ´É·ÂÀÔ´Ï´Ù. ·¹º§ ½Éº¼Àº "N1-N2,"Ã³·³ ¼ýÀÚÀÇ ¹üÀ§¸¦ Æ÷ÇÔÇÏ±âµµ ÇÏ°í, "N3+."Ã³·³ ¼ýÀÚ µÚ¿¡ + Ç¥½Ã°¡ µÇ¾îÀÖ±âµµ ÇÕ´Ï´Ù. °°Àº ·¹º§ ½Éº¼ÀÇ ÅØ½ºÆ®¹Ú½º ÁÙ¹«´Ì ¾È¿¡ ÀûÇôÁø ´É·ÂµéÀº ±× ·¹º§ÀÇ Á¤Àû ´É·ÂÀÔ´Ï´Ù. ÁÙ¹«´Ì ¾È¿¡ ÀûÇôÁø °ø°Ý·Â/¹æ¾î·Â ¹Ú½º([P/T]) ¿ª½Ã ¸¶Âù°¡ÁöÀÔ´Ï´Ù. See rule 710, "Leveler Cards."
 
-107.8a "{·¹º§ N1-N2} [´É·Â] [P/T]"´Â "ÀÌ »ý¹°ÀÌ ÃÖ¼Ò N1°³¿¡¼­ ÃÖ´ë N2°³ »çÀÌÀÇ ·¹º§ Ä«¿îÅÍ¸¦ °¡Áö°í ÀÖ´Ù¸é, ÀÌ »ý¹°ÀÇ °ø/¹æÀº [P/T]ÀÌ°í [´É·Â]À» °¡Áø´Ù."¶ó´Â ¶æÀÔ´Ï´Ù.
+107.8a "{·¹º§ N1-N2} [´É·Â] [P/T]"´Â "ÀÌ »ý¹°ÀÌ ÃÖ¼Ò N1°³¿¡¼­ ÃÖ´ë N2°³ »çÀÌÀÇ ·¹º§ Ä«¿îÅÍ¸¦ °¡Áö°í ÀÖ´Ù¸é, ÀÌ »ý¹°ÀÇ ±âº» °ø/¹æÀº [P/T]ÀÌ°í [´É·Â]À» °¡Áø´Ù."¶ó´Â ¶æÀÔ´Ï´Ù.
 
-107.8b "{·¹º§ N3+} [´É·Â] [P/T]"´Â "ÀÌ »ý¹°ÀÌ N3°³ ¶Ç´Â ±× ÀÌ»óÀÇ ·¹º§ Ä«¿îÅÍ¸¦ °¡Áö°í ÀÖ´Ù¸é, ÀÌ »ý¹°ÀÇ °ø/¹æÀº [P/T]ÀÌ°í [´É·Â]À» °¡Áø´Ù."´Â ¶æÀÔ´Ï´Ù.
+107.8b "{·¹º§ N3+} [´É·Â] [P/T]"´Â "ÀÌ »ý¹°ÀÌ N3°³ ¶Ç´Â ±× ÀÌ»óÀÇ ·¹º§ Ä«¿îÅÍ¸¦ °¡Áö°í ÀÖ´Ù¸é, ÀÌ »ý¹°ÀÇ ±âº» °ø/¹æÀº [P/T]ÀÌ°í [´É·Â]À» °¡Áø´Ù."´Â ¶æÀÔ´Ï´Ù.
 
 107.9. ¿Àµ÷¼¼ÀÌ¢â ºí·°¿¡´Â ÀÌ¸§ ¿·¿¡ ¹¦ºñ ¾ÆÀÌÄÜÀÌ ºÙÀº Ä«µå°¡ ÀÖ½À´Ï´Ù. ÀÌ°ÍÀº ÇÃ·¹ÀÌ¾îÀÇ ¹«´ý¿¡¼­ ÀûÀýÇÑ È¿°ú°¡ ÀÖ´Ù´Â °ÍÀ» ÀÇ¹ÌÇÕ´Ï´Ù. ÀÌ ¾ÆÀÌÄÜÀº ±× Ä«µå°¡ ¹«´ý¿¡ ÀÖÀ» ¶§ µÎµå·¯Áö°Ô ÇÏ±â À§ÇØ¼­ ÀÖ½À´Ï´Ù. ¾ÆÀÌÄÜ ÀÚÃ¼´Â °ÔÀÓ ÇÃ·¹ÀÌ¿¡ ¿µÇâÀ» ¹ÌÄ¡Áö ¾Ê½À´Ï´Ù.
 
@@ -1949,7 +1949,7 @@ Example: Squadron Hawk(1/1 ºñÇà»ý¹°)°ú Goblin Piker(2/1 »ý¹°)ÀÌ °ø°ÝÇÏ°í ÀÖ½À´Ï´
 
 511.1. ÀüÅõÁ¾·á´ÜÀº ÅÏ¿¡ ±â¹ÝÇÑ Çàµ¿ÀÌ ¾ø½À´Ï´Ù. ´ÜÀÌ ½ÃÀÛµÇ¸é ¾×Æ¼ºê ÇÃ·¹ÀÌ¾î°¡ ¿ì¼±±ÇÀ» ¹Þ½À´Ï´Ù.(See rule 116, "Timing and Priority.")
 
-511.2. "ÀüÅõ ³¡¿¡" °Ý¹ßµÇ´Â ´É·ÂµéÀÌ ÀüÅõÁ¾·á´Ü ½ÃÀÛ¿¡ °Ý¹ßµË´Ï´Ù. ÀüÅõ ´Ü°è°¡ ³¡³¯ ¶§ "ÀüÅõ ³¡±îÁö" Áö¼ÓµÇ´Â ´É·ÂµéÀÌ ¸¸·áµË´Ï´Ù.
+511.2. "ÀüÅõ ³¡¿¡" °Ý¹ßµÇ´Â ´É·ÂµéÀÌ ÀüÅõÁ¾·á´Ü ½ÃÀÛ¿¡ °Ý¹ßµË´Ï´Ù. ÀüÅõ ´Ü°è°¡ ³¡³¯ ¶§ "ÀüÅõ ³¡±îÁö" Áö¼ÓµÇ´Â È¿°úµéÀÌ ¸¸·áµË´Ï´Ù.
 
 511.3. ÀüÅõÁ¾·á´ÜÀÌ ³¡³ªÀÚ ¸¶ÀÚ, ¸ðµç »ý¹°°ú ÇÃ·¹ÀÎÁî¿öÄ¿µéÀº ÀüÅõ¿¡¼­ Á¦°ÅµË´Ï´Ù. ÀüÅõÁ¾·á´ÜÀÌ ³¡³­ ÀÌÈÄ¿¡ ÀüÅõ ´Ü°è´Â Á¾·áµÇ¸ç ÀüÅõ ÈÄ ¸ÞÀÎ ´Ü°è°¡ ½ÃÀÛµË´Ï´Ù. (See rule 505)
 
@@ -2006,7 +2006,7 @@ Example: "¸ñÇ¥ »ý¹° µÎ °³¸¦ ÅÇÇÑ´Ù."´Â ´É·ÂÀÇ ÁÖ¹®ÀÌ ÀÖ´Ù¸é °°Àº »ý¹°À» µÎ ¹ø ¼±
 601.2h ÇÃ·¹ÀÌ¾î´Â ÃÑ ºñ¿ëÀ» ¼ø¼­¿¡ »ó°ü¾øÀÌ ÁöºÒÇÕ´Ï´Ù. ÀÏºÎ¸¸ ÁöºÒÇÏ´Â °ÍÀº Çã¿ëµÇÁö ¾Ê½À´Ï´Ù. ÁöºÒÇÒ ¼ö ¾ø´Â ºñ¿ë(Unpayable costs)Àº ÁöºÒÇÒ ¼ö ¾ø½À´Ï´Ù.
 Example: ´ç½ÅÀº Altar's Reap(ºñ¿ëÀÌ {1}{B}¿¡ Ãß°¡ ºñ¿ëÀ¸·Î »ý¹°À» Èñ»ý)À» ¹ßµ¿ÇÕ´Ï´Ù. ´ç½ÅÀº Thunderscape Familiar(Èæ»ö ÁÖ¹®À» »ç¿ëÇÏ´Âµ¥ {1}ÀÌ ´ú µç´Ù)¸¦ Èñ»ýÇÕ´Ï´Ù. ÁÖ¹®ÀÇ ÃÑ ºñ¿ëÀº ½ÇÁ¦·Î ÁöºÒµÇ±â Àü¿¡ "°íÁ¤µÇ±â" ¶§¹®¿¡, ÆÐ¹Ð¸®¾î¸¦ Èñ»ýÇß´Ù°í ÇÏ´õ¶óµµ ´ç½ÅÀº {1}{B}°¡ ¾Æ´Ï¶ó {B}¸¸ ÁöºÒÇÏ¸é µË´Ï´Ù.
 
-601.2i ÀÏ´Ü 601.2a-h¿¡ ¼³¸íÇÑ ´Ü°èµéÀ» ¸¸Á·Çß´Ù¸é, ÁÖ¹®Àº ¹ßµ¿µË´Ï´Ù. ÁÖ¹®ÀÌ ¹ßµ¿µÉ ¶§ °Ý¹ßµÇ´Â ¸ðµç ´É·ÂµéÀÌ ÀÌ ½ÃÁ¡¿¡ °Ý¹ßµË´Ï´Ù. ¸¸¾à ÁÖ¹®ÀÇ Á¶Á¾ÀÚ°¡ ¹ßµ¿ Àü¿¡ ¿ì¼±±ÇÀ» °¡Áö°í ÀÖ¾ú´Ù¸é, ¹ßµ¿ ÀÌÈÄ¿¡ ¿ì¼±±ÇÀ» ¹Þ½À´Ï´Ù.
+601.2i ÀÏ´Ü 601.2a-h¿¡ ¼³¸íÇÑ ´Ü°èµéÀ» ¸¸Á·Çß´Ù¸é, ÁÖ¹®ÀÇ Æ¯Â¡À» ¹Ù²Ù´Â È¿°úµéÀÌ Àû¿ëµÈ µÚ ÁÖ¹®ÀÌ ¹ßµ¿µË´Ï´Ù. ÁÖ¹®ÀÌ ¹ßµ¿µÉ ¶§ °Ý¹ßµÇ´Â ¸ðµç ´É·ÂµéÀÌ ÀÌ ½ÃÁ¡¿¡ °Ý¹ßµË´Ï´Ù. ¸¸¾à ÁÖ¹®ÀÇ Á¶Á¾ÀÚ°¡ ¹ßµ¿ Àü¿¡ ¿ì¼±±ÇÀ» °¡Áö°í ÀÖ¾ú´Ù¸é, ¹ßµ¿ ÀÌÈÄ¿¡ ¿ì¼±±ÇÀ» ¹Þ½À´Ï´Ù.
 
 601.3. ÇÃ·¹ÀÌ¾î´Â ±ÔÄ¢ÀÌ Çã¿ëÇÏÁö ¾Ê´Â ÇÑ ÁÖ¹®À» ¹ßµ¿ÇÒ ¼ö ¾ø½À´Ï´Ù. ¸¸¾à ±× ÇÃ·¹ÀÌ¾î°¡ ÁÖ¹® ¹ßµ¿ Á¦¾ÈÀ» ÇÑ ÀÌÈÄ¿¡ ±× ÁÖ¹®À» ¹ßµ¿ÇÏ´Â °ÍÀÌ ´õ ÀÌ»ó À¯È¿ÇÏÁö ¾ÊÀ» °æ¿ì ÁÖ¹®À» ¹ßµ¿ÇÏ´Â °ÍÀº Àû¹ýÇÏÁö ¾ÊÀ¸¸ç °ÔÀÓÀº ÁÖ¹® ¹ßµ¿ Á¦¾È ÀÌÀü ½ÃÁ¡À¸·Î µ¹¾Æ°©´Ï´Ù. (See rule 720, ¡°Handling Illegal Actions¡±)
 
@@ -2102,17 +2102,14 @@ Example: Felidar Sovereign("´ç½ÅÀÇ À¯Áö´Ü ½ÃÀÛ¿¡, ´ç½ÅÀÇ »ý¸íÃÑÁ¡ÀÌ 40 ÀÌ»óÀÌ¶ó¸
 
 603.6a ETB ´É·ÂÀº Áö¼Ó¹°ÀÌ ÀüÀå¿¡ µé¾î¿Ã ¶§ °Ý¹ßµË´Ï´Ù. ÀÌ ´É·ÂÀº "[ÀÌ °³Ã¼]°¡ ÀüÀå¿¡ µé¾î¿Ã ¶§,...", ¶Ç´Â "[Å¸ÀÔ]ÀÌ ÀüÀå¿¡ µé¾î¿Ã ¶§,..."¶ó°í ¾²¿©ÀÖ½À´Ï´Ù. ÀÌº¥Æ®°¡ ÇÏ³ª ÀÌ»óÀÇ Áö¼Ó¹°À» ÀüÀå¿¡ ³õÀ» ¶§¸¶´Ù, ÀüÀå¿¡ ÀÖ´Â ¸ðµç Áö¼Ó¹°(»õ·Î µé¾î¿Â °Íµµ Æ÷ÇÔ)Àº ±× ÀÌº¥Æ®¿Í ¸Â´Â ETB Æ®¸®°Å°¡ ÀÖ´ÂÁö Ã¼Å©ÇÕ´Ï´Ù.
 
-603.6b Áö¼Ó¹°ÀÇ Æ¯Â¡À» º¯°æÇÏ´Â Áö¼Ó È¿°ú´Â Áö¼Ó¹°ÀÌ ÀüÀå¿¡ ÀÖÀ» ¶§ºÎÅÍ È¿°ú¸¦ °¡Áý´Ï´Ù. (±× Àü¿¡´Â È¿°ú ¾øÀ½) ±× Áö¼Ó¹°Àº ÀüÀå¿¡ ÀÖÀ» ¶§ º¯°æµÇ±â Àü Æ¯Â¡À» °¡ÁöÁö ¾Ê½À´Ï´Ù. ÇÏÁö¸¸ Áö¼Ó È¿°ú´Â Áö¼Ó¹°ÀÌ ÀüÀå¿¡ ÀÖ±â Àü¿¡´Â Àû¿ëµÇÁö ¾Ê½À´Ï´Ù. (See rule 603.6e)
+603.6b Áö¼Ó¹°ÀÇ Æ¯Â¡À» º¯°æÇÏ´Â Áö¼Ó È¿°ú´Â Áö¼Ó¹°ÀÌ ÀüÀå¿¡ ÀÖÀ» ¶§ºÎÅÍ È¿°ú¸¦ °¡Áý´Ï´Ù. (±× Àü¿¡´Â È¿°ú ¾øÀ½) ±× Áö¼Ó¹°Àº ÀüÀå¿¡ ÀÖÀ» ¶§ º¯°æµÇ±â Àü Æ¯Â¡À» °¡ÁöÁö ¾Ê½À´Ï´Ù. ÇÏÁö¸¸ Áö¼Ó È¿°ú´Â Áö¼Ó¹°ÀÌ ÀüÀå¿¡ ÀÖ±â Àü¿¡´Â Àû¿ëµÇÁö ¾Ê½À´Ï´Ù. (See rule 603.6d)
 Example: "¸ðµç ´ëÁö´Â »ý¹°ÀÌ´Ù."´Â È¿°ú°¡ ÀÖ°í, ´ëÁö Ä«µå°¡ ÇÃ·¹ÀÌµÇ¾ú½À´Ï´Ù. ±× È¿°ú´Â ´ëÁö Ä«µå°¡ ÀüÀå¿¡ µé¾î¿À´Â ¼ø°£ »ý¹°·Î ¹Ù²ß´Ï´Ù. ±×·¯¹Ç·Î »ý¹°ÀÌ ÀüÀå¿¡ µé¾î¿Ã ¶§ °Ý¹ßµÇ´Â ´É·ÂÀÌ °Ý¹ßµÉ ¼ö ÀÖ½À´Ï´Ù. ¹Ý´ë·Î, "¸ðµç »ý¹°Àº ¸ðµç ´É·ÂÀ» ÀÒ´Â´Ù."´Â È¿°ú°¡ ÀÖ°í ETB´É·ÂÀÌ ÀÖ´Â »ý¹°ÀÌ ÀüÀå¿¡ µé¾î¿Â´Ù¸é, ±× È¿°ú´Â »ý¹° Ä«µå°¡ ÀüÀå¿¡ µé¾î¿À´Â ¼ø°£ ¸ðµç ´É·ÂÀ» ÀÒ°Ô ÇÕ´Ï´Ù. ±×·¯¹Ç·Î ETB´É·ÂÀº °Ý¹ßµÇÁö ¾Ê½À´Ï´Ù.
 
-603.6c LTB ´É·ÂÀº Áö¼Ó¹°ÀÌ ÀüÀå¿¡¼­ ´Ù¸¥ ±¸¿ªÀ¸·Î ÀÌµ¿ÇÒ ¶§, ¶Ç´Â ÆäÀÌÁî ÀÎ »óÅÂÀÎ Áö¼Ó¹°ÀÌ °ÔÀÓÀ» ¶°³¯ ¶§(¼ÒÀ¯ÀÚ°¡ °ÔÀÓÀ» ¶°³µ±â ¶§¹®¿¡) °Ý¹ßµË´Ï´Ù. "[ÀÌ °³Ã¼°¡] ÀüÀåÀ» ¶°³¯ ¶§,..." ¶Ç´Â "[¹«¾ð°¡]°¡ ÀüÀå¿¡¼­ ¹«´ýÀ¸·Î °¥ ¶§,..." µî°ú °°ÀÌ ¾²¿©ÀÖÁö¸¸, Ç¥±â¿¡ Á¦ÇÑÀº ¾ø½À´Ï´Ù. ÀÌ °æ¿ì¿¡´Â Ä«µå°¡ ÀüÀåÀ» ¶°³ª¼­ °£ ±¸¿ªÀÌ ÇØ´ç ±¸¿ªÀÎÁö¸¦ Ã¼Å©ÇØ¼­ ´É·ÂÀÌ ¹ßµ¿ÇÕ´Ï´Ù. °³Ã¼°¡ "¾îµð¿¡¼­µç" Æ¯Á¤ ±¸¿ªÀ¸·Î °¥ ¶§ °Ý¹ßµÇ´Â ´É·ÂÀº °³Ã¼°¡ ÀüÀå¿¡¼­ ÇØ´ç ±¸¿ªÀ¸·Î ÀÌµ¿Çß¾îµµ LTB ´É·ÂÀ¸·Î Ãë±ÞÇÏÁö ¾Ê½À´Ï´Ù.
+603.6c LTB ´É·ÂÀº Áö¼Ó¹°ÀÌ ÀüÀå¿¡¼­ ´Ù¸¥ ±¸¿ªÀ¸·Î ÀÌµ¿ÇÒ ¶§, ¶Ç´Â ÆäÀÌÁî ÀÎ »óÅÂÀÎ Áö¼Ó¹°ÀÌ °ÔÀÓÀ» ¶°³¯ ¶§(¼ÒÀ¯ÀÚ°¡ °ÔÀÓÀ» ¶°³µ±â ¶§¹®¿¡) °Ý¹ßµË´Ï´Ù. "[ÀÌ °³Ã¼°¡] ÀüÀåÀ» ¶°³¯ ¶§,..." ¶Ç´Â "[¹«¾ð°¡]°¡ ÀüÀå¿¡¼­ ¹«´ýÀ¸·Î °¥ ¶§,..." µî°ú °°ÀÌ ¾²¿©ÀÖÁö¸¸,  (See also rule 603.10.) Ç¥±â¿¡ Á¦ÇÑÀº ¾ø½À´Ï´Ù. ÀÌ °æ¿ì¿¡´Â Ä«µå°¡ ÀüÀåÀ» ¶°³ª¼­ °£ ±¸¿ªÀÌ ÇØ´ç ±¸¿ªÀÎÁö¸¦ Ã¼Å©ÇØ¼­ ´É·ÂÀÌ ¹ßµ¿ÇÕ´Ï´Ù. °³Ã¼°¡ "¾îµð¿¡¼­µç" Æ¯Á¤ ±¸¿ªÀ¸·Î °¥ ¶§ °Ý¹ßµÇ´Â ´É·ÂÀº °³Ã¼°¡ ÀüÀå¿¡¼­ ÇØ´ç ±¸¿ªÀ¸·Î ÀÌµ¿Çß¾îµµ LTB ´É·ÂÀ¸·Î Ãë±ÞÇÏÁö ¾Ê½À´Ï´Ù.
 
-603.6d ÀÏ¹ÝÀûÀ¸·Î, °³Ã¼´Â ÀÌº¥Æ®°¡ ¹ß»ýÇÑ Á÷ÈÄ ±× ÀÌº¥Æ®°¡ °Ý¹ß Á¶°ÇÀ» ¸¸Á·ÇÏ´ÂÁö Ã¼Å©ÇÕ´Ï´Ù. ±× ½ÃÁ¡¿¡ Á¸ÀçÇÏ´Â Áö¼Ó È¿°úµéÀº ¾î¶² °Ý¹ß Á¶°ÇÀÌ ¸¸Á·µÇ´ÂÁö, ¾î¶² °³Ã¼°¡ ÀÌº¥Æ®¿Í ¿¬°üµÇ´ÂÁö °áÁ¤ÇÕ´Ï´Ù. ÇÏÁö¸¸, ¾î¶² °Ý¹ß ´É·ÂÀº Æ¯º°ÇÏ°Ô ´Ù·ïÁý´Ï´Ù. LTB ´É·Âµé, Ä«µå°¡ ¹«´ýÀ» ¶°³ª°Å³ª Áö¼Ó¹°ÀÌ ÆäÀÌÁî ¾Æ¿ôµÉ ¶§ °Ý¹ßµÇ´Â ´É·Âµé, ¸ðµç ÇÃ·¹ÀÌ¾î¿¡°Ô °ø°³µÈ °³Ã¼°¡ ¼ÕÀÌ³ª ¼­°í·Î °¥ ¶§ °Ý¹ßµÇ´Â ´É·Â, ´Ù¸¥ °³Ã¼°¡ ºÎÂøµÈ °ÍÀÌ ¶³¾îÁ³À» ¶§ Æ¯º°ÇÏ°Ô °Ý¹ßµÇ´Â ´É·Â, ÇÃ·¹ÀÌ¾î°¡ °³Ã¼ÀÇ Á¶Á¾±ÇÀ» ÀÒ¾úÀ» ¶§ °Ý¹ßµÇ´Â ´É·Â, ÇÃ·¹ÀÌ¾î°¡ ÇÃ·¹ÀÎÁî¿öÅ©¸¦ ÇØ¼­ ¾î¶² Â÷¿øÀ» ¶°³¯ ¶§(ÇÃ·¹ÀÎÃ¼ÀÌ½º) °Ý¹ßµÇ´Â ´É·ÂÀº ÀÚ½ÅÀÇ Á¸Àç¿¡ ±â¹ÝÀ» µÎ°í °Ý¹ßµÇ¸ç °³Ã¼´Â ÀÌº¥Æ® ÀÌÈÄ°¡ ¾Æ´Ï¶ó ÀÌÀü¿¡ ³ªÅ¸³³´Ï´Ù. °ÔÀÓÀº ÀÌ·± ´É·ÂÀÌ °Ý¹ßµÇ´ÂÁö Ã¼Å©ÇÏ±â À§ÇØ¼­´Â "°ú°Å¸¦ È®ÀÎÇØ¾ß" ÇÕ´Ï´Ù.
-Example: ÀüÀå¿¡ »ý¹° 2°³¿Í, "»ý¹°ÀÌ Á×À» ¶§¸¶´Ù, »ý¸í1Á¡À» ¾ò´Â´Ù."¶ó´Â ´É·ÂÀ» °¡Áø ¸¶¹ý¹°Ã¼°¡ ÀÖ½À´Ï´Ù. ´©±º°¡°¡ "¸ðµç »ý¹°, ¸¶¹ý¹°Ã¼, ºÎ¿©¸¶¹ýÀ» ÆÄ±«ÇÑ´Ù."´Â ´É·ÂÀ» °¡Áø ÁÖ¹®À» ¹ßµ¿Çß½À´Ï´Ù. ºñ·Ï ¸¶¹ý¹°Ã¼°¡ »ý¹°°ú ÇÔ²² ¹«´ý¿¡ °¬Áö¸¸, ¸¶¹ý¹°Ã¼ÀÇ ´É·ÂÀº 2¹ø °Ý¹ßµË´Ï´Ù.
+603.6d ¾î¶² Áö¼Ó¹°Àº "[This permanent] enters the battlefield with . . . ", "As [this permanent] enters the battlefield . . . ", "[This permanent] enters the battlefield as . . . ," ¶Ç´Â "[This permanent] enters the battlefield tapped." µî°ú °°ÀÌ ¾²¿©ÀÖ½À´Ï´Ù. ÀÌ ÅØ½ºÆ®´Â Á¤Àû ´É·ÂÀÔ´Ï´Ù. °Ý¹ß ´É·ÂÀÌ ¾Æ´Õ´Ï´Ù. ÀÌ È¿°ú´Â Áö¼Ó¹°ÀÌ ÀüÀå¿¡ µé¾î¿À´Â ÀÌº¥Æ®ÀÇ ÀÏºÎ·Î ¹ß»ýÇÕ´Ï´Ù.
 
-603.6e ¾î¶² Áö¼Ó¹°Àº "[This permanent] enters the battlefield with . . . ", "As [this permanent] enters the battlefield . . . ", "[This permanent] enters the battlefield as . . . ," ¶Ç´Â "[This permanent] enters the battlefield tapped." µî°ú °°ÀÌ ¾²¿©ÀÖ½À´Ï´Ù. ÀÌ ÅØ½ºÆ®´Â Á¤Àû ´É·ÂÀÔ´Ï´Ù. °Ý¹ß ´É·ÂÀÌ ¾Æ´Õ´Ï´Ù. ÀÌ È¿°ú´Â Áö¼Ó¹°ÀÌ ÀüÀå¿¡ µé¾î¿À´Â ÀÌº¥Æ®ÀÇ ÀÏºÎ·Î ¹ß»ýÇÕ´Ï´Ù.
-
-603.6f ¾î¶² Áö¼Ó¹°Àº ºÎ¿©µÈ Áö¼Ó¹°ÀÌ ÀüÀåÀ» ¶°³ª¸é °Ý¹ßµÇ´Â °Ý¹ß ´É·ÂÀ» °¡Áö°í ÀÖ½À´Ï´Ù. ÀÌ °Ý¹ß ´É·ÂµéÀº ±×°ÍÀÌ ÀÌµ¿ÇÑ ±¸¿ª¿¡ ÀÖ´Â Áö¼Ó¹° Ä«µå Áß¿¡ »õ·Î¿î °³Ã¼¸¦ Ã£À» ¼ö ÀÖ½À´Ï´Ù; ÀÌ ´É·ÂµéÀº ¶ÇÇÑ »óÅÂ ÂüÁ¶ Çàµ¿À» Ã¼Å©ÇÑ ÀÌÈÄ¿¡ ¼ÒÀ¯ÀÚÀÇ ¹«´ý¿¡ ÀÖ´Â ¸¶¹ýÁø Ä«µå Áß¿¡ »õ·Î¿î °³Ã¼¸¦ Ã£À» ¼ö ÀÖ½À´Ï´Ù. See rule 400.7.
+603.6e ¾î¶² Áö¼Ó¹°Àº ºÎ¿©µÈ Áö¼Ó¹°ÀÌ ÀüÀåÀ» ¶°³ª¸é °Ý¹ßµÇ´Â °Ý¹ß ´É·ÂÀ» °¡Áö°í ÀÖ½À´Ï´Ù. ÀÌ °Ý¹ß ´É·ÂµéÀº ±×°ÍÀÌ ÀÌµ¿ÇÑ ±¸¿ª¿¡ ÀÖ´Â Áö¼Ó¹° Ä«µå Áß¿¡ »õ·Î¿î °³Ã¼¸¦ Ã£À» ¼ö ÀÖ½À´Ï´Ù; ÀÌ ´É·ÂµéÀº ¶ÇÇÑ »óÅÂ ÂüÁ¶ Çàµ¿À» Ã¼Å©ÇÑ ÀÌÈÄ¿¡ ¼ÒÀ¯ÀÚÀÇ ¹«´ý¿¡ ÀÖ´Â ¸¶¹ýÁø Ä«µå Áß¿¡ »õ·Î¿î °³Ã¼¸¦ Ã£À» ¼ö ÀÖ½À´Ï´Ù. See rule 400.7.
 
 603.7. ¾î¶² È¿°ú´Â ³ªÁß¿¡ Çàµ¿ÇÏ´Â Áö¿¬ °Ý¹ß ´É·ÂÀ» »ý¼ºÇÏ±âµµ ÇÕ´Ï´Ù. Áö¿¬ °Ý¹ß ´É·ÂÀº "when," "whenever," or "at," °°Àº ´Ü¾î¸¦ Æ÷ÇÔÇÕ´Ï´Ù. ÀÌ ´Ü¾î°¡ ´É·Â °¡Àå ¾Õ¿¡ ³ª¿Ã ÇÊ¿ä´Â ¾ø½À´Ï´Ù.
 
@@ -2136,7 +2133,24 @@ Example: "¼Õ¿¡ Ä«µå°¡ ¾øÀ» ¶§¸¶´Ù, Ä«µå¸¦ ÇÑ Àå »Ì´Â´Ù."´Â Áö¼Ó¹°ÀÇ ´É·ÂÀÌ ÀÖ½À´
 
 603.9. ¾î¶² °Ý¹ß ´É·ÂµéÀº ÇÃ·¹ÀÌ¾î°¡ Æ¯º°ÇÏ°Ô °ÔÀÓ¿¡¼­ ÆÐ¹èÇÒ ¶§ °Ý¹ßµË´Ï´Ù. ÀÌ ´É·ÂµéÀº ¾î¶² ÇÃ·¹ÀÌ¾î°¡ °ÔÀÓ¿¡¼­ ÆÐ¹èÇÏ°Å³ª ÀÌÀ¯¿Í´Â »ó°ü¾øÀÌ °ÔÀÓÀ» ¶°³¯ ¶§ °Ý¹ßµË´Ï´Ù. ´Ù¸¸ °ÔÀÓ¿¡¼­ ºñ°Ü¼­ °ÔÀÓÀ» ¶°³ª´Â °æ¿ì´Â ¿¹¿ÜÀÔ´Ï´Ù. See rule 104.3.
 
-603.10. ¾î¶² °³Ã¼´Â ÇÏ³ª ÀÌ»óÀÇ °Ý¹ß ´É·Â°ú ¿¬°áµÈ Á¤Àû ´É·ÂÀ» °¡Áý´Ï´Ù. (See rule 607, "Linked Abilities.") ÀÌ·± °³Ã¼µéÀº µÎ ´É·ÂÀÌ ÇÑ ¹®´Ü¿¡ °áÇÕµÇ¾î ÀÖ½À´Ï´Ù. Á¤Àû ´É·ÂÀÌ ¸ÕÀú ³ª¿À°í, ´ÙÀ½¿¡ °Ý¹ß ´É·ÂÀÌ ³ª¿É´Ï´Ù. ¸Å¿ì ¼Ò¼öÀÇ °³Ã¼µéÀº °Ý¹ß Á¶°ÇÀÌ ´É·ÂÀÇ Ã³À½ÀÌ ¾Æ´Ï¶ó Áß°£¿¡ ³ª¿ÍÀÖ½À´Ï´Ù.
+603.10. ÀÏ¹ÝÀûÀ¸·Î, °³Ã¼´Â ÀÌº¥Æ®°¡ ¹ß»ýÇÑ Á÷ÈÄ ±× ÀÌº¥Æ®°¡ °Ý¹ß Á¶°ÇÀ» ¸¸Á·ÇÏ´ÂÁö Ã¼Å©ÇÕ´Ï´Ù. ±× ½ÃÁ¡¿¡ Á¸ÀçÇÏ´Â Áö¼Ó È¿°úµéÀº ¾î¶² °Ý¹ß Á¶°ÇÀÌ ¸¸Á·µÇ´ÂÁö, ¾î¶² °³Ã¼°¡ ÀÌº¥Æ®¿Í ¿¬°üµÇ´ÂÁö °áÁ¤ÇÕ´Ï´Ù. ÇÏÁö¸¸, ¾î¶² °Ý¹ß ´É·ÂÀº ÀÌ ±ÔÄ¢ÀÇ ¿¹¿ÜÀÔ´Ï´Ù. °ÔÀÓÀº ´É·ÂÀÇ Á¸Àç¸¦ È®ÀÎÇÏ°Å³ª ÀÌº¥Æ® Á÷Àü¿¡ ÃâÇöÇÑ °³Ã¼¸¦ »ç¿ëÇÏ´Â ´É·ÂÀÌ °Ý¹ßµÇ´ÂÁö Ã¼Å©ÇÏ±â À§ÇØ¼­´Â "°ú°Å¸¦ È®ÀÎÇØ¾ß" ÇÕ´Ï´Ù. ¾Æ·¡¿¡ ±ÔÄ¢ÀÇ ¿¹¿ÜµéÀÌ ÀÖ½À´Ï´Ù:
+
+603.10a ¸î¸î ±¸¿ª ÀÌµ¿ °Ý¹ß ´É·ÂÀº °ú°Å¸¦ È®ÀÎÇÕ´Ï´Ù. ¿©±â¿¡´Â LTB ´É·Âµé, Ä«µå°¡ ¹«´ýÀ» ¶°³¯ ¶§ °Ý¹ßµÇ´Â ´É·Â, ¸ðµç ÇÃ·¹ÀÌ¾î¿¡°Ô °ø°³µÈ °³Ã¼°¡ ¼ÕÀÌ³ª ¼­°í·Î °¥ ¶§ °Ý¹ßµÇ´Â ´É·Â µîÀÌ ÀÖ½À´Ï´Ù.
+Example: ÀüÀå¿¡ »ý¹° 2°³¿Í, "»ý¹°ÀÌ Á×À» ¶§¸¶´Ù, »ý¸í1Á¡À» ¾ò´Â´Ù."¶ó´Â ´É·ÂÀ» °¡Áø ¸¶¹ý¹°Ã¼°¡ ÀÖ½À´Ï´Ù. ´©±º°¡°¡ "¸ðµç »ý¹°, ¸¶¹ý¹°Ã¼, ºÎ¿©¸¶¹ýÀ» ÆÄ±«ÇÑ´Ù."´Â ´É·ÂÀ» °¡Áø ÁÖ¹®À» ¹ßµ¿Çß½À´Ï´Ù. ºñ·Ï ¸¶¹ý¹°Ã¼°¡ »ý¹°°ú ÇÔ²² ¹«´ý¿¡ °¬Áö¸¸, ¸¶¹ý¹°Ã¼ÀÇ ´É·ÂÀº 2¹ø °Ý¹ßµË´Ï´Ù.
+
+603.10b Áö¼Ó¹°ÀÌ ÆäÀÌÁî ¾Æ¿ôÇÒ ¶§ °Ý¹ßµÇ´Â ´É·ÂÀº °ú°Å¸¦ È®ÀÎÇÕ´Ï´Ù.
+
+603.10c ºÎÂøµÈ °³Ã¼°¡ ¶³¾îÁ³À» ¶§ °Ý¹ßµÇ´Â ´É·ÂÀº °ú°Å¸¦ È®ÀÎÇÕ´Ï´Ù.
+
+603.10d ÇÃ·¹ÀÌ¾î°¡ °³Ã¼ÀÇ Á¶Á¾±ÇÀ» ÀÒ¾úÀ» ¶§ °Ý¹ßµÇ´Â ´É·ÂÀº °ú°Å¸¦ È®ÀÎÇÕ´Ï´Ù.
+
+603.10e ÁÖ¹®ÀÌ ¹«È¿È­µÇ¾úÀ» ¶§ °Ý¹ßµÇ´Â ´É·ÂÀº °ú°Å¸¦ È®ÀÎÇÕ´Ï´Ù.
+
+603.10f ÇÃ·¹ÀÌ¾î°¡ ÆÐ¹èÇßÀ» ¶§ °Ý¹ßµÇ´Â ´É·ÂÀº °ú°Å¸¦ È®ÀÎÇÕ´Ï´Ù.
+
+603.10g ÇÃ·¹ÀÌ¿¡°¡ ÇÃ·¹ÀÎÁî¿öÅ©¸¦ ÇØ¼­ Â÷¿øÀ» ¶°³¯ ¶§ °Ý¹ßµÇ´Â ´É·ÂÀº °ú°Å¸¦ È®ÀÎÇÕ´Ï´Ù.
+
+603.11. ¾î¶² °³Ã¼´Â ÇÏ³ª ÀÌ»óÀÇ °Ý¹ß ´É·Â°ú ¿¬°áµÈ Á¤Àû ´É·ÂÀ» °¡Áý´Ï´Ù. (See rule 607, "Linked Abilities.") ÀÌ·± °³Ã¼µéÀº µÎ ´É·ÂÀÌ ÇÑ ¹®´Ü¿¡ °áÇÕµÇ¾î ÀÖ½À´Ï´Ù. Á¤Àû ´É·ÂÀÌ ¸ÕÀú ³ª¿À°í, ´ÙÀ½¿¡ °Ý¹ß ´É·ÂÀÌ ³ª¿É´Ï´Ù. ¸Å¿ì ¼Ò¼öÀÇ °³Ã¼µéÀº °Ý¹ß Á¶°ÇÀÌ ´É·ÂÀÇ Ã³À½ÀÌ ¾Æ´Ï¶ó Áß°£¿¡ ³ª¿ÍÀÖ½À´Ï´Ù.
 Example: "´ç½ÅÀÌ °¢ ÅÏ¿¡ Ã³À½À¸·Î »ÌÀº Ä«µå¸¦ °ø°³ÇÑ´Ù. ÀÌ ¹æ½ÄÀ¸·Î °ø°³ÇÑ °ÍÀÌ ±âº» ´ëÁöÀÏ °æ¿ì, Ä«µå¸¦ ÇÑ Àå »Ì´Â´Ù."´Â °Ý¹ß ´É·Â°ú ¿¬°áµÈ Á¤Àû ´É·ÂÀÔ´Ï´Ù.
 
 604. Á¤Àû ´É·Â Ã³¸®
@@ -2221,7 +2235,7 @@ Example: "ÇÃ·¹ÀÌ¾î°¡ ¸¶³ª¸¦ »Ì±â À§ÇØ ´ëÁö¸¦ ÅÇÇÒ ¶§¸¶´Ù, ±× ÇÃ·¹ÀÌ¾î´Â ÀÚ½ÅÀÇ ¸
 
 607.2f °³Ã¼¿¡ ÀüÀå¿¡ µé¾î¿À¸é¼­ ºñ¿ëÀ» ÁöºÒÇÏµµ·Ï ÇÏ´Â ´É·ÂÀÌ ÀÖ°í, "[ÀÌ °³Ã¼]°¡ ÀüÀå¿¡ µé¾î¿À¸é¼­" ºñ¿ë¿¡ ´ëÇØ ¾ð±ÞÇÏ´Â ´É·ÂÀÌ ÀÖ´Ù¸é, µÎ ´É·ÂÀº ¿¬°áµÇ¾î ÀÖ½À´Ï´Ù. µÎ ¹øÂ° ´É·ÂÀº Ã¹ ¹øÂ° ´É·ÂÀÇ °á°ú·Î ÁöºÒµÈ ºñ¿ë¸¸À» ÀÇ¹ÌÇÕ´Ï´Ù.
 
-607.2g °³Ã¼°¡ Á¤Àû ´É·Â°ú °Ý¹ß´É·ÂÀ» ÇÑ ¹®Àå¿¡ ´Ù °¡Áö°í ÀÖ´Ù¸é, ÀÌ ´É·ÂµéÀº ¿¬°áµÇ¾î ÀÖ½À´Ï´Ù. °Ý¹ß ´É·ÂÀº Á¤Àû ´É·ÂÀÇ °á°ú·Î¸¸ ¼öÇàµË´Ï´Ù. See rule 603.10.
+607.2g °³Ã¼°¡ Á¤Àû ´É·Â°ú °Ý¹ß´É·ÂÀ» ÇÑ ¹®Àå¿¡ ´Ù °¡Áö°í ÀÖ´Ù¸é, ÀÌ ´É·ÂµéÀº ¿¬°áµÇ¾î ÀÖ½À´Ï´Ù. °Ý¹ß ´É·ÂÀº Á¤Àû ´É·ÂÀÇ °á°ú·Î¸¸ ¼öÇàµË´Ï´Ù. See rule 603.11.
 
 607.2h °³Ã¼°¡ Çâ»ó(kicker) ´É·ÂÀ» °¡Áö°í ÀÖ°í, ÀÌ °³Ã¼°¡ Çâ»ó µÇ¾ú´Ù¸é ÀÌ¶ó´Â ´É·ÂÀÌ ÀÖ´Ù¸é, µÎ ´É·ÂÀº ¿¬°áµÇ¾î ÀÖ½À´Ï´Ù. µÎ ¹øÂ° ´É·ÂÀº ±× °³Ã¼°¡ ÁÖ¹®À¸·Î ¹ßµ¿µÉ ¶§ Ã¹ ¹øÂ° ´É·Â¿¡ ¾ð±ÞµÈ Çâ»ó ºñ¿ëÀÌ ÁöºÒÇß´ÂÁö¸¸À» ÀÇ¹ÌÇÕ´Ï´Ù. ¸¸¾à Çâ»ó ºñ¿ëÀÌ ¿©·¯ °³°¡ ÀÖ´Ù¸é µÎ ¹øÂ° ´É·ÂÀº ÀÌ ´É·Âµé°ú °¢°¢ ¿¬°áµÇ¾î ÀÖ½À´Ï´Ù. ÀÌ ´É·Âµé °¢°¢Àº ¾î¶² Çâ»ó ºñ¿ëÀÌ ÁöºÒµÇ¾ú´ÂÁö¸¦ ³ªÅ¸³À´Ï´Ù. See rule 702.32, "Kicker."
 
@@ -2559,6 +2573,8 @@ Example: Wojek Apothecary´Â "{T}: ÅÏ ³¡±îÁö ¸ñÇ¥ »ý¹°°ú ±× »ý¹°°ú »öÀ» °øÀ¯ÇÏ´Â 
 
 615.11a ¹æÁö È¿°ú´Â °³º°ÀûÀÎ ¹æÁöÇÒ ¼ö ¾ø´Â ÇÇÇØ¿¡ ´ëÇØ µü ÇÑ¹ø¾¿¸¸ Àû¿ëµË´Ï´Ù. ÇÇÇØ¸¦ ¹æÁöÇÏ±â À§ÇØ ¹Ýº¹ÀûÀ¸·Î Àû¿ëµÇÁö ¾Ê½À´Ï´Ù.
 
+615.12. ¾î¶² °Ý¹ß ´É·ÂÀº ÇÇÇØ°¡ ¹æÁöµÉ ¶§ °Ý¹ßµË´Ï´Ù. ÀÌ·± ´É·ÂÀº ÇÏ³ª ÀÌ»óÀÇ µ¿½ÃÀûÀÎ ÇÇÇØ ÀÌº¥Æ®ÀÇ ÀÏºÎ È¤Àº ÀüºÎ¿¡ ¹æÁö È¿°ú°¡ Àû¿ëµÉ ¶§ °¢°¢ °Ý¹ßµË´Ï´Ù.
+
 616. ´ëÃ¼ È¿°ú¿Í ¹æÁö È¿°úÀÇ »óÈ£ÀÛ¿ë
 
 616.1. µÎ °³ ÀÌ»óÀÇ ´ëÃ¼/¹æÁö È¿°ú°¡ °³Ã¼³ª ÇÃ·¹ÀÌ¾î¿¡°Ô ¿µÇâÀ» ÁÖ´Â ÀÌº¥Æ®¿¡ Àû¿ëµÇ·Á ÇÑ´Ù¸é, ¿µÇâÀ» ¹Þ´Â °³Ã¼ÀÇ Á¶Á¾ÀÚ(Á¶Á¾ÀÚ°¡ ¾ø´Ù¸é ¼ÒÀ¯ÀÚ) ¶Ç´Â ¿µÇâÀ» ¹Þ´Â ÇÃ·¹ÀÌ¾î°¡ Àû¿ëµÉ È¿°ú¸¦ ¾Æ·¡ÀÇ ¸®½ºÆ®¸¦ µû¶ó¼­ ¼±ÅÃÇÕ´Ï´Ù. ¸¶¾à µÑ ÀÌ»óÀÇ ÇÃ·¹ÀÌ¾î°¡ µ¿½Ã¿¡ ¼±ÅÃÀ» ÇÏ·Á ÇÑ´Ù¸é ¼±ÅÃÀº APNAP ¼ø¼­¸¦ µû¸¨´Ï´Ù. (See rule 101.4).
@@ -2830,7 +2846,7 @@ Example: Loaming ShamanÀº "Loaming ShamanÀÌ ÀüÀå¿¡ µé¾î¿Ã ¶§, ¸ñÇ¥ ÇÃ·¹ÀÌ¾î´Â ÀÚ
 
 701.25b ÀÌ·¸°Ô ¼±ÅÃµÈ Áö¼Ó¹°ÀÌ³ª ÇÃ·¹ÀÌ¾î°¡ ÇÑ Á¾·ù ÀÌ»óÀÇ Ä«¿îÅÍ¸¦ °¡Áö°í ÀÖ´Ù¸é, Proliferate¸¦ ÇÏ´Â ÇÃ·¹ÀÌ¾î´Â ¾î¶² Ä«¿îÅÍ¸¦ Áõ°¡½ÃÅ³Áö ¼±ÅÃÇÕ´Ï´Ù.
 
-701.25c ½ÖµÎ°ÅÀÎÀü¿¡¼­ Proliferate´Â Ä«¿îÅÍ¸¦ °¡Áø Áö¼Ó¹°°ú/¶Ç´Â ÆÀÀ» ¿øÇÏ´Â ¸¸Å­ ¸ñÇ¥·Î Á¤ÇÏ°í, ±× Áö¼Ó¹°/ÆÀ¿¡ ÀÖ´Â Ä«¿îÅÍ Á¾·ù¿Í °°Àº Á¾·ùÀÇ Ä«¿îÅÍ¸¦ Ãß°¡ÀûÀ¸·Î ÇÑ °³¾¿ ´õ ¿Ã¸®´Â °ÍÀ» ÀÇ¹ÌÇÕ´Ï´Ù. See rule 810, "Two-Headed Giant Variant."
+701.25c ½ÖµÎ°ÅÀÎÀü¿¡¼­, µ¶ Ä«¿îÅÍ´Â ÆÀÀÌ °øÀ¯ÇÕ´Ï´Ù. ÇÑ ÆÀ¿¡¼­ ÇÑ ¸í ÀÌ»óÀÇ ÇÃ·¹ÀÌ¾î°¡ ¼±ÅÃµÇ¾úÀ» °æ¿ì¿¡µµ ÇÑ ÇÃ·¹ÀÌ¾î¿¡°Ô¸¸ µ¶ Ä«¿îÅÍ¸¦ Ãß°¡ÇÒ ¼ö ÀÖ½À´Ï´Ù. See rule 810, "Two-Headed Giant Variant."
 
 701.26. º¯½Å Transform
 
@@ -3314,9 +3330,7 @@ Example: ´ç½ÅÀº ÆäÀÌÁî ¾Æ¿ô µÈ »ý¹° ÇÏ³ª¸¦ Á¶Á¾ÇÏ°í ÀÖ½À´Ï´Ù. ´ç½ÅÀº ¡°¸ðµç »ý¹°
 
 702.40a Affinity ´Â Affinity ´É·ÂÀÌ ÀÖ´Â ÁÖ¹®ÀÌ ½ºÅÃ¿¡ ÀÖÀ» ¶§ Àû¿ëµÇ´Â Á¤Àû ´É·ÂÀÔ´Ï´Ù. ¡°Affinity for [text]¡±´Â ¡°ÀÌ ÁÖ¹®ÀÇ ºñ¿ëÀº ´ç½ÅÀÌ Á¶Á¾ÇÏ´Â °¢ [text] ¸¶´Ù {1}¾¿ ÁÙ¾îµç´Ù.¡±¶ó´Â ¶æÀÔ´Ï´Ù.
 
-702.40b Affinity ´É·ÂÀº ÁÖ¹®ÀÇ Á¶Á¾ÀÚ°¡ ÁöºÒÇØ¾ß ÇÏ´Â ÀÏ¹Ý ¸¶³ª¸¸À» ÁÙ¿©ÁÝ´Ï´Ù. À¯»ö ¸¶³ª´Â ÁÙ¾îµéÁö ¾Ê½À´Ï´Ù.
-
-702.40c °°Àº ÁÖ¹®¿¡ Affinity ´É·ÂÀÌ ¿©·¯ °³°¡ ÀÖ´Â °æ¿ì¿£ °¢ ´É·ÂÀÌ ¸ðµÎ Àû¿ëµË´Ï´Ù.
+702.40b °°Àº ÁÖ¹®¿¡ Affinity ´É·ÂÀÌ ¿©·¯ °³°¡ ÀÖ´Â °æ¿ì¿£ °¢ ´É·ÂÀÌ ¸ðµÎ Àû¿ëµË´Ï´Ù.
 
 702.41. ¿«¾î³»±â Entwine
 
@@ -3661,7 +3675,7 @@ Example: ´ç½ÅÀº ´ç½ÅÀÌ Á¶Á¾ÇÏÁö¸¸ ¼ÒÀ¯ÇÏÁö´Â ¾Ê´Â ¸¶¹ýÁøÀÇ aura swap ´É·ÂÀ» È°¼º
 
 702.93. ±âÀû Miracle
 
-702.93a ±âÀûÀº °Ý¹ß ´É·Â°ú °áÇÕµÈ Á¤Àû ´É·ÂÀÔ´Ï´Ù. (See rule 603.10). "±âÀû [ºñ¿ë]"Àº "´ç½ÅÀÌ ÀÌ Ä«µå¸¦ »ÌÀ» ¶§, ÀÌ Ä«µå°¡ ´ç½ÅÀÌ ÀÌ¹ø ÅÏ¿¡ »ÌÀº Ã¹ ¹øÂ° Ä«µå¶ó¸é ´ç½ÅÀº ÀÌ Ä«µå¸¦ °ø°³ÇÒ ¼ö ÀÖ´Ù. ¸¸¾à ÀÌ·¸°Ô °ø°³Çß´Ù¸é, ´ç½ÅÀº ¿ø·¡ ¸¶³ª ºñ¿ë ´ë½Å ±âÀû ºñ¿ëÀ» ÁöºÒÇÏ°í ÀÌ Ä«µå¸¦ ¹ßµ¿ÇÒ ¼ö ÀÖ´Ù."¶ó´Â ¶æÀÔ´Ï´Ù.
+702.93a ±âÀûÀº °Ý¹ß ´É·Â°ú °áÇÕµÈ Á¤Àû ´É·ÂÀÔ´Ï´Ù. (See rule 603.11). "±âÀû [ºñ¿ë]"Àº "´ç½ÅÀÌ ÀÌ Ä«µå¸¦ »ÌÀ» ¶§, ÀÌ Ä«µå°¡ ´ç½ÅÀÌ ÀÌ¹ø ÅÏ¿¡ »ÌÀº Ã¹ ¹øÂ° Ä«µå¶ó¸é ´ç½ÅÀº ÀÌ Ä«µå¸¦ °ø°³ÇÒ ¼ö ÀÖ´Ù. ¸¸¾à ÀÌ·¸°Ô °ø°³Çß´Ù¸é, ´ç½ÅÀº ¿ø·¡ ¸¶³ª ºñ¿ë ´ë½Å ±âÀû ºñ¿ëÀ» ÁöºÒÇÏ°í ÀÌ Ä«µå¸¦ ¹ßµ¿ÇÒ ¼ö ÀÖ´Ù."¶ó´Â ¶æÀÔ´Ï´Ù.
 
 702.93b ÇÃ·¹ÀÌ¾î°¡ Ä«µå¸¦ ±âÀû ´É·ÂÀ¸·Î °ø°³Çß´Ù¸é, ±× ÇÃ·¹ÀÌ¾î´Â ±× Ä«µå°¡ ¼ÕÀ» ¶°³ª°Å³ª, ´É·ÂÀÌ ÇØ°áµÇ°Å³ª, ´É·ÂÀÌ ´Ù¸¥ ÀÌÀ¯·Î ½ºÅÃÀ» ¶°³¯ ¶§±îÁö °ø°³ÇÑ Ã¤·Î ÇÃ·¹ÀÌÇÕ´Ï´Ù.
 
@@ -3865,6 +3879,25 @@ Example: ´ç½ÅÀº ´ç½ÅÀÌ Á¶Á¾ÇÏÁö¸¸ ¼ÒÀ¯ÇÏÁö´Â ¾Ê´Â ¸¶¹ýÁøÀÇ aura swap ´É·ÂÀ» È°¼º
 
 702.122b »ý¹°ÀÌ ¡°Å¾½Â¹°¿¡ Å¾½Â¡±ÇÏ´Â °ÍÀº »ý¹°ÀÌ Å¾½Â¹°ÀÇ Å¾½Â ºñ¿ëÀ» ÁöºÒÇÏ±â À§ÇØ ÅÇµÇ´Â °ÍÀ» ÀÇ¹ÌÇÕ´Ï´Ù.
 
+702.123. Partner
+
+702.123a Partner´Â Ä¿¸Ç´õ(see rule 903)¿¡¼­ °ÔÀÓÀ» ½ÃÀÛÇÏ±â Àü¿¡ Àû¿ëµÇ¾î µ¦ ±¸Ãà¿¡ ´ëÇÑ ±ÔÄ¢À» º¯°æÇÏ´Â ´É·ÂÀÔ´Ï´Ù. Àå±ºÀ¸·Î ÇÑ ÀåÀÇ Àü¼³ Ä«µå ´ë½Å, Partner ´É·ÂÀ» °¡Áø µÎ ÀåÀÇ Àü¼³ Ä«µå¸¦ »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù.
+
+702.123b µ¦Àº 2ÀåÀÇ Àå±ºÀ» Æ÷ÇÔÇØ¼­ Á¤È®È÷ 100ÀåÀÇ Ä«µå·Î ±¸¼ºµÇ¾î¾ß ÇÕ´Ï´Ù. µÎ Àå±ºÀº Ä¿¸Çµå ±¸¿ª¿¡¼­ °ÔÀÓÀ» ½ÃÀÛÇÕ´Ï´Ù.
+
+702.123c Àå±ºÀÇ »ö ¾ÆÀÌµ§Æ¼Æ¼¸¦ ÂüÁ¶ÇÏ´Â ÁÖ¹®ÀÌ³ª ´É·ÂÀº µÎ Àå±ºÀÇ »ö ¾ÆÀÌµ§Æ¼Æ¼¸¦ ÇÕÄ£ °á°ú¸¦ ÂüÁ¶ÇÕ´Ï´Ù. See rule 903.4.
+
+702.123d Àå±ºÀÇ »ö ¾ÆÀÌµ§Æ¼Æ¼¸¦ °áÁ¤ÇÒ ¶§¸¦ Á¦¿ÜÇÏ°ï, µÎ Àå±ºÀº µ¶¸³ÀûÀ¸·Î ±â´ÉÇÕ´Ï´Ù. Partner ´É·ÂÀÌ ÀÖ´Â Àå±ºÀ» ¹ßµ¿ÇÒ ¶§, ´Ù¸¥ Àå±ºÀÌ ¸î ¹ø ¹ßµ¿Çß´ÂÁö´Â ¹«½ÃÇÕ´Ï´Ù. °°Àº Àå±º¿¡°Ô ÀüÅõ ÇÇÇØ 21Á¡À» ÀÔ¾ú´ÂÁö È®ÀÎÇÒ ¶§¿¡µµ µÎ Àå±ºÀº µû·Î °è»êµË´Ï´Ù. See rule 903.11a.
+
+702.123e Àå±ºÀ» µÎ Àå »ç¿ëÇÏ°í ÀÖÀ» ¶§ Àå±ºÀ» ÂüÁ¶ÇÏ´Â È¿°ú´Â µÑ Áß ÇÏ³ª¸¦ ÂüÁ¶ÇÕ´Ï´Ù. ¾î¶² È¿°ú°¡ ´ç½Å¿¡°Ô Àå±ºÀ¸·Î ¾î¶² Çàµ¿À» ¼öÇàÇÏ°Ô ÇÏ¸ç, µÑ ¸ðµÎ¿¡°Ô Àû¿ëµÉ ¼ö ÀÖÀ» °æ¿ì, ´ç½ÅÀº ¾î¶² Àå±º¿¡°Ô Àû¿ëÇÒÁö¸¦ ¼±ÅÃÇÕ´Ï´Ù.
+
+702.124. Undaunted
+
+702.124a Undaunted´Â ÀÌ ´É·ÂÀÌ ÀÖ´Â ÁÖ¹®ÀÌ ½ºÅÃ¿¡ ÀÖÀ» ¶§ Àû¿ëµÇ´Â Á¤Àû ´É·ÂÀÔ´Ï´Ù. Undaunted´Â "ÀÌ ÁÖ¹®ÀÇ ºñ¿ëÀº ´ç½ÅÀÇ »ó´ë ÇÑ ¸í´ç {1}¾¿ ÁÙ¾îµç´Ù."¸¦ ÀÇ¹ÌÇÕ´Ï´Ù.
+
+702.124b ÀÌ¹Ì °ÔÀÓÀ» ¶°³­ ÇÃ·¹ÀÌ¾î´Â »ó´ëÀÇ ¼ö¿¡ Æ÷ÇÔµÇÁö ¾Ê½À´Ï´Ù.
+
+702.124c °°Àº ÁÖ¹®¿¡ undaunted ´É·ÂÀÌ ¿©·¯ °³°¡ ÀÖ´Â °æ¿ì¿£ ¸ðµÎ Àû¿ëµË´Ï´Ù.
 
 703. ÅÏ¿¡ ±â¹ÝÇÑ Çàµ¿
 
@@ -4127,9 +4160,9 @@ Example: Akki Lavarunner´Â Àü¼³Àû »ý¹°ÀÌ ¾Æ´ÏÁö¸¸ ÇÃ¸³µÇ¸é Àü¼³Àû »ý¹°ÀÎ Tok-Tok
 
 710.2. ·¹º§ ½Éº¼Àº Á¤Àû ´É·ÂÀ» ³ªÅ¸³»´Â Å°¿öµå ´É·ÂÀÔ´Ï´Ù. ·¹º§ ½Éº¼¿¡´Â "N1-N2"Ã³·³ ¼ýÀÚÀÇ ¹üÀ§°¡ ÀÖ°Å³ª "N3+"Ã³·³ +¸ð¾çÀÌ ÀÖ´Â ÇÏ³ªÀÇ ¼ýÀÚ°¡ ÀÖ½À´Ï´Ù. ÇÑ ±¸¿ªÀÇ ÅØ½ºÆ® ¹Ú½º¿¡ ÀÖ´Â ´É·ÂµéÀº ±×°Í°ú °°Àº ±¸¿ª¿¡ ÀÖ´Â ·¹º§ ½Éº¼ÀÇ ´É·ÂÀÇ ÀÏºÎÀÔ´Ï´Ù. °ø°Ý·Â ¹æ¾î·Â ¹Ú½º ¿ª½Ã ¸¶Âù°¡ÁöÀÔ´Ï´Ù. ¿©±â¿¡¼­´Â "[P/T]"¶ó°í ³ªÅ¸³À´Ï´Ù.
 
-710.2a "{LEVEL N1-N2} [´É·Âµé] [P/T]"´Â "ÀÌ »ý¹°ÀÌ N1°³ ÀÌ»ó, N2°³ ÀÌÇÏÀÇ ·¹º§ Ä«¿îÅÍ¸¦ °¡Áö°í ÀÖÀ¸¸é, ±× »ý¹°ÀÇ °ø¹æÀº [P/T]ÀÌ¸ç [´É·Âµé]À» °¡Áø´Ù."´Â ¶æÀÔ´Ï´Ù.
+710.2a "{LEVEL N1-N2} [´É·Âµé] [P/T]"´Â "ÀÌ »ý¹°ÀÌ N1°³ ÀÌ»ó, N2°³ ÀÌÇÏÀÇ ·¹º§ Ä«¿îÅÍ¸¦ °¡Áö°í ÀÖÀ¸¸é, ±× »ý¹°ÀÇ ±âº» °ø¹æÀº [P/T]ÀÌ¸ç [´É·Âµé]À» °¡Áø´Ù."´Â ¶æÀÔ´Ï´Ù.
 
-710.2b "{LEVEL N3+} [´É·Âµé] [P/T]"´Â "ÀÌ »ý¹°ÀÌ N3°³ ÀÌ»óÀÇ ·¹º§ Ä«¿îÅÍ¸¦ °¡Áö°í ÀÖ´Â ÇÑ, ±× »ý¹°ÀÇ °ø¹æÀº [P/T]ÀÌ¸ç, [´É·Âµé]À» °¡Áø´Ù."´Â ¶æÀÔ´Ï´Ù.
+710.2b "{LEVEL N3+} [´É·Âµé] [P/T]"´Â "ÀÌ »ý¹°ÀÌ N3°³ ÀÌ»óÀÇ ·¹º§ Ä«¿îÅÍ¸¦ °¡Áö°í ÀÖ´Â ÇÑ, ±× »ý¹°ÀÇ ±âº» °ø¹æÀº [P/T]ÀÌ¸ç, [´É·Âµé]À» °¡Áø´Ù."´Â ¶æÀÔ´Ï´Ù.
 
 710.3. ÅØ½ºÆ® ¹Ú½ºÀÇ ÁÙÀº ·¹º§ ½Éº¼°ú ¿¬°üµÈ ´É·Âµé°ú °ø¹æÀ» ½±°Ô ¾Ë·ÁÁÖ±â À§ÇÑ °ÍÀÌ¸ç, °ÔÀÓ¿¡¼­ Áß¿äÇÑ °ÍÀº ¾Æ´Õ´Ï´Ù. ·¹º§·¯ Ä«µå´Â ÇÏ³ªÀÇ ÅØ½ºÆ® ¹Ú½º¸¸À» °¡Áö°í ÀÖ½À´Ï´Ù.
 
@@ -4455,7 +4488,7 @@ Example: È²Á¦Àü¿¡¼­´Â ¸ðµç ÇÃ·¹ÀÌ¾îÀÇ È¿°ú ¹üÀ§°¡ 1ÀÔ´Ï´Ù. È²Á¦°¡ "¼­°í À§ Ä«µå 
 801.7. °Ý¹ß ´É·ÂÀº °Ý¹ß ÀÌº¥Æ®°¡ ¿ÂÀüÈ÷ ±× ¿øÃµÀÇ Á¶Á¾ÀÚÀÇ È¿°ú ¹üÀ§ ¾È¿¡¼­ ¹ß»ýÇÑ °æ¿ì°¡ ¾Æ´Ï¸é °Ý¹ßµÇÁö ¾Ê½À´Ï´Ù.
 Example: ¸ðµç ÇÃ·¹ÀÌ¾îÀÇ È¿°ú ¹üÀ§°¡ 1ÀÎ °ÔÀÓ¿¡¼­, ¾Ë·º½º´Â ·Ó ¿ÞÂÊ¿¡ ¾É¾Æ ÀÖ½À´Ï´Ù. ·ÓÀº ¾Ë·º½ºÀÇ ·é¹ßÅé °õ¿¡ ºÎÂøµÈ µÎ °³ÀÇ ¸¶¹ýÁøÀ» Á¶Á¾ÇÏ°í ÀÖ½À´Ï´Ù. ÇÏ³ª´Â "ºÎ¿©µÈ »ý¹°ÀÌ ¹æ¾îµÉ ¶§", ´Ù¸¥ ÇÏ³ª´Â "ºÎ¿©µÈ »ý¹°ÀÌ »ý¹°¿¡°Ô ¹æ¾îµÉ ¶§" °Ý¹ßµÇ´Â ´É·ÂÀ» °¡Áö°í ÀÖ½À´Ï´Ù. ¾Ë·º½ºÀÇ ·é¹ßÅé °õÀÌ ¾Ë·º½º ¿ÞÂÊÀÇ ÇÃ·¹ÀÌ¾î¸¦ °ø°ÝÇßÀ¸¸ç, ¹æ¾îµÇ¾ú½À´Ï´Ù. ·ÓÀÇ Ã¹¹øÂ° ¸¶¹ýÁøÀÇ °Ý¹ß ÀÌº¥Æ®(»ý¹°ÀÌ ¹æ¾îµÉ ¶§)´Â ·ÓÀÇ È¿°ú ¹üÀ§ ¾È¿¡¼­ ¿Ïº®È÷ ¸¸Á·µÇ¾ú½À´Ï´Ù. ÇÏÁö¸¸ µÎ¹øÂ° ¸¶¹ýÁøÀÇ °Ý¹ß ÀÌº¥Æ®¿¡´Â ¹æ¾î »ý¹°ÀÌ Æ÷ÇÔµÇ¾î ÀÖÀ¸¹Ç·Î ·ÓÀÇ ¹üÀ§ ¹ÛÀÔ´Ï´Ù.
 
-801.7a °Ý¹ß ÀÌº¥Æ®¿¡ °³Ã¼°¡ ÇÃ·¹ÀÌ¾îÀÇ È¿°ú ¹üÀ§ ¾ÈÀ¸·Î µé¾î¿À°Å³ª ¹ÛÀ¸·Î ³ª°¡´Â °ÍÀ» Æ÷ÇÔÇÏ´Â °æ¿ì¿£ ÀÌº¥Æ® ¹ß»ý Àü ¶Ç´Â ÈÄÀÇ °ÔÀÓ »óÅÂ Áß °Ý¹ßÇÏ±â ÀûÀýÇÑ °ÍÀ» ¼±ÅÃÇØ¼­ °Ý¹ßµÉÁö °áÁ¤ÇÕ´Ï´Ù. See rule 603.6.
+801.7a °Ý¹ß ÀÌº¥Æ®¿¡ °³Ã¼°¡ ÇÃ·¹ÀÌ¾îÀÇ È¿°ú ¹üÀ§ ¾ÈÀ¸·Î µé¾î¿À°Å³ª ¹ÛÀ¸·Î ³ª°¡´Â °ÍÀ» Æ÷ÇÔÇÏ´Â °æ¿ì¿£ ÀÌº¥Æ® ¹ß»ý Àü ¶Ç´Â ÈÄÀÇ °ÔÀÓ »óÅÂ Áß °Ý¹ßÇÏ±â ÀûÀýÇÑ °ÍÀ» ¼±ÅÃÇØ¼­ °Ý¹ßµÉÁö °áÁ¤ÇÕ´Ï´Ù. See rule 603.6. and 603.10.
 Example: Ä«¸®»ç¿Í ¾Ë·º½º´Â ¼­·ÎÀÇ È¿°ú ¹üÀ§ ¹Û¿¡ ÀÖ½À´Ï´Ù. Ä«¸®»ç´Â ¾Ë·º½º°¡ ¼ÒÀ¯ÇÑ ·é¹ßÅé °õÀ» Á¶Á¾ÇÏ°í ÀÖ°í µÎ ÇÃ·¹ÀÌ¾î ¸ðµÎ Extractor Demon("´Ù¸¥ »ý¹°ÀÌ ÀüÀåÀ» ¶°³¯ ¶§¸¶´Ù, ´ç½ÅÀº ¸ñÇ¥ ÇÃ·¹ÀÌ¾î°¡ ¼­°í 2ÀåÀ» ¹«´ý¿¡ ³Öµµ·Ï ÇÒ ¼ö ÀÖ´Ù.")À» Á¶Á¾ÇÏ°í ÀÖ½À´Ï´Ù. ·é¹ßÅé °õÀÌ ÆÄ±«µÇ¾î ¾Ë·º½ºÀÇ ¹«´ý¿¡ µé¾î°¬½À´Ï´Ù. ¾Ë·º½ºÀÇ Extractor DemonÀÇ ´É·ÂÀº °Ý¹ßµÇÁö ¾Ê½À´Ï´Ù. ¿Ö³ÄÇÏ¸é LTB ÀÌº¥Æ®°¡ ¾Ë·º½ºÀÇ È¿°ú ¹üÀ§ ¹Û¿¡¼­ ÀÏ¾î³µ±â ¶§¹®ÀÔ´Ï´Ù. Ä«¸®»çÀÇ Extractor DemonÀÇ ´É·ÂÀº °Ý¹ßµË´Ï´Ù. ºñ·Ï »ý¹°ÀÌ ±×³àÀÇ ¹üÀ§ ¹ÛÀÇ ¹«´ýÀ¸·Î °¬´õ¶óµµ LTB ÀÌº¥Æ®´Â ±×³àÀÇ ¹üÀ§ ¾È¿¡¼­ ¹ß»ýÇß±â ¶§¹®ÀÔ´Ï´Ù.
 
 801.8. ¸¶¹ýÁøÀº Á¶Á¾ÀÚÀÇ È¿°ú ¹üÀ§ ¹Û¿¡ ÀÖ´Â °³Ã¼³ª ÇÃ·¹ÀÌ¾î¿¡°Ô ºÎ¿©µÉ ¼ö ¾ø½À´Ï´Ù. ¸¶¹ýÁøÀÌ Àû¹ýÇÏÁö ¾ÊÀº °³Ã¼³ª ÇÃ·¹ÀÌ¾î¿¡°Ô ºÎÂøµÇ¾ú´Ù¸é, ±× ¸¶¹ýÁøÀº »óÅÂ ÂüÁ¶ Çàµ¿¿¡ ÀÇÇØ ¼ÒÀ¯ÀÚÀÇ ¹«´ý¿¡ °©´Ï´Ù. See rule 704.
@@ -4749,7 +4782,7 @@ Example: ½ÖµÎ°ÅÀÎÀü¿¡¼­ ÇÑ ÆÀÀº »ý¸íÁ¡ÀÌ 7ÀÌ°í ´Ù¸¥ ÆÀÀº 13ÀÔ´Ï´Ù. ÇÑ ÇÃ·¹ÀÌ¾î°¡
 
 810.10c ¾î¶² È¿°ú°¡ ÇÃ·¹ÀÌ¾î°¡ µ¶ Ä«¿îÅÍ¸¦ ¾òÀ» ¼ö ¾ø°Ô ÇÑ´Ù¸é ±× ÇÃ·¹ÀÌ¾îÀÇ ÆÀ¿øÀº µ¶ Ä«¿îÅÍ¸¦ ¾òÀ» ¼ö ¾ø½À´Ï´Ù.
 
-810.10d ÀÚ½ÅÀÇ ÆÀÀÌ ÇÏ³ª ÀÌ»óÀÇ µ¶ Ä«¿îÅÍ¸¦ °¡Áö°í ÀÖ´Ù¸é ±× ÇÃ·¹ÀÌ¾î´Â "poisoned"µÈ °ÍÀÔ´Ï´Ù.
+810.10d ±ÔÄ¢ÀÌ³ª È¿°ú°¡ °¢ ÇÃ·¹ÀÌ¾î°¡ °³º°ÀûÀ¸·Î °¡Áö°í ÀÖ´Â Ä«¿îÅÍ¿¡ ´ëÇØ¼­ È®ÀÎÇÑ´Ù¸é, ±× È¿°ú´Â ÇÃ·¹ÀÌ¾î°¡ °¡Áö°í ÀÖ´Â °¢ Ä«¿îÅÍµéÀÇ Á¾·ù¿Í ±× ÇÃ·¹ÀÌ¾îÀÇ ÆÀÀÌ °¡Áø Ä«¿îÅÍÀÇ Á¾·ù¸¦ È®ÀÎÇÕ´Ï´Ù. ÀÚ½ÅÀÇ ÆÀÀÌ ÇÏ³ª ÀÌ»óÀÇ µ¶ Ä«¿îÅÍ¸¦ °¡Áö°í ÀÖ´Ù¸é ±× ÇÃ·¹ÀÌ¾î´Â "poisoned"µÈ °ÍÀÔ´Ï´Ù.
 
 810.11. ½ÖµÎ°ÅÀÎÀüÀº °¢ ÆÀ¿øÀÇ ¼ö°¡ ¸ðµÎ °°±â¸¸ ÇÏ´Ù¸¸ ÀÓÀÇÀÇ ÆÀ¿ø ¼ö·Î ÇÃ·¹ÀÌÇÒ ¼ö ÀÖ½À´Ï´Ù. 2¸íÀ» ÃÊ°úÇÏ´Â °¢ ÇÃ·¹ÀÌ¾î ÇÑ ¸í´ç, ½ÃÀÛ »ý¸íÁ¡Àº 15¾¿ Áõ°¡ÇÏ°í ÆÐ¹èÇÏ´Âµ¥ ÇÊ¿äÇÑ µ¶ Ä«¿îÅÍ´Â 5¾¿ Áõ°¡ÇÕ´Ï´Ù. (ÀÌ º¯ÇüÀº »ïµÎ°ÅÀÎ, »çµÎ°ÅÀÎ µîµîÀ¸·Î ºÒ¸³´Ï´Ù.)
 
@@ -4993,4 +5026,4 @@ Example: WortÀÇ »ö ¾ÆÀÌµ§Æ¼Æ¼´Â Àû³ìÀÔ´Ï´Ù. Wort°¡ Àå±ºÀÎ µ¦Àº ±âº» ´ëÁö Å¸ÀÔÀÌ 
 
 <»ý·«>
 
-À¯ÇÑÈ¸»ç À§ÀÚµå ¿Àºê ´õ ÄÚ½ºÆ®¿¡ ÀÇÇØ ¹ßÇàµÊ. »ç¼­ÇÔ 707, Renton, WA 98057-0707, USA. À§ÀÚµå ¿Àºê ´õ ÄÚ½ºÆ®, ¸ÅÁ÷: ´õ °³´õ¸µ, ¿À¶óÅ¬, Arabian Nights, Antiquities, Homelands, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica: City of Guilds, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, Scars of Mirrodin, Return to Ravnica, Khans of Tarkir, and Magic: The Gathering?Conspiracy´Â ¹Ì±¹ ¹× ´Ù¸¥ ±¹°¡¿¡¼­ À§ÀÚµå»çÀÇ »óÇ¥ÀÔ´Ï´Ù. ¨Ï2014 Wizards.
+À¯ÇÑÈ¸»ç À§ÀÚµå ¿Àºê ´õ ÄÚ½ºÆ®¿¡ ÀÇÇØ ¹ßÇàµÊ. »ç¼­ÇÔ 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, Oracle, Arabian Nights, Antiquities, Homelands, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica: City of Guilds, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, Scars of Mirrodin, Innistrad, Return to Ravnica, Khans of Tarkir, Magic Origins, Shadows over Innistrad, Eldritch Moon, and Magic: The Gathering?Conspiracy´Â ¹Ì±¹ ¹× ´Ù¸¥ ±¹°¡¿¡¼­ À§ÀÚµå»çÀÇ »óÇ¥ÀÔ´Ï´Ù. ¨Ï2016 Wizards. U.S. Pat. No. RE 37,957.
