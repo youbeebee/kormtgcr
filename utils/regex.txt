@@ -1,5 +1,6 @@
-﻿대문단paragraph : 시작[숫자3개].
-중문단subparagraph : 시작[숫자3개].[숫자1~3].
+﻿챕터chapter	: 시작[숫자1개]. 
+대문단paragraph : 시작[숫자3개]. 
+중문단subparagraph : 시작[숫자3개].[숫자1~3]. 
 소문단clause : 시작[숫자3개].[숫자1~3][알파뱃1]
 예시 example
 
@@ -78,8 +79,12 @@ sed -e 's/{\([WUBRG2]\)\/\([WUBRGP]\)}/![symbol\1\2](\/assets\/symbols\/\1\2.gif
 
 sed -e 's/\(https\?\:\/\/\)\?\([\da-zA-Z]\+\)\.\([A-Za-z\.]\{2,6\}\)\([\/A-Za-z0-9_\.-]*\)*\([A-Za-z0-9]\)\/\?/\1\2.\3\4\5/g' ./links.txt
 
+sed -e 's/\(https\?\:\/\/\)\?\([\da-zA-Z]\+\)\.\(com\|net\)\([\/A-Za-z0-9_\.-]*\)*\([A-Za-z0-9]\)\/\?/\1\2.\3\4\5/g' ./links.txt
+1	   2		3	4	5
+http(s):// www.google	com	/asd	f(/)
 
  * 헤더 날리기
 처음부터 "용어사전"까지 delete(txt가 유니코드UTF-8로 저장되어야 함)
 
-sed -e '1,/^용어사전/d' ./korean.txt > temp.txt
+sed -e '1,/^용어사전/d' "$file" > temp.txt
+sed -e '/^용어사전/,$d' "$file" > temp.txt
