@@ -1,0 +1,20 @@
+100.6. 대부분의 Magic 토너먼트들은 Magic: The Gathering 토너먼트 규칙 (WPN.Wizards.com/en/resources/rules-documents)에 있는 추가적인 규칙을 따릅니다. 이 규칙은 몇몇 카드의 사용을 제한하거나 특정 세트 전체를 제한할 수 있습니다. 
+
+100.6a 토너먼트는 보통 매치의 연속으로 이루어 집니다. 2인전 매치는 보통 3판 2선승입니다. 다인전 매치는 보통 단판입니다.
+
+100.6b 플레이어들은 그 지역의 토너먼트를 찾기 위해서 Magic Store & Event Locator (Wizards.com/Locator)를 이용할 수 있습니다.
+
+108.1. 카드의 문구를 결정할 때 오라클™ 카드 레퍼런스를 사용하세요. 카드의 오라클 텍스트는 게더러 카드 데이터베이스Gatherer.Wizards.com를 사용해서 찾으실 수 있습니다.
+
+112.6m 덱 구축에 관한 규칙을 바꾸는 능력은 게임이 시작하기 전에 기능합니다. 이런 능력은 종합규칙서 뿐만 아니라 Magic: The Gathering 토너먼트 규칙이나 포맷에 대한 규칙 같은 다른 덱 구축에 관한 문서들에도 영향을 줍니다. 다만 이런 능력은 금지, 제한을 포함한 카드의 포맷 적법성에는 영향을 주지 않습니다. 최근의 Magic: The Gathering 토너먼트 규칙은 WPN.Wizards.com/en/resources/rules-documents에서 찾아보실 수 있습니다.
+
+206.4. 플레이어들은 그 포맷에서 허용된 세트에 발매된 적이 있는 카드 (또는 Magic 토너먼트 규칙에서 특별히 허용하는 카드)라면 어떤 세트의 카드를 사용해서든 컨스트럭트 덱을 구성할 수 있습니다. 현재 정의된 컨스트럭트 포맷을 확인하려면 Magic 토너먼트 규칙을 보세요. (WPN.Wizards.com/en/resources/rules-documents) 
+
+206.5. 확장판과 확장판 심볼의 전체 리스트는 돈법사 웹 페이지의 Magic 카드 세트 아카이브 섹션에서 확인하실 수 있습니다. 
+	(Magic.Wizards.com/en/game-info/products/card-set-archive).
+
+407.1. 이전 버전의 Magic 규칙에는 카드를 "따기" 위한 규칙인 앤티 룰이 있었습니다. 현재는 앤티를 걸고 Magic 게임을 하는 것은 선택적인 변형 게임으로 취급합니다. 앤티를 걸고 게임 하는 것은 Magic: The Gathering 토너먼트 규칙 (WPN.Wizards.com/en/resources/rules-documents)에서는 엄격히 금지되어 있습니다.
+
+800.3. 많은 다인전 Magic 토너먼트에는 덱 구성에 관한 규칙 등 여기에 포함되지 않은 추가 규칙이 있습니다. 더 많은 정보를 위해선 가장 최근의 Magic: The Gathering 토너먼트 규칙을 보세요. WPN.Wizards.com/en/resources/rules-documents.
+
+903.1. 커맨더에서, 각 덱은 전설적 생물인 덱의 장군이 있습니다. 커맨더 포맷은 팬들에 의해 만들어져 유명해졌습니다. 독자적인 규칙 위원회가 추가적인 리소스를 http://mtgcommander.net에 유지하고 있습니다. 커맨더 규칙은 아래의 추가 규칙을 제외하면 일반적인 Magic 규칙을 따릅니다.
