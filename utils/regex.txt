@@ -77,3 +77,9 @@ sed -e 's/{\([WUBRG2]\)\/\([WUBRGP]\)}/![symbol\1\2](\/assets\/symbols\/\1\2.gif
 /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w_\.-]*)*\/?$/
 
 sed -e 's/\(https\?\:\/\/\)\?\([\da-zA-Z]\+\)\.\([A-Za-z\.]\{2,6\}\)\([\/A-Za-z0-9_\.-]*\)*\([A-Za-z0-9]\)\/\?/\1\2.\3\4\5/g' ./links.txt
+
+
+ * 헤더 날리기
+처음부터 "용어사전"까지 delete(txt가 유니코드UTF-8로 저장되어야 함)
+
+sed -e '1,/^용어사전/d' ./korean.txt > temp.txt

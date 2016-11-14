@@ -1,4 +1,4 @@
-#!/bin/sh
+ï»¿#!/bin/sh
 
 ##argument check
 if [ 1 -ne $# ]
@@ -11,51 +11,60 @@ file=$1
 ##Backup
 cp $file $file.org
 
+##í—¤ë”(ëª©ì°¨) ë‚ ë¦¬ê¸°(txtê°€ ìœ ë‹ˆì½”ë“œUTF-8ë¡œ ì €ì¥ë˜ì–´ì•¼ í•¨)
+function cut_header(){
+	sed -e '1,/^ìš©ì–´ì‚¬ì „/d' ./korean.txt > temp.txt
+	mv -f temp.txt $file
+	echo "Delete Header."
+}
+
+## ë¬¸ë²• ì ìš©
 function markdown_change(){
-	##´ë¹®´Ü md ¹®¹ı Àû¿ë
+	##ëŒ€ë¬¸ë‹¨ md ë¬¸ë²• ì ìš©
 	sed -e 's/\(^[0-9]\{3\}\. \)/<br>\n\n#### \1/g' $file > temp.txt
 	mv -f temp.txt $file
 	
-	##Áß, ¼Ò¹®´Ü md ¹®¹ı Àû¿ë
+	##ì¤‘, ì†Œë¬¸ë‹¨ md ë¬¸ë²• ì ìš©
 	sed -e 's/\(^[0-9]\{3\}\.[0-9]\+[.|a-z]*\)/**\1**/g' $file > temp.txt
 	mv -f temp.txt $file
 	
-	##¼Ò¹®´Ü md ¹®¹ı Àû¿ë
+	##ì†Œë¬¸ë‹¨ md ë¬¸ë²• ì ìš©
 	sed -e 's/\(^\*\*[0-9]\{3\}\.[0-9]\+[a-z]\+\*\* .\+$\)/<p class="clause" markdown="1">\1<\/p>/g' $file > temp.txt
 	mv -f temp.txt $file
-	#--¿¹¿Ü : 205.3i-j, 509.1b, 810.7b
+	#--ì˜ˆì™¸ : 205.3i-j, 509.1b, 810.7b
 	
-	##example ¼­½Ä Àû¿ë
+	##example ì„œì‹ ì ìš©
 	sed -e 's/\(^Example:\) \(.\+$\)/<p class="example" markdown="1"> **\1** \2<\/p>/g' $file > temp.txt
 	mv -f temp.txt $file
-	#--¿¹¿Ü : 607.5.
+	#--ì˜ˆì™¸ : 607.5.
 	echo "Tag apply complete."
 }
 
 function symbol_change(){
-	##½Éº¼º¯È¯
-	#ÇÑ´Ü¾î : 
+	##ì‹¬ë³¼ë³€í™˜
+	#í•œë‹¨ì–´ : 
 	sed -e 's/{\([T|Q|C|W|B|U|R|G|E|S|P|X]\|PW\|CHAOS\|[0-9]\{1,2\}\)}/![symbol\1](\/assets\/symbols\/\1.gif)/g' $file > temp.txt
 	mv -f temp.txt $file
-	#ÇÏÀÌºê¸®µå:
+	#í•˜ì´ë¸Œë¦¬ë“œ:
 	sed -e 's/{\([WUBRG2]\)\/\([WUBRGP]\)}/![symbol\1\2](\/assets\/symbols\/\1\2.gif)/g' $file > temp.txt
 	mv -f temp.txt $file
 	echo "Symbol change complete."
 }
 
-##È¨ÆäÀÌÁö ¸µÅ©
+##í™ˆí˜ì´ì§€ ë§í¬
 
 #echo "Hyperlink change complete."
 
-##ÁÖ¼®º¯È¯
+##ì£¼ì„ë³€í™˜
 
-##¿¹¿ÜÃ³¸®
+##ì˜ˆì™¸ì²˜ë¦¬
 
-##ÆÄÀÏ³ª´©±â&ÆÄÀÏ ÀÌ¸§ º¯°æ
+##íŒŒì¼ë‚˜ëˆ„ê¸°&íŒŒì¼ ì´ë¦„ ë³€ê²½
 
-##ÆÄÀÏ¾Õ¿¡ Çì´õ ´Ş±â
+##íŒŒì¼ì•ì— í—¤ë” ë‹¬ê¸°
 
-##
+##START
+cut_header
 markdown_change
 symbol_change
 
