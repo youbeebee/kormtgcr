@@ -124,13 +124,23 @@ function split_chapter() {
 			sed -n -e '/^9\. /,$p' "$file" > "$splitfilename"
 		fi
 		
-		##맨 앞 1줄, 맨 뒤 2줄 제거
-		sed -e 1d "$splitfilename" > temp.txt
-		mv -f temp.txt "$splitfilename"
-		sed -e '$'d "$splitfilename" > temp.txt
-		mv -f temp.txt "$splitfilename"
-		sed -e '$'d "$splitfilename" > temp.txt
-		mv -f temp.txt "$splitfilename"
+		if [ $i -eq 9 ]
+		then
+			##맨 앞 1줄, 맨 뒤 1줄 제거
+			sed -e 1d "$splitfilename" > temp.txt
+			mv -f temp.txt "$splitfilename"
+			sed -e '$'d "$splitfilename" > temp.txt
+			mv -f temp.txt "$splitfilename"		
+		else
+			##맨 앞 1줄, 맨 뒤 2줄 제거
+			sed -e 1d "$splitfilename" > temp.txt
+			mv -f temp.txt "$splitfilename"
+			sed -e '$'d "$splitfilename" > temp.txt
+			mv -f temp.txt "$splitfilename"
+			sed -e '$'d "$splitfilename" > temp.txt
+			mv -f temp.txt "$splitfilename"
+		fi
+
 		
 		##헤더 변경(test -> chapter_kr[])
 		echo "$header" > header.txt
