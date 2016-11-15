@@ -1,0 +1,14 @@
+﻿<p class="example" markdown="1"> **Example:** Dimir Doppelganger은 "![symbol1](/assets/symbols/1.gif)![symbolU](/assets/symbols/U.gif)![symbolB](/assets/symbols/B.gif): 무덤의 목표 생물 카드를 추방한다. Dimir Doppelganger는 그 카드의 복사본이 되며 여전히 이 능력을 가진다."라고 되어있습니다. Dimir Doppelganger가 플립 카드인 Jushi Apprentice의 복사본이 됐습니다. 이 생물은 Jushi Apprentice의 능력(이 생물을 플립한다)을 사용해서 Dimir Doppelganger의 능력을 가지고 있는 Tomoya the Revealer의 복사본이 될 수 있습니다. (번역자 주-Jushi Apprentice와 Tomoya the Revealer는 서로 플립되는 관계) 이 지속물이 다시 Runeclaw Bear을 복사했다고 하더라도, (비록 플립이라는 상태가 Runeclaw Bear와는 맞지 않더라고 해도) 여전히 플립된 상태로 남아있습니다. 이번엔 이 지속물의 능력을 또 다른 플립 카드인 Nezumi Shortfan 카드를 목표로 다시 활성화 시킨 경우, 이 지속물은 Stabwhisker the Odious(Nezumi Shortfang이 플립된 버전)의 특징을 가지게 됩니다.</p>
+
+
+**116.7.** 우선권을 가진 플레이어가 다른 주문이나 능력이 스택에 있을 때 주문을 발동하거나 활성화 능력을 활성화한다면, 새로운 주문/능력은 이전 주문/능력에 "대응하여" 발동한 것입니다. 새로운 주문/능력이 먼저 해결됩니다. See rule 608, "Resolving Spells and Abilities. (번역자 주-흔히 '스택 쌓고'라고 하지요)
+
+**116.8.** aaaaaaaaaaaaaaaaaaaa
+
+**404.2.** 각 무덤은 앞면 & 한 줄로 쌓여있어야 합니다. 플레이어는 언제든지 아무 무덤이나 확인해볼 수 있습니다. 하지만 일반적으로 순서를 바꿀 수는 없습니다. 추가 규칙이 적용된 토너먼트에서는 무덤의 순서를 바꾸는 것이 허용될 수 있습니다. (번역자 주-모던 이상 타입의 토너먼트에서는 바꿀 수 있는 것이 디폴트 값)
+
+**509.3.** 세 번째로, 각 방어 생물마다, 방어 플레이어는 그 생물의 피해를 자신이 방어한 생물들에게 어떤 순서로 배정할 것인지 알립니다. (전투피해단 동안에는, 방어 생물은 앞선 방어된 생물에게 치명적인 피해를 배정하지 않은 경우 다음 방어된 생물에게 전투 피해를 배정할 수 없습니다) 이것은 턴에 기반한 행동이며 스택을 사용하지 않습니다. (번역자 주-동시에 여러 생물을 방어하게 해주는 능력이 있는 경우 적용되는 규칙)
+
+**717.3.** 게임을 시작할 때 7장의 카드를 뽑기 때문에, 플레이어의 서고에 카드가 7장 미만인 경우엔, 그 플레이어는 멀리건과 관계 없이 첫 턴 유지단의 상태 참조 행동 때 게임에서 패배합니다. (See rule 704, "State-Based Actions.") (번역자 주-대표적으로 카른으로 54장을 추방하고 재시작한 경우)
+
+**717.4.** AAAAAAAAAAAAAA
