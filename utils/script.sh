@@ -66,7 +66,7 @@ function url_change() {
 ##주석변환
 function footnote_change() {
 	awk 'BEGIN {cnt =1} /번역자/ { sub(/번역자/, "번역자" cnt++) }1' "$file" > temp.txt
-	sed -e 's/(\([^)]*\)번역자\([0-9]\+\)\([^(]*\))\(.*$\)/[^\2]\4\n\n[^\2]\1\3/g' temp.txt > "$file"
+	sed -e 's/(\([^)]*\)번역자\([0-9]\+\)\([^(]*\))\(.*$\)/[^\2]\4\n\n[^\2]: \1\3/g' temp.txt > "$file"
 	rm -f temp.txt
 	echo "URL change complete."
 }
@@ -151,6 +151,8 @@ function split_chapter() {
 			sed -e '$'d "$splitfilename" > temp.txt
 			mv -f temp.txt "$splitfilename"
 		fi
+		echo "
+" >> "$splitfilename"
 		echo "----" >> "$splitfilename"
 
 		
