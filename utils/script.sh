@@ -74,8 +74,75 @@ function footnote_change() {
 ##예외처리
 
 ##파일나누기&파일 이름 변경
+chapter_kr=(
+"1. 게임의 컨셉"
+"2. 카드의 구성"
+"3. 카드의 타입"
+"4. 구역"
+"5. 턴의 구조"
+"6. 주문, 능력, 효과"
+"7. 추가 규칙"
+"8. 다인전 규칙"
+"9. 캐주얼 규칙"
+)
 
-##파일앞에 헤더 달기
+chapter_en=(
+"1.Game Concepts"
+"2.Parts of a Card"
+"3.Card Types"
+"4.Zones"
+"5.Turn Structure"
+"6.Spells, Abilities, and Effects"
+"7.Additional Rules"
+"8.Multiplayer Rules"
+"9.Casual Variants"
+)
+year=$(date +"%Y")
+month=$(date +"%m")
+day=$(date +"%d")
+
+header="---
+layout: post
+title: test
+categories: [OnlineCR]
+tags: [cr, online]
+comments: true
+description: test
+---
+
+{% include toc.md %}
+"
+function split_chapter() {
+	for((i=1;i<10;i++)); do
+		j=$((i+1))
+		splitfilename=$year-$month-$day-${chapter_en[$i-1]}.md
+		echo $splitfilename
+		sed -n -e "/^$i\. /,/^$j\. /p" "$file" > "$splitfilename"
+		
+		if [ $i -eq 9 ]
+		then
+			sed -n -e '/^9\. /,$p' "$file" > "$splitfilename"
+		fi
+		
+		##맨 앞 1줄, 맨 뒤 2줄 제거
+		sed -e 1d "$splitfilename" > temp.txt
+		mv -f temp.txt "$splitfilename"
+		sed -e '$'d "$splitfilename" > temp.txt
+		mv -f temp.txt "$splitfilename"
+		sed -e '$'d "$splitfilename" > temp.txt
+		mv -f temp.txt "$splitfilename"
+		
+		##헤더 변경(test -> chapter_kr[])
+		echo "$header" > header.txt
+		sed -e "s/test/${chapter_kr[$i-1]}/g" header.txt > temp.txt
+		rm -f header.txt
+		##파일 앞에 헤더 달기
+		cat "$splitfilename" >> temp.txt
+		mv -f temp.txt "$splitfilename"
+	done
+}
+
+
 
 ##START
 trim
@@ -83,6 +150,8 @@ markdown_change
 url_change
 symbol_change
 footnote_change
+split_chapter
+
 
 echo "Success!"
 exit 0
