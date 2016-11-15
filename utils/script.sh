@@ -97,6 +97,19 @@ chapter_en=(
 "8.Multiplayer Rules"
 "9.Casual Variants"
 )
+
+chapter_both=(
+"1. 게임의 컨셉 Game Concepts"
+"2. 카드의 구성 Parts of a Card"
+"3. 카드의 타입 Card Types"
+"4. 구역 Zones"
+"5. 턴의 구조 Turn Structure"
+"6. 주문, 능력, 효과 Spells, Abilities, and Effects"
+"7. 추가 규칙 Additional Rules"
+"8. 다인전 규칙 Multiplayer Rules"
+"9. 캐주얼 규칙 Casual Variants"
+)
+
 year=$(date +"%Y")
 month=$(date +"%m")
 day=$(date +"%d")
@@ -107,7 +120,7 @@ title: test
 categories: [OnlineCR]
 tags: [cr, online]
 comments: true
-description: test
+description: DDDD
 ---
 
 {% include toc.md %}
@@ -125,12 +138,10 @@ function split_chapter() {
 		fi
 		
 		if [ $i -eq 9 ]
-		then
-			##맨 앞 1줄, 맨 뒤 1줄 제거
+		then	
+			##마지막 챕터는 특별. 맨 앞 1줄
 			sed -e 1d "$splitfilename" > temp.txt
-			mv -f temp.txt "$splitfilename"
-			sed -e '$'d "$splitfilename" > temp.txt
-			mv -f temp.txt "$splitfilename"		
+			mv -f temp.txt "$splitfilename"	
 		else
 			##맨 앞 1줄, 맨 뒤 2줄 제거
 			sed -e 1d "$splitfilename" > temp.txt
@@ -140,11 +151,14 @@ function split_chapter() {
 			sed -e '$'d "$splitfilename" > temp.txt
 			mv -f temp.txt "$splitfilename"
 		fi
+		echo "----" >> "$splitfilename"
 
 		
-		##헤더 변경(test -> chapter_kr[])
+		##헤더 변경(test -> chapter[])
 		echo "$header" > header.txt
 		sed -e "s/test/${chapter_kr[$i-1]}/g" header.txt > temp.txt
+		mv -f temp.txt header.txt
+		sed -e "s/DDDD/${chapter_both[$i-1]}/g" header.txt > temp.txt
 		rm -f header.txt
 		##파일 앞에 헤더 달기
 		cat "$splitfilename" >> temp.txt
@@ -152,7 +166,11 @@ function split_chapter() {
 	done
 }
 
-
+function clean_up() {
+	mkdir cr
+	mv $year-$month-$day-* ./cr/
+	mv -f "$file.orig" "$file"
+}
 
 ##START
 trim
@@ -161,7 +179,7 @@ url_change
 symbol_change
 footnote_change
 split_chapter
-
+clean_up
 
 echo "Success!"
 exit 0
