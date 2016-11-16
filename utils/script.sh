@@ -1,5 +1,9 @@
 ﻿#!/bin/bash
 
+##title:	블로그 태그 자동화 스크립트
+##date :	2016. 11
+##author:	B.F.M.
+
 ##argument check
 if [ 1 -ne $# ]
 then
@@ -101,6 +105,18 @@ chapter_en=(
 "9.Casual Variants"
 )
 
+chapter_num=(
+"100"
+"200"
+"300"
+"400"
+"500"
+"600"
+"700"
+"800"
+"900"
+)
+
 chapter_both=(
 "1. 게임의 컨셉 Game Concepts"
 "2. 카드의 구성 Parts of a Card"
@@ -131,7 +147,7 @@ description: DDDD
 function split_chapter() {
 	for((i=1;i<10;i++)); do
 		j=$((i+1))
-		splitfilename=$year-$month-$day-${chapter_en[$i-1]}.md
+		splitfilename=$year-$month-$day-${chapter_num[$i-1]}.md
 		echo $splitfilename
 		sed -n -e "/^$i\. /,/^$j\. /p" "$file" > "$splitfilename"
 		
