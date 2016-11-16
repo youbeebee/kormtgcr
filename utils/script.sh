@@ -36,12 +36,15 @@ function markdown_change(){
 	##소문단 md 문법 적용
 	sed -e 's/\(^\*\*[0-9]\{3\}\.[0-9]\+[a-z]\+\*\* .\+$\)/<p class="clause" markdown="1">\1<\/p>/g' "$file" > temp.txt
 	mv -f temp.txt "$file"
-	#--예외 : 205.3i-j, 509.1b, 810.7b
+	
+	#--예외 : 205.3i-j, 509.1b, 810.7b 항목에 대한 문법 적용
+	sed -e 's/\(^     .\+$\)/<p class="clause" markdown="1">\1<\/p>/g' "$file" > temp.txt
+	mv -f temp.txt "$file"
 	
 	##example 서식 적용
 	sed -e 's/\(^Example:\) \(.\+$\)/<p class="example" markdown="1"> **\1** \2<\/p>/g' "$file" > temp.txt
 	mv -f temp.txt "$file"
-	#--예외 : 607.5.
+	#--예외 : 607.5. 613.7a
 	echo "Tag apply complete."
 }
 
@@ -151,6 +154,7 @@ function split_chapter() {
 			sed -e '$'d "$splitfilename" > temp.txt
 			mv -f temp.txt "$splitfilename"
 		fi
+		## 마지막 수평선 삽입
 		echo "
 " >> "$splitfilename"
 		echo "----" >> "$splitfilename"
