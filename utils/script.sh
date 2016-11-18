@@ -65,7 +65,7 @@ function symbol_change(){
 
 ##홈페이지 링크
 function url_change() {
-	sed -e 's/\(https\?\:\/\/\)\?\([\da-zA-Z]\+\)\.\([A-Za-z\.]\{2,6\}\)\([\/A-Za-z0-9_\.-]*\)*\([A-Za-z0-9]\)\/\?/[\1\2.\3\4\5](http:\/\/\2.\3\4\5)/g' "$file" > temp.txt
+	sed -e 's/\(https\?\:\/\/\)\?\([\da-zA-Z]\+\)\.\([A-Za-z\.]\{2,6\}\)\([\/A-Za-z0-9_\.-]*\)*\([A-Za-z0-9]\)\/\?/[\1\2.\3\4\5](http:\/\/\2.\3\4\5){:target="_blank"}/g' "$file" > temp.txt
 	mv -f temp.txt "$file"
 	echo "URL change complete."
 }
