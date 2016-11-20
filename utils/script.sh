@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 
 ##title:	블로그 태그 자동화 스크립트
 ##date :	2016. 11
