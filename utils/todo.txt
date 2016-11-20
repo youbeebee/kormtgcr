@@ -1,11 +1,11 @@
-﻿예외 처리
-607.5 / 613.7a
+예외 처리 (607.5 / 613.7a)
 
 h태그 크기 줄이기(수동)
 
 description을 아예 없앨까?(프리뷰 조사)
 
-스크립트가 blog의 js에서 돌아가도록
+스크립트가 blog의 js에서 돌아가도록(http://stackoverflow.com/questions/17004095/jekyll-markdown-strikethrough)
+
 원문 비교(저지위키? 셀베이션? 개인?)
 마우스 커서 올리면 토글창
 카드이름 인식?
