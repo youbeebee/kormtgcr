@@ -30,15 +30,15 @@ function trim(){
 ## 문법 적용
 function markdown_change(){
 	##대문단 md 문법 적용
-	sed -e 's/\(^[0-9]\{3\}\. \)/<br>\n\n#### \1/g' "$file" > temp.txt
+	sed -e 's/\(\(^[0-9]\{3\}\)\. \)/<br><a name="\2"><\/a>\n\n#### \1/g' "$file" > temp.txt
 	mv -f temp.txt "$file"
 	
-	##중, 소문단 md 문법 적용
-	sed -e 's/\(^[0-9]\{3\}\.[0-9]\+[.|a-z]*\)/**\1**/g' "$file" > temp.txt
+	##중문단 md 문법 적용
+	sed -e 's/\(\(^[0-9]\{3\}\.[0-9]\+\)\.\)/<a name="\2"><\/a>**\1**/g' "$file" > temp.txt
 	mv -f temp.txt "$file"
 	
 	##소문단 md 문법 적용
-	sed -e 's/\(^\*\*[0-9]\{3\}\.[0-9]\+[a-z]\+\*\* .\+$\)/<p class="clause" markdown="1">\1<\/p>/g' "$file" > temp.txt
+	sed -e 's/\([0-9]\{3\}\.[0-9]\+[a-z]\+\)\( .\+$\)/<a name="\1"><\/a>\n<p class="clause" markdown="1">**\1**\2<\/p>/g' "$file" > temp.txt
 	mv -f temp.txt "$file"
 	
 	#--예외 : 205.3i-j, 509.1b, 810.7b 항목에 대한 문법 적용
@@ -76,6 +76,13 @@ function footnote_change() {
 	sed -e 's/(\([^)]*\)번역자\([0-9]\+\)\([^(]*\))\(.*$\)/[^\2]\4\n\n[^\2]: \1\3/g' temp.txt > "$file"
 	rm -f temp.txt
 	echo "URL change complete."
+}
+
+##See rule
+function seerule_change() {
+	sed -e 's/\(rules\?\|규칙\|and\) *\(\([0-9]\)[0-9]\{2\}\(\.\([0-9]\+\([a-z]\)\{0,1\}\)\)*\)/[\1 \2](\/\300#\2)/g' "$file" > temp.txt
+	mv -f temp.txt "$file"
+	echo "See rule xxx change complete."
 }
 
 ##예외처리
@@ -200,6 +207,7 @@ markdown_change
 url_change
 symbol_change
 footnote_change
+seerule_change
 split_chapter
 clean_up
 
