@@ -30,7 +30,7 @@ function trim(){
 ## 문법 적용
 function markdown_change(){
 	##대문단 md 문법 적용
-	sed -e 's/\(\(^[0-9]\{3\}\)\. \)/<br><a name="\2"><\/a>\n\n#### \1/g' "$file" > temp.txt
+	sed -e 's/\(\(^[0-9]\{3\}\)\. \)/<br><a name="\2"><\/a>\n\n### \1/g' "$file" > temp.txt
 	mv -f temp.txt "$file"
 	
 	##중문단 md 문법 적용
@@ -212,5 +212,6 @@ split_chapter
 clean_up
 
 echo "Success!"
+##예외처리
 echo "***Please edit 607.5. and 613.7a manually***"
 exit 0
