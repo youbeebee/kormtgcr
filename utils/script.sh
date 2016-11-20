@@ -80,7 +80,7 @@ function footnote_change() {
 
 ##See rule
 function seerule_change() {
-	sed -e 's/\(rules\?\|규칙\|and\) *\(\([0-9]\)[0-9]\{2\}\(\.\([0-9]\+\([a-z]\)\{0,1\}\)\)*\)/[\1 \2](\/\300#\2)/g' "$file" > temp.txt
+	sed -e 's/\(rules\?\|규칙\|and \|와\) *\(\([0-9]\)[0-9]\{2\}\(\.\([0-9]\+\([a-z]\)\{0,1\}\)\)*\)/[\2](\/\300#\2)/g' "$file" > temp.txt
 	mv -f temp.txt "$file"
 	echo "See rule xxx change complete."
 }
@@ -212,4 +212,5 @@ split_chapter
 clean_up
 
 echo "Success!"
+echo "***Please edit 607.5. and 613.7a manually***"
 exit 0
