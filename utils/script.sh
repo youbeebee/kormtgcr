@@ -10,63 +10,65 @@ then
 	echo "arg error"
 	exit 1
 else
-	file=$1
+	originalfile=$1
 fi
 
 ##Backup
-cp "$file" "$file.orig"
+file="temp_$originalfile"
+cp "$originalfile" "$file"
 
 ##헤더(목차)/테일 날리기(txt가 유니코드UTF-8로 저장되어야 함)
 function trim(){
-	sed -e '1,/^용어사전/d' "$file" > temp.txt
-	mv -f temp.txt "$file"
+	sed -i '1,/^용어사전/d' "$file"
 	echo "Delete Header."
 	
-	sed -e '/^용어사전/,$d' "$file" > temp.txt
-	mv -f temp.txt "$file"
+	sed -i '/^용어사전/,$d' "$file"
 	echo "Delete Tail."
 }
 
 ## 문법 적용
 function markdown_change(){
 	##대문단 md 문법 적용
-	sed -e 's/\(\(^[0-9]\{3\}\)\. \)/<br><a name="\2"><\/a>\n\n### \1/g' "$file" > temp.txt
-	mv -f temp.txt "$file"
+	sed -i 's/\(\(^[0-9]\{3\}\)\. \)/<br><a name="\2"><\/a>\n\n### \1/g' "$file"
 	
 	##중문단 md 문법 적용
-	sed -e 's/\(\(^[0-9]\{3\}\.[0-9]\+\)\.\)/<a name="\2"><\/a>**\1**/g' "$file" > temp.txt
-	mv -f temp.txt "$file"
+	sed -i 's/\(\(^[0-9]\{3\}\.[0-9]\+\)\.\)/<a name="\2"><\/a>**\1**/g' "$file"
 	
 	##소문단 md 문법 적용
-	sed -e 's/\([0-9]\{3\}\.[0-9]\+[a-z]\+\)\( .\+$\)/<a name="\1"><\/a>\n<p class="clause" markdown="1">**\1**\2<\/p>/g' "$file" > temp.txt
-	mv -f temp.txt "$file"
+	sed -i 's/\(^[0-9]\{3\}\.[0-9]\+[a-z]\+\)\( .\+$\)/<a name="\1"><\/a>\n<p class="clause" markdown="1">**\1**\2<\/p>/g' "$file"
 	
 	#--예외 : 205.3i-j, 509.1b, 810.7b 항목에 대한 문법 적용
-	sed -e 's/\(^     .\+$\)/<p class="clause" markdown="1">\1<\/p>/g' "$file" > temp.txt
-	mv -f temp.txt "$file"
+	sed -i 's/\(^     .\+$\)/<p class="clause" markdown="1">\1<\/p>/g' "$file"
 	
 	##example 서식 적용
-	sed -e 's/\(^Example:\) \(.\+$\)/<p class="example" markdown="1"> **\1** \2<\/p>/g' "$file" > temp.txt
-	mv -f temp.txt "$file"
+	sed -i 's/\(^Example:\) \(.\+$\)/<p class="example" markdown="1"> **\1** \2<\/p>/g' "$file"
+
 	#--예외 : 607.5. 613.7a
+	sed -i 's/\(\*\*613\.7a\*\* 어떤 효과가  \)<\/p>/\1/g' "$file"
+	#'613.7a'를 찾은 뒤 5줄 이내에 해당되는 문장이 있으면 치환
+	sed -i '/\*\*613\.7a\*\* 어떤 효과가  /, +5 { s/\(그 효과는 다른 효과와 독립적인 것으로 간주합니다\.\)/\1<\/p>/g; }' "$file"
+	
+	sed -i 's/\(\*\*Example:\*\* Arc.Slogger는 다음과 같은 능력을 가집니다.\+  \)<\/p>$/\1/g' "$file"
+
+	sed -i '/\*\*Example:\*\* Arc.Slogger는 다음과 같은 능력을 가집니다\./, +5 { s/\(Arc-Slogger의 능력을 사용해 추방된 카드는 되돌릴 수 없습니다\.\)/\1<\/p>/g; }' "$file"
+	
 	echo "Tag apply complete."
 }
 
 function symbol_change(){
 	##심볼변환
 	#한단어 : 
-	sed -e 's/{\([T|Q|C|W|B|U|R|G|E|S|P|X]\|PW\|CHAOS\|[0-9]\{1,2\}\)}/![symbol\1](\/assets\/symbols\/\1.gif)/g' "$file" > temp.txt
-	mv -f temp.txt "$file"
+	sed -i 's/{\([T|Q|C|W|B|U|R|G|E|S|P|X]\|PW\|CHAOS\|[0-9]\{1,2\}\)}/![symbol\1](\/assets\/symbols\/\1.gif)/g' "$file"
+
 	#하이브리드:
-	sed -e 's/{\([WUBRG2]\)\/\([WUBRGP]\)}/![symbol\1\2](\/assets\/symbols\/\1\2.gif)/g' "$file" > temp.txt
-	mv -f temp.txt "$file"
+	sed -i 's/{\([WUBRG2]\)\/\([WUBRGP]\)}/![symbol\1\2](\/assets\/symbols\/\1\2.gif)/g' "$file" 
 	echo "Symbol change complete."
 }
 
 ##홈페이지 링크
 function url_change() {
-	sed -e 's/\(https\?\:\/\/\)\?\([\da-zA-Z]\+\)\.\([A-Za-z\.]\{2,6\}\)\([\/A-Za-z0-9_\.-]*\)*\([A-Za-z0-9]\)\/\?/[\1\2.\3\4\5](http:\/\/\2.\3\4\5){:target="_blank"}/g' "$file" > temp.txt
-	mv -f temp.txt "$file"
+	sed -i 's/\(https\?\:\/\/\)\?\([\da-zA-Z]\+\)\.\([A-Za-z\.]\{2,6\}\)\([\/A-Za-z0-9_\.-]*\)*\([A-Za-z0-9]\)\/\?/[\1\2.\3\4\5](http:\/\/\2.\3\4\5){:target="_blank"}/g' "$file"
+
 	echo "URL change complete."
 }
 
@@ -78,14 +80,12 @@ function footnote_change() {
 	echo "URL change complete."
 }
 
-##See rule
+##See rule XX
 function seerule_change() {
-	sed -e 's/\(rules\?\|규칙\|and \|와\) *\(\([0-9]\)[0-9]\{2\}\(\.\([0-9]\+\([a-z]\)\{0,1\}\)\)*\)/[\2](\/\300#\2)/g' "$file" > temp.txt
-	mv -f temp.txt "$file"
+	sed -i 's/\(rules\?\|규칙\|and\|와\) *\(\([0-9]\)[0-9]\{2\}\(\.\([0-9]\+\([a-z]\)\{0,1\}\)\)*\)/\1 [\2](\/\300#\2)/g' "$file"
+
 	echo "See rule xxx change complete."
 }
-
-##예외처리
 
 ##파일나누기&파일 이름 변경
 chapter_kr=(
@@ -165,7 +165,7 @@ function split_chapter() {
 		
 		if [ $i -eq 9 ]
 		then	
-			##마지막 챕터는 특별. 맨 앞 1줄
+			##마지막 챕터는 맨 앞 1줄 제거
 			sed -e 1d "$splitfilename" > temp.txt
 			mv -f temp.txt "$splitfilename"	
 		else
@@ -197,8 +197,8 @@ function split_chapter() {
 
 function clean_up() {
 	mkdir cr
-	mv $year-$month-$day-* ./cr/
-	mv -f "$file.orig" "$file"
+	mv -f $year-$month-$day-* ./cr/
+	rm -f "$file"
 }
 
 ##START
@@ -212,6 +212,4 @@ split_chapter
 clean_up
 
 echo "Success!"
-##예외처리
-echo "***Please edit 607.5. and 613.7a manually***"
 exit 0
