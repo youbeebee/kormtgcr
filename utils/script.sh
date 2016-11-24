@@ -14,7 +14,7 @@ else
 fi
 
 ##Backup
-file="temp_$originalfile"
+file="$originalfile_temp"
 cp "$originalfile" "$file"
 
 ##헤더(목차)/테일 날리기(txt가 유니코드UTF-8로 저장되어야 함)
@@ -166,16 +166,13 @@ function split_chapter() {
 		if [ $i -eq 9 ]
 		then	
 			##마지막 챕터는 맨 앞 1줄 제거
-			sed -e 1d "$splitfilename" > temp.txt
+			tail -n +2 "$splitfilename" > temp.txt
 			mv -f temp.txt "$splitfilename"	
 		else
 			##맨 앞 1줄, 맨 뒤 2줄 제거
-			sed -e 1d "$splitfilename" > temp.txt
-			mv -f temp.txt "$splitfilename"
-			sed -e '$'d "$splitfilename" > temp.txt
-			mv -f temp.txt "$splitfilename"
-			sed -e '$'d "$splitfilename" > temp.txt
-			mv -f temp.txt "$splitfilename"
+			tail -n +2 "$splitfilename" > temp.txt
+			head -n -3 temp.txt > "$splitfilename" 
+			rm -f temp.txt
 		fi
 		## 마지막 수평선 삽입
 		echo "
