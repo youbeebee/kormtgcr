@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ##title:	블로그 태그 자동화 스크립트
-##date :	2016. 11
+##date :	2016. 11.
 ##author:	B.F.M.
 
 ##argument check
@@ -11,10 +11,11 @@ then
 	exit 1
 else
 	originalfile=$1
+	echo "input : $originalfile"
 fi
 
 ##Backup
-file="$originalfile_temp"
+file="temp_$originalfile"
 cp "$originalfile" "$file"
 
 ##헤더(목차)/테일 날리기(txt가 유니코드UTF-8로 저장되어야 함)
@@ -32,7 +33,7 @@ function markdown_change(){
 	sed -i 's/\(\(^[0-9]\{3\}\)\. \)/<br><a name="\2"><\/a>\n\n### \1/g' "$file"
 	
 	##중문단 md 문법 적용
-	sed -i 's/\(\(^[0-9]\{3\}\.[0-9]\+\)\.\)/<a name="\2"><\/a>**\1**/g' "$file"
+	sed -i 's/\(\(^[0-9]\{3\}\.[0-9]\+\)\.\)\( .\+$\)/<a name="\2"><\/a>\n<p class="paragraph" markdown="1">**\1**\3<\/p>/g' "$file"
 	
 	##소문단 md 문법 적용
 	sed -i 's/\(^[0-9]\{3\}\.[0-9]\+[a-z]\+\)\( .\+$\)/<a name="\1"><\/a>\n<p class="clause" markdown="1">**\1**\2<\/p>/g' "$file"
