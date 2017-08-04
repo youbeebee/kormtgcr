@@ -24,6 +24,7 @@
 -----------------------------
 ## History
 
+ * 2017.08.04 - Update CR until 20170708(Hour of Devastation)
  * 2017.01.23 - Update CR until 20170120(Aether Revolt)
  * 2016.11.11 - Update CR until 20161111(Commander 2016)
  * 2016.10.24 - Update CR until 20160930(Kaladesh)
