@@ -3,6 +3,7 @@
 ##title:	블로그 태그 자동화 스크립트
 ##date :	2016. 11.
 ##author:	B.F.M.
+## shell에서 실행이 안될 경우 vi에서 :set ff=unix를 치고 저장할 것.
 
 ##argument check
 if [ 1 -ne $# ]
@@ -78,7 +79,7 @@ function footnote_change() {
 	awk 'BEGIN {cnt =1} /번역자/ { sub(/번역자/, "번역자" cnt++) }1' "$file" > temp.txt
 	sed -e 's/(\([^)]*\)번역자\([0-9]\+\)\([^(]*\))\(.*$\)/[^\2]\4\n\n[^\2]: \1\3/g' temp.txt > "$file"
 	rm -f temp.txt
-	echo "URL change complete."
+	echo "Comments change complete."
 }
 
 ##See rule XX
@@ -86,6 +87,13 @@ function seerule_change() {
 	sed -i 's/\(rules\?\|규칙\|and\|와\) *\(\([0-9]\)[0-9]\{2\}\(\.\([0-9]\+\([a-z]\)\{0,1\}\)\)*\)/\1 [\2](\/\300#\2)/g' "$file"
 
 	echo "See rule xxx change complete."
+}
+
+##카드이름에 툴팁을 띄우기 위한 태그 추가
+function card_name_tag_change() {
+	sed -i 's/\[\[\(.\+\?\)\]\]/<mtg-card>\1<\/mtg-card>/g' "card_name.txt"
+
+	echo "Card name tagging complete."
 }
 
 ##파일나누기&파일 이름 변경
@@ -206,6 +214,7 @@ url_change
 symbol_change
 footnote_change
 seerule_change
+##card_name_tag_change ##sed는 Non greedy 수량자를 지원하지 않아 사용 보류
 split_chapter
 clean_up
 
