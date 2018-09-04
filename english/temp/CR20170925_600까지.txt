@@ -198,6 +198,8 @@ Credits
 
 100.6b Players can use the Magic Store & Event Locator at Wizards.com/Locator to find tournaments in their area.
 
+100.7. Certain promotional cards and cards in the Unglued, Unhinged, and Unstable sets are printed with a silver border. These cards are intended for casual play and may have features and text that aren�t covered by these rules.
+
 101. The Magic Golden Rules
 
 101.1. Whenever a card�s text directly contradicts these rules, the card takes precedence. The card overrides only the rule that applies to that specific situation. The only exception is that a player can concede the game at any time (see rule 104.3a).
@@ -216,7 +218,7 @@ Example: A card reads �Each player sacrifices a creature.� First, the active
 
 101.4b A player knows the choices made by the previous players when making their choice, except as specified in 101.4a.
 
-101.4c If a player would make more than one choice at the same time, the player makes the choices in the order written, or in the order he or she chooses if the choices aren�t ordered.
+101.4c If a player would make more than one choice at the same time, the player makes the choices in the order specified. If no order is specified, they player chooses the order.
 
 101.4d If a choice made by a nonactive player causes the active player, or a different nonactive player earlier in the turn order, to have to make a choice, APNAP order is restarted for all outstanding choices.
 
@@ -227,6 +229,8 @@ Example: A card reads �Each player sacrifices a creature.� First, the active
 102.2. In a two-player game, a player�s opponent is the other player.
 
 102.3. In a multiplayer game between teams, a player�s teammates are the other players on their team, and the player�s opponents are all players not on their team.
+
+102.4. A spell or ability may use the term �your team� as shorthand for �you and/or your teammates.� In a game that isn�t a multiplayer game between teams, �your team� means the same thing as �you.�
 
 103. Starting the Game
 
@@ -254,7 +258,9 @@ Example: A card reads �Each player sacrifices a creature.� First, the active
 
 103.3c In a Commander game, each player�s starting life total is 40.
 
-103.3d In an Archenemy game, the archenemy�s starting life total is 40.
+103.3d In a two-player Brawl game, each player�s starting life total is 25. In a multiplayer Brawl game, each player�s starting life total is 30.
+
+103.3e In an Archenemy game, the archenemy�s starting life total is 40.
 
 103.4. Each player draws a number of cards equal to their starting hand size, which is normally seven. (Some effects can modify a player�s starting hand size.) A player who is dissatisfied with their initial hand may take a mulligan. First, the starting player declares whether they will take a mulligan. Then each other player in turn order does the same. Once each player has made a declaration, all players who decided to take mulligans do so at the same time. To take a mulligan, a player shuffles their hand back into their library, then draws a new hand of one fewer cards than they had before. If a player kept their hand of cards, those cards become the player�s opening hand, and that player may not take any further mulligans. This process is then repeated until no player takes a mulligan. (Note that if a player�s hand size reaches zero cards, that player must keep that hand.) After all players have kept an opening hand, each player in turn order whose hand contains fewer cards than that player�s starting hand size may look at the top card of their library. If a player does, that player may put that card on the bottom of their library.
 
@@ -344,7 +350,7 @@ Example: A card reads �Each player sacrifices a creature.� First, the active
 
 104.5. If a player loses the game, that player leaves the game. If the game is a draw for a player, that player leaves the game. The multiplayer rules handle what happens when a player leaves the game; see rule 800.4.
 
-104.6. One card (Karn Liberated) restarts the game. All players still in the game when it restarts then immediately begin a new game. See rule 717, �Restarting the Game.�
+104.6. One card (Karn Liberated) restarts the game. All players still in the game when it restarts then immediately begin a new game. See rule 718, �Restarting the Game.�
 
 105. Colors
 
@@ -372,22 +378,24 @@ Example: A card reads �Each player sacrifices a creature.� First, the active
 
 106.2. Mana is represented by mana symbols (see rule 107.4). Mana symbols also represent mana costs (see rule 202).
 
-106.3. Mana is produced by the effects of mana abilities (see rule 605). It may also be produced by the effects of spells, as well as by the effects of abilities that aren�t mana abilities.
+106.3. Mana is produced by the effects of mana abilities (see rule 605). It may also be produced by the effects of spells, as well as by the effects of abilities that aren�t mana abilities. A spell or ability that produces mana instructs a player to add that mana.
 
-106.4. When an effect produces mana, that mana goes into a player�s mana pool. From there, it can be used to pay costs immediately, or it can stay in the player�s mana pool. Each player�s mana pool empties at the end of each step and phase.
+106.4. When an effect instructs a player to add mana, that mana goes into a player�s mana pool. From there, it can be used to pay costs immediately, or it can stay in the player�s mana pool as unspent mana. Each player�s mana pool empties at the end of each step and phase, and the player is said to lose this mana. Cards with abilities that produce mana or refer to unspent mana have received errata in the Oracle card reference to no longer explicitly refer to the mana pool.
 
-106.4a If a player passes priority (see rule 116) while there is mana in his or her mana pool, that player announces what mana is there. If any mana remains in a player�s mana pool after he or she spends mana to pay a cost, that player announces what mana is still there.
+106.4a If any mana remains in a player�s mana pool after mana is spent to pay a cost, that player announces what mana is still there.
+
+106.4b If a player passes priority (see rule 116) while there is mana in their mana pool, that player announces what mana is there.
 
 106.5. If an ability would produce one or more mana of an undefined type, it produces no mana instead.
-Example: Meteor Crater has the ability �{T}: Choose a color of a permanent you control. Add one mana of that color to your mana pool.� If you control no colored permanents, activating Meteor Crater�s mana ability produces no mana.
+Example: Meteor Crater has the ability �{T}: Choose a color of a permanent you control. Add one mana of that color.� If you control no colored permanents, activating Meteor Crater�s mana ability produces no mana.
 
 106.6. Some spells or abilities that produce mana restrict how that mana can be spent, have an additional effect that affects the spell or ability that mana is spent on, or create a delayed triggered ability (see rule 603.7a) that triggers when that mana is spent. This doesn�t affect the mana�s type.
-Example: A player�s mana pool contains {R}{G} which can be spent only to cast creature spells. That player activates Doubling Cube�s ability, which reads �{3}, {T}: Double the amount of each type of mana in your mana pool.� The player�s mana pool now has {R}{R}{G}{G} in it, {R}{G} of which can be spent on anything.
+Example: A player�s mana pool contains {R}{G} which can be spent only to cast creature spells. That player activates Doubling Cube�s ability, which reads �{3}, {T}: Double the amount of each type of unspent mana you have.� The player�s mana pool now has {R}{R}{G}{G} in it, {R}{G} of which can be spent on anything.
 
 106.6a Some replacement effects increase the amount of mana produced by a spell or ability. In these cases, any restrictions or additional effects created by the spell or ability will apply to all mana produced. If the spell or ability creates a delayed triggered ability that triggers when the mana is spent, a separate delayed triggered ability is created for each mana produced.
 
 106.7. Some abilities produce mana based on the type of mana another permanent or permanents �could produce.� The type of mana a permanent could produce at any time includes any type of mana that an ability of that permanent would produce if the ability were to resolve at that time, taking into account any applicable replacement effects in any possible order. Ignore whether any costs of the ability could or could not be paid. If that permanent wouldn�t produce any mana under these conditions, or no type of mana can be defined this way, there�s no type of mana it could produce.
-Example: Exotic Orchard has the ability �{T}: Add to your mana pool one mana of any color that a land an opponent controls could produce.� If your opponent controls no lands, activating Exotic Orchard�s mana ability will produce no mana. The same is true if you and your opponent each control no lands other than Exotic Orchards. However, if you control a Forest and an Exotic Orchard, and your opponent controls an Exotic Orchard, then each Exotic Orchard could produce {G}.
+Example: Exotic Orchard has the ability �{T}: Add one mana of any color that a land an opponent controls could produce.� If your opponent controls no lands, activating Exotic Orchard�s mana ability will produce no mana. The same is true if you and your opponent each control no lands other than Exotic Orchards. However, if you control a Forest and an Exotic Orchard, and your opponent controls an Exotic Orchard, then each Exotic Orchard could produce {G}.
 
 106.8. If an effect would add mana represented by a hybrid mana symbol to a player�s mana pool, that player chooses one half of that symbol. If a colored half is chosen, one mana of that color is added to that player�s mana pool. If a colorless half is chosen, an amount of colorless mana represented by that half�s number is added to that player�s mana pool.
 
@@ -395,11 +403,13 @@ Example: Exotic Orchard has the ability �{T}: Add to your mana pool one mana o
 
 106.10. If an effect would add mana represented by a generic mana symbol to a player�s mana pool, that much colorless mana is added to that player�s mana pool.
 
-106.11. To �tap a permanent for mana� is to activate a mana ability of that permanent that includes the {T} symbol in its activation cost. See rule 605, �Mana Abilities.�
+106.11. To �tap [a permanent] for mana� is to activate a mana ability of that permanent that includes the {T} symbol in its activation cost. See rule 605, �Mana Abilities.�
 
-106.11a An ability that triggers whenever a permanent �is tapped for mana� or �is tapped for mana [of a specified type]� triggers whenever such a mana ability resolves and produces mana or the specified type of mana.
+106.11a An ability that triggers whenever a permanent �is tapped for mana� or is tapped for mana of a specified type triggers whenever such a mana ability resolves and produces mana or the specified type of mana.
 
-106.12. One card (Drain Power) puts all mana from one player�s mana pool into another player�s mana pool. (Note that these may be the same player.) This empties the former player�s mana pool and causes the mana emptied this way to be put into the latter player�s mana pool. Which permanents, spells, and/or abilities produced that mana are unchanged, as are any restrictions or additional effects associated with any of that mana.
+106.11b A replacement effect that applies if a permanent �is tapped for mana� or tapped for mana of a specific type and/or amount modifies the mana production event while such an ability is resolving and producing mana or the specified type and/or amount of mana.
+
+106.12. One card (Drain Power) causes one player to lose unspent mana and another to add �the mana lost this way.� (Note that these may be the same player.) This empties the former player�s mana pool and causes the mana emptied this way to be put into the latter player�s mana pool. Which permanents, spells, and/or abilities produced that mana are unchanged, as are any restrictions or additional effects associated with any of that mana.
 
 107. Numbers and Symbols
 
@@ -407,9 +417,9 @@ Example: Exotic Orchard has the ability �{T}: Add to your mana pool one mana o
 
 107.1a You can�t choose a fractional number, deal fractional damage, gain fractional life, and so on. If a spell or ability could generate a fractional number, the spell or ability will tell you whether to round up or down.
 
-107.1b Most of the time, the Magic game uses only positive numbers and zero. You can�t choose a negative number, deal negative damage, gain negative life, and so on. However, it�s possible for a game value, such as a creature�s power, to be less than zero. If a calculation or comparison needs to use a negative value, it does so. If a calculation that would determine the result of an effect yields a negative number, zero is used instead, unless that effect sets a player�s life total to a specific value, doubles a player�s life total, or sets a creature�s power or toughness to a specific value.
-Example: If a 3/4 creature gets -5/-0, it�s a -2/4 creature. It doesn�t assign damage in combat. Its total power and toughness is 2. You�d have to give it +3/+0 to raise its power to 1.
-Example: Viridian Joiner is a 1/2 creature with the ability �{T}: Add to your mana pool an amount of {G} equal to Viridian Joiner�s power.� An effect gives it -2/-0, then its ability is activated. The ability adds no mana to your mana pool.
+107.1b Most of the time, the Magic game uses only positive numbers and zero. You can�t choose a negative number, deal negative damage, gain negative life, and so on. However, it�s possible for a game value, such as a creature�s power, to be less than zero. If a calculation or comparison needs to use a negative value, it does so. If a calculation that would determine the result of an effect yields a negative number, zero is used instead, unless that effect doubles or sets to a specific value a player�s life total or a creature�s power and/or toughness.
+Example: If a 3/4 creature gets -5/-0, it�s a -2/4 creature. It doesn�t assign damage in combat. Its total power and toughness is 2. Giving it +3/+0 would raise its power to 1.
+Example: Viridian Joiner is a 1/2 creature with the ability �{T}: Add an amount of {G} equal to Viridian Joiner�s power.� An effect gives it -2/-0, then its ability is activated. The ability adds no mana to your mana pool.
 Example: Chameleon Colossus is a 4/4 creature with the ability �{2}{G}{G}: Chameleon Colossus gets +X/+X until end of turn, where X is its power.� An effect gives it -6/-0, then its ability is activated. It remains a -2/4 creature. It doesn�t become -4/2.
 
 107.1c If a rule or ability instructs a player to choose �any number,� that player may choose any positive number or zero, unless something (such as damage or counters) is being divided or distributed among �any number� of players and/or objects. In that case, a nonzero number of players and/or objects must be chosen if possible.
@@ -454,7 +464,7 @@ Example: {W/P}{W/P} can be paid by spending {W}{W}, by spending {W} and paying 2
 
 107.4g In rules text, the Phyrexian symbol {P} with no colored background means any of the five Phyrexian mana symbols.
 
-107.4h The snow mana symbol {S} represents one generic mana in a cost. This generic mana can be paid with one mana of any type produced by a snow permanent (see rule 205.4f). Effects that reduce the amount of generic mana you pay don�t affect {S} costs. (There is no such thing as �snow mana�; �snow� is not a type of mana.)
+107.4h The snow mana symbol {S} represents one generic mana in a cost. This generic mana can be paid with one mana of any type produced by a snow permanent (see rule 205.4g). Effects that reduce the amount of generic mana you pay don�t affect {S} costs. (There is no such thing as �snow mana�; �snow� is not a type of mana.)
 
 107.5. The tap symbol is {T}. The tap symbol in an activation cost means �Tap this permanent.� A permanent that�s already tapped can�t be tapped again to pay the cost. A creature�s activated ability with the tap symbol in its activation cost can�t be activated unless the creature has been under its controller�s control continuously since their most recent turn began. See rule 302.6.
 
@@ -479,6 +489,12 @@ Example: {W/P}{W/P} can be paid by spending {W}{W}, by spending {W} and paying 2
 107.13. A color indicator is a circular symbol that appears to the left of the type line on some cards. The color of the symbol defines the card�s color or colors. See rule 202, �Mana Cost and Color.�
 
 107.14. The energy symbol is {E}. It represents one energy counter. To pay {E}, a player removes one energy counter from themselves.
+
+107.15. The text box of a Saga card contains chapter symbols, each of which is a keyword ability that represents a triggered ability. A chapter symbol includes a Roman numeral, indicated here as �rN�. The text printed in the text box striation to the right of a chapter symbol is the effect of the triggered ability it represents. See rule 714, �Saga Cards.�
+
+107.15a �{rN}�[Effect]� means �When one or more lore counters are put onto this Saga, if the number of lore counters on it was less than N and became at least N, [effect].�
+
+107.15b �{rN1}, {rN2}�[Effect]� is the same as �{rN1}�[Effect]� and �{rN2}�[Effect].�
 
 108. Cards
 
@@ -554,14 +570,14 @@ Example: {W/P}{W/P} can be paid by spending {W}{W}, by spending {W} and paying 2
 
 110.5. Some effects put tokens onto the battlefield. A token is a marker used to represent any permanent that isn�t represented by a card.
 
-110.5a A token is both owned and controlled by the player under whose control it entered the battlefield.
+110.5a The player who creates a token is its owner. The token enters the battlefield under that player�s control.
 
 110.5b The spell or ability that creates a token may define the values of any number of characteristics for the token. This becomes the token�s �text.� The characteristic values defined this way are functionally equivalent to the characteristic values that are printed on a card; for example, they define the token�s copiable values. A token doesn�t have any characteristics not defined by the spell or ability that created it.
 Example: Jade Mage has the ability �{2}{G}: Create a 1/1 green Saproling creature token.� The resulting token has no mana cost, supertypes, rules text, or abilities.
 
 110.5c A spell or ability that creates a token sets both its name and its subtype. If the spell or ability doesn�t specify the name of the token, its name is the same as its subtype(s). A �Goblin Scout creature token,� for example, is named �Goblin Scout� and has the creature subtypes Goblin and Scout. Once a token is on the battlefield, changing its name doesn�t change its subtype, and vice versa.
 
-110.5d If a spell or ability would create a token, but an effect states that a permanent with one or more of that token�s characteristics can�t enter the battlefield, the token is not created.
+110.5d If a spell or ability would create a token, but a rule or effect states that a permanent with one or more of that token�s characteristics can�t enter the battlefield, the token is not created.
 
 110.5e A token is subject to anything that affects permanents in general or that affects the token�s card type or subtype. A token isn�t a card (even if represented by a card that has a Magic back or that came from a Magic booster pack).
 
@@ -599,7 +615,7 @@ Example: If an effect changes a black creature spell to white, the creature is w
 
 112.1. An ability can be one of two things:
 
-112.1a An ability is a characteristic an object has that lets it affect the game. An object�s abilities are defined by its rules text or by the effect that created it. Abilities can also be granted to objects by rules or effects. (Effects that do so use the words �has,� �have,� �gains,� or �gain.�) Abilities generate effects. (See rule 609, �Effects.�)
+112.1a An ability is a characteristic an object has that lets it affect the game. An object�s abilities are defined by its rules text or by the effect that created it. Abilities can also be granted to objects by rules or effects. (Effects that grant abilities usually use the words �has,� �have,� �gains,� or �gain.�) Abilities generate effects. (See rule 609, �Effects.�)
 
 112.1b An ability can be an activated or triggered ability on the stack. This kind of ability is an object. (See section 6, �Spells, Abilities, and Effects.�)
 
@@ -634,13 +650,13 @@ Example: �[This creature] can�t block� is an ability.
 
 112.6b An ability that states which zones it functions in functions only from those zones.
 
-112.6c An object�s ability that allows a player to pay an alternative cost rather than its mana cost functions in any zone in which its mana cost can be paid (which, in general, means it functions on the stack). An object�s ability that otherwise modifies what that particular object costs to cast functions on the stack.
+112.6c An object�s ability that allows a player to pay an alternative cost rather than its mana cost or otherwise modifies what that particular object costs to cast functions on the stack.
 
-112.6d An object�s ability that restricts or modifies how that particular object can be played or cast functions in any zone from which it could be played or cast.
+112.6d An object�s ability that restricts or modifies how that particular object can be played or cast functions in any zone from which it could be played or cast and also on the stack. An object�s ability that grants it another ability that restricts or modifies how that particular object can be played or cast functions only on the stack.
 
 112.6e An object�s ability that restricts or modifies what zones that particular object can be played or cast from functions everywhere, even outside the game.
 
-112.6f An object�s ability that states it can�t be countered or can�t be countered by spells and abilities functions on the stack.
+112.6f An object�s ability that states it can�t be countered functions on the stack.
 
 112.6g An object�s ability that modifies how that particular object enters the battlefield functions as that object is entering the battlefield. See rule 614.12.
 
@@ -664,9 +680,9 @@ Example: Reassembling Skeleton says �{1}{B}: Return Reassembling Skeleton from
 
 112.8. The controller of an activated ability on the stack is the player who activated it. The controller of a triggered ability on the stack (other than a delayed triggered ability) is the player who controlled the ability�s source when it triggered, or, if it had no controller, the player who owned the ability�s source when it triggered. To determine the controller of a delayed triggered ability, see rules 603.7d�f.
 
-112.9. Activated and triggered abilities on the stack aren�t spells, and therefore can�t be countered by anything that counters only spells. Activated and triggered abilities on the stack can be countered by effects that specifically counter abilities, as well as by the rules (for example, an ability with one or more targets is countered if all its targets become illegal). Static abilities don�t use the stack and thus can�t be countered at all.
+112.9. Activated and triggered abilities on the stack aren�t spells, and therefore can�t be countered by anything that counters only spells. Activated and triggered abilities on the stack can be countered by effects that specifically counter abilities. Static abilities don�t use the stack and thus can�t be countered at all.
 
-112.10. Effects can add or remove abilities of objects. An effect that adds an ability will state that the object �gains� or �has� that ability. An effect that removes an ability will state that the object �loses� that ability.
+112.10. Effects can add or remove abilities of objects. An effect that adds an ability will state that the object �gains� or �has� that ability, or similar. An effect that removes an ability will state that the object �loses� that ability.
 
 112.10a An effect that adds an activated ability may include activation instructions for that ability. These instructions become part of the ability that�s added to the object.
 
@@ -708,40 +724,42 @@ Example: A sorcery card has the ability �When you cycle this card, target crea
 
 114.2. Only permanents are legal targets for spells and abilities, unless a spell or ability (a) specifies that it can target an object in another zone or a player, (b) targets an object that can�t exist on the battlefield, such as a spell or ability, or (c) targets a zone.
 
-114.3. The same target can�t be chosen multiple times for any one instance of the word �target� on a spell or ability. If the spell or ability uses the word �target� in multiple places, the same object, player, or zone can be chosen once for each instance of the word �target� (as long as it fits the targeting criteria). This rule applies both when choosing targets for a spell or ability and when changing targets or choosing new targets for a spell or ability (see rule 114.6).
+114.3. The same target can�t be chosen multiple times for any one instance of the word �target� on a spell or ability. If the spell or ability uses the word �target� in multiple places, the same object, player, or zone can be chosen once for each instance of the word �target� (as long as it fits the targeting criteria). This rule applies both when choosing targets for a spell or ability and when changing targets or choosing new targets for a spell or ability (see rule 114.7).
 
-114.4. A spell or ability on the stack is an illegal target for itself.
+114.4. Some spells and abilities that refer to damage require �any target,� �another target,� �two targets,� or similar rather than �target [something].� These targets may be creatures, players, or planeswalkers. Other game objects, such as noncreature artifacts or spells, can�t be chosen.
 
-114.5. Spells and abilities that can have zero or more targets are targeted only if one or more targets have been chosen for them.
+114.5. A spell or ability on the stack is an illegal target for itself.
 
-114.6. Some effects allow a player to change the target(s) of a spell or ability, and other effects allow a player to choose new targets for a spell or ability.
+114.6. Spells and abilities that can have zero or more targets are targeted only if one or more targets have been chosen for them.
 
-114.6a If an effect allows a player to �change the target(s)� of a spell or ability, each target can be changed only to another legal target. If a target can�t be changed to another legal target, the original target is unchanged, even if the original target is itself illegal by then. If all the targets aren�t changed to other legal targets, none of them are changed.
+114.7. Some effects allow a player to change the target(s) of a spell or ability, and other effects allow a player to choose new targets for a spell or ability.
 
-114.6b If an effect allows a player to �change a target� of a spell or ability, the process described in rule 114.6a is followed, except that only one of those targets may be changed (rather than all of them or none of them).
+114.7a If an effect allows a player to �change the target(s)� of a spell or ability, each target can be changed only to another legal target. If a target can�t be changed to another legal target, the original target is unchanged, even if the original target is itself illegal by then. If all the targets aren�t changed to other legal targets, none of them are changed.
 
-114.6c If an effect allows a player to �change any targets� of a spell or ability, the process described in rule 114.6a is followed, except that any number of those targets may be changed (rather than all of them or none of them).
+114.7b If an effect allows a player to �change a target� of a spell or ability, the process described in rule 114.7a is followed, except that only one of those targets may be changed (rather than all of them or none of them).
 
-114.6d If an effect allows a player to �choose new targets� for a spell or ability, the player may leave any number of the targets unchanged, even if those targets would be illegal. If the player chooses to change some or all of the targets, the new targets must be legal and must not cause any unchanged targets to become illegal.
+114.7c If an effect allows a player to �change any targets� of a spell or ability, the process described in rule 114.7a is followed, except that any number of those targets may be changed (rather than all of them or none of them).
 
-114.6e When changing targets or choosing new targets for a spell or ability, only the final set of targets is evaluated to determine whether the change is legal.
-Example: Arc Trail is a sorcery that reads �Arc Trail deals 2 damage to target creature or player and 1 damage to another target creature or player.� The current targets of Arc Trail are Runeclaw Bear and Llanowar Elves, in that order. You cast Redirect, an instant that reads �You may choose new targets for target spell,� targeting Arc Trail. You can change the first target to Llanowar Elves and change the second target to Runeclaw Bear.
+114.7d If an effect allows a player to �choose new targets� for a spell or ability, the player may leave any number of the targets unchanged, even if those targets would be illegal. If the player chooses to change some or all of the targets, the new targets must be legal and must not cause any unchanged targets to become illegal.
 
-114.7. Modal spells and abilities may have different targeting requirements for each mode. An effect that allows a player to change the target(s) of a modal spell or ability, or to choose new targets for a modal spell or ability, doesn�t allow that player to change its mode. (See rule 700.2.)
+114.7e When changing targets or choosing new targets for a spell or ability, only the final set of targets is evaluated to determine whether the change is legal.
+Example: Arc Trail is a sorcery that reads �Arc Trail deals 2 damage to any target and 1 damage to another target.� The current targets of Arc Trail are Runeclaw Bear and Llanowar Elves, in that order. You cast Redirect, an instant that reads �You may choose new targets for target spell,� targeting Arc Trail. You can change the first target to Llanowar Elves and change the second target to Runeclaw Bear.
 
-114.8. Some objects check what another spell or ability is targeting. Depending on the wording, these may check the current state of the targets, the state of the targets at the time they were selected, or both.
+114.8. Modal spells and abilities may have different targeting requirements for each mode. An effect that allows a player to change the target(s) of a modal spell or ability, or to choose new targets for a modal spell or ability, doesn�t allow that player to change its mode. (See rule 700.2.)
 
-114.8a An object that looks for a �[spell or ability] with a single target� checks the number of times any objects, players, or zones became the target of that spell or ability when it was put on the stack, not the number of its targets that are currently legal. If the same object, player, or zone became a target more than once, each of those instances is counted separately.
+114.9. Some objects check what another spell or ability is targeting. Depending on the wording, these may check the current state of the targets, the state of the targets at the time they were selected, or both.
 
-114.8b An object that looks for a �[spell or ability] that targets [something]� checks the current state of that spell or ability�s targets. If an object it targets is still in the zone it�s expected to be in or a player it targets is still in the game, that target�s current information is used, even if it�s not currently legal for that spell or ability. If an object it targets is no longer in the zone it�s expected to be in or a player it targets is no longer in the game, that target is ignored; its last known information is not used.
+114.9a An object that looks for a �[spell or ability] with a single target� checks the number of times any objects, players, or zones became the target of that spell or ability when it was put on the stack, not the number of its targets that are currently legal. If the same object, player, or zone became a target more than once, each of those instances is counted separately.
 
-114.8c An object that looks for a �[spell or ability] that targets only [something]� checks the number of different objects or players that became the target of that spell or ability when it was put on the stack (as modified by effects that changed those targets), not the number of those objects or players that are currently legal targets. If that number is one (even if the spell or ability targets that object or player multiple times), the current state of that spell or ability�s target is checked as described in rule 114.8b.
+114.9b An object that looks for a �[spell or ability] that targets [something]� checks the current state of that spell or ability�s targets. If an object it targets is still in the zone it�s expected to be in or a player it targets is still in the game, that target�s current information is used, even if it�s not currently legal for that spell or ability. If an object it targets is no longer in the zone it�s expected to be in or a player it targets is no longer in the game, that target is ignored; its last known information is not used.
 
-114.9. Spells and abilities can affect objects and players they don�t target. In general, those objects and players aren�t chosen until the spell or ability resolves. See rule 608, �Resolving Spells and Abilities.�
+114.9c An object that looks for a �[spell or ability] that targets only [something]� checks the number of different objects or players that became the target of that spell or ability when it was put on the stack (as modified by effects that changed those targets), not the number of those objects or players that are currently legal targets. If that number is one (even if the spell or ability targets that object or player multiple times), the current state of that spell or ability�s target is checked as described in rule 114.9b.
 
-114.9a Just because an object or player is being affected by a spell or ability doesn�t make that object or player a target of that spell or ability. Unless that object or player is identified by the word �target� in the text of that spell or ability, or the rule for that keyword ability, it�s not a target.
+114.10. Spells and abilities can affect objects and players they don�t target. In general, those objects and players aren�t chosen until the spell or ability resolves. See rule 608, �Resolving Spells and Abilities.�
 
-114.9b In particular, the word �you� in an object�s text doesn�t indicate a target.
+114.10a Just because an object or player is being affected by a spell or ability doesn�t make that object or player a target of that spell or ability. Unless that object or player is identified by the word �target� in the text of that spell or ability, or the rule for that keyword ability, it�s not a target.
+
+114.10b In particular, the word �you� in an object�s text doesn�t indicate a target.
 
 115. Special Actions
 
@@ -848,7 +866,7 @@ Example: A player controls Lodestone Golem, which says �Nonartifact spells cos
 
 117.7f If a cost is reduced by an amount of mana represented by a Phyrexian mana symbol, the cost is reduced by one mana of that symbol�s color.
 
-117.8. Some spells and abilities have additional costs. An additional cost is a cost listed in a spell�s rules text, or applied to a spell or ability from another effect, that its controller must pay at the same time that player pays the spell�s mana cost or the ability�s activation cost. A cost is an additional cost only if it�s phrased using the word �additional.� Note that some additional costs are listed in keywords; see rule 702.
+117.8. Some spells and abilities have additional costs. An additional cost is a cost listed in a spell�s rules text, or applied to a spell or ability from another effect, that its controller must pay at the same time they pay the spell�s mana cost or the ability�s activation cost. Note that some additional costs are listed in keywords; see rule 702.
 
 117.8a Any number of additional costs may be applied to a spell as it�s being cast or to an ability as it�s being activated. The controller of the spell or ability announces their intentions to pay any or all of those costs as described in rule 601.2b.
 
@@ -857,8 +875,6 @@ Example: A player controls Lodestone Golem, which says �Nonartifact spells cos
 117.8c If an effect instructs a player to cast a spell �if able,� and that spell has a mandatory additional cost that includes actions involving cards with a stated quality in a hidden zone, the player isn�t required to cast that spell, even if those cards are present in that zone.
 
 117.8d Additional costs don�t change a spell�s mana cost, only what its controller has to pay to cast it. Spells and abilities that ask for that spell�s mana cost still see the original value.
-
-117.8e Some effects increase the cost to cast a spell or activate an ability without using the word �additional.� Those are not additional costs, and are not considered until determining the total cost of a spell or ability as described in rule 601.2f.
 
 117.9. Some spells have alternative costs. An alternative cost is a cost listed in a spell�s text, or applied to it from another effect, that its controller may pay rather than paying the spell�s mana cost. Alternative costs are usually phrased, �You may [action] rather than pay [this object�s] mana cost,� or �You may cast [this object] without paying its mana cost.� Note that some alternative costs are listed in keywords; see rule 702.
 
@@ -880,6 +896,8 @@ Example: You control Standstill, an enchantment that says �When a player casts
 Example: Your opponent has cast Gather Specimens, a spell that says �If a creature would enter the battlefield under an opponent�s control this turn, it enters the battlefield under your control instead.� You control a face-down Dermoplasm, a creature with morph that says �When Dermoplasm is turned face up, you may put a creature card with morph from your hand onto the battlefield face up. If you do, return Dermoplasm to its owner�s hand.� You turn Dermoplasm face up, and you choose to put a creature card with morph from your hand onto the battlefield. Due to Gather Specimens, it enters the battlefield under your opponent�s control instead of yours. However, since you chose to pay the cost, Dermoplasm is still returned to its owner�s hand.
 
 117.12a Some spells, activated abilities, and triggered abilities read, �[Do something] unless [a player does something else].� This means the same thing as �[A player may do something else]. If [that player doesn�t], [do something].�
+
+117.12b Some effects offer a player a choice to search a zone and take additional actions with the cards found in that zone, followed by an �If [a player] does� clause. This clause checks whether the player chose to search, not whether the player took any of the additional actions.
 
 118. Life
 
