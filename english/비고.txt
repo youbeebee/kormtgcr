@@ -5,10 +5,9 @@ temp 아래는 비교용(he or she 수정된 것)
 
 &
 워드파일 수정
-117 끝까지 완료. 118.1d부터 해야
+600 끝까지 완료. 700부터 해야
 
 &
 
 홈페이지 https 지원 & Disques 수정해야
 https://blog.gaerae.com/2018/05/github-pages-custom-domains-https.html
-

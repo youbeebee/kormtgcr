@@ -909,7 +909,9 @@ Example: Your opponent has cast Gather Specimens, a spell that says ï¿½If a crea
 
 118.1c In a Commander game, each playerï¿½s starting life total is 40. See rule 903, ï¿½Commander.ï¿½
 
-118.1d In an Archenemy game, the archenemyï¿½s starting life total is 40. See rule 904, ï¿½Archenemy.ï¿½
+118.1d. In a two-player Brawl game, each playerï¿½s starting life total is 25. In a multiplayer Brawl game, each playerï¿½s starting life total is 30. See rule 903.11, ï¿½Brawl Option.ï¿½
+
+118.1e In an Archenemy game, the archenemyï¿½s starting life total is 40. See rule 904, ï¿½Archenemy.ï¿½
 
 118.2. Damage dealt to a player normally causes that player to lose that much life. See rule 119.3.
 
@@ -966,9 +968,9 @@ Example: A player who controls Boon Reflection, an enchantment that says ï¿½If y
 Example: The defending player controls a creature and Worship, an enchantment that says ï¿½If you control a creature, damage that would reduce your life total to less than 1 reduces it to 1 instead.ï¿½ That player is at 2 life, and is being attacked by two unblocked 5/5 creatures. The player casts Awe Strike, which says ï¿½The next time target creature would deal damage this turn, prevent that damage. You gain life equal to the damage prevented this way,ï¿½ targeting one of the attackers. The damage event starts out as [10 damage is dealt to the defending player]. Awe Strikeï¿½s effect is applied, so the damage event becomes [5 damage is dealt to the defending player, the defending player gains 5 life]. Thatï¿½s processed into its results, so the damage event is now [the defending player loses 5 life, the defending player gains 5 life]. Worshipï¿½s effect sees that the damage event would not reduce the playerï¿½s life total to less than 1, so Worshipï¿½s effect is not applied. Then the damage event occurs.
 
 119.5. Damage dealt to a creature or planeswalker doesnï¿½t destroy it. Likewise, the source of that damage doesnï¿½t destroy it. Rather, state-based actions may destroy a creature or planeswalker, or otherwise put it into its ownerï¿½s graveyard, due to the results of the damage dealt to that permanent. See rule 704.
-Example: A player casts Lightning Bolt, an instant that says ï¿½Lightning Bolt deals 3 damage to target creature or player,ï¿½ targeting a 2/2 creature. After Lightning Bolt deals 3 damage to that creature, the creature is destroyed as a state-based action. Neither Lightning Bolt nor the damage dealt by Lightning Bolt destroyed that creature.
+Example: A player casts Lightning Bolt, an instant that says ï¿½Lightning Bolt deals 3 damage to any target,ï¿½ targeting a 2/2 creature. After Lightning Bolt deals 3 damage to that creature, the creature is destroyed as a state-based action. Neither Lightning Bolt nor the damage dealt by Lightning Bolt destroyed that creature.
 
-119.6. Damage marked on a creature remains until the cleanup step, even if that permanent stops being a creature. If the total damage marked on a creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action (see rule 704). All damage marked on a permanent is removed when it regenerates (see rule 701.13, ï¿½Regenerateï¿½) and during the cleanup step (see rule 514.2).
+119.6. Damage marked on a creature remains until the cleanup step, even if that permanent stops being a creature. If the total damage marked on a creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action (see rule 704). All damage marked on a permanent is removed when it regenerates (see rule 701.14, ï¿½Regenerateï¿½) and during the cleanup step (see rule 514.2).
 
 119.7. The source of damage is the object that dealt it. If an effect requires a player to choose a source of damage, they may choose a permanent; a spell on the stack (including a permanent spell); any object referred to by an object on the stack, by a prevention or replacement effect thatï¿½s waiting to apply, or by a delayed triggered ability thatï¿½s waiting to trigger (even if that object is no longer in the zone it used to be in); or a face-up object in the command zone. A source doesnï¿½t need to be capable of dealing damage to be a legal choice. See rule 609.7, ï¿½Sources of Damage.ï¿½
 
@@ -1072,7 +1074,7 @@ Example: Gutter Grime has an ability that reads ï¿½Whenever a nontoken creature 
 
 201.4b If an ability of an object refers to that object by name, and an object with a different name gains that ability, each instance of the first name in the gained ability that refers to the first object by name should be treated as the second name.
 Example: Quicksilver Elemental says, in part, ï¿½{U}: Quicksilver Elemental gains all activated abilities of target creature until end of turn.ï¿½ If it gains an ability that says ï¿½{G}: Regenerate Cudgel Troll,ï¿½ activating that ability will regenerate Quicksilver Elemental, not the Cudgel Troll it gained the ability from.
-Example: Glacial Ray is an instant with ï¿½splice onto Arcaneï¿½ that says ï¿½Glacial Ray deals 2 damage to target creature or player.ï¿½ If itï¿½s spliced onto a Kodamaï¿½s Reach, that Kodamaï¿½s Reach deals 2 damage to the target creature or player.
+Example: Glacial Ray is an instant with splice onto Arcane that says ï¿½Glacial Ray deals 2 damage to any target.ï¿½ If itï¿½s spliced onto a Kodamaï¿½s Reach, that Kodamaï¿½s Reach deals 2 damage to the target.
 Example: Dimir Doppelganger says ï¿½{1}{U}{B}: Exile target creature card from a graveyard. Dimir Doppelganger becomes a copy of that card and gains this ability.ï¿½ Dimir Doppelgangerï¿½s ability is activated targeting a Runeclaw Bear card. The Doppelganger becomes a copy of Runeclaw Bear and gains an ability that should be treated as saying ï¿½{1}{U}{B}: Exile target creature card from a graveyard. Runeclaw Bear becomes a copy of that card and gains this ability.ï¿½
 
 201.4c Text printed on some legendary cards refers to that card by a shortened version of its name. Instances of a cardï¿½s shortened name used in this manner are treated as though they used the cardï¿½s full name.
@@ -1115,13 +1117,15 @@ Example: Insectile Aberration is the back face of a double-faced card whose fron
 
 202.3c The converted mana cost of a melded permanent is calculated as though it had the combined mana cost of the front faces of each card that represents it. If a permanent is a copy of a melded permanent (even if that copy is represented by two other meld cards), the converted mana cost of the copy is 0.
 
-202.3d When calculating the converted mana cost of an object with an {X} in its mana cost, X is treated as 0 while the object is not on the stack, and X is treated as the number chosen for it while the object is on the stack.
+202.3d The converted mana cost of a split card not on the stack or of a fused split spell on the stack is determined from the combined mana costs of its halves. Otherwise, while a split card is on the stack, the converted mana cost of the spell is determined by the mana cost of the half that was chosen to be cast. See rule 708, ï¿½Split Cards.ï¿½
 
-202.3e When calculating the converted mana cost of an object with a hybrid mana symbol in its mana cost, use the largest component of each hybrid symbol.
+202.3e When calculating the converted mana cost of an object with an {X} in its mana cost, X is treated as 0 while the object is not on the stack, and X is treated as the number chosen for it while the object is on the stack.
+
+202.3f When calculating the converted mana cost of an object with a hybrid mana symbol in its mana cost, use the largest component of each hybrid symbol.
 Example: The converted mana cost of a card with mana cost {1}{W/U}{W/U} is 3.
 Example: The converted mana cost of a card with mana cost {2/B}{2/B}{2/B} is 6.
 
-202.3f Each Phyrexian mana symbol in a cardï¿½s mana cost contributes 1 to its converted mana cost.
+202.3g Each Phyrexian mana symbol in a cardï¿½s mana cost contributes 1 to its converted mana cost.
 Example: The converted mana cost of a card with mana cost {1}{W/P}{W/P} is 3.
 
 202.4. Any additional cost listed in an objectï¿½s rules text or imposed by an effect isnï¿½t part of the mana cost. (See rule 601, ï¿½Casting Spells.ï¿½) Such costs are paid at the same time as the spellï¿½s other costs.
@@ -1143,8 +1147,8 @@ Example: The converted mana cost of a card with mana cost {1}{W/P}{W/P} is 3.
 205.1a Some effects set an objectï¿½s card type. In such cases, the new card type(s) replaces any existing card types. Counters, effects, and damage marked on the object remain with it, even if they are meaningless to the new card type. Similarly, when an effect sets one or more of an objectï¿½s subtypes, the new subtype(s) replaces any existing subtypes from the appropriate set (creature types, land types, artifact types, enchantment types, planeswalker types, or spell types). If an objectï¿½s card type is removed, the subtypes correlated with that card type will remain if they are also the subtypes of a card type the object currently has; otherwise, they are also removed for the entire time the objectï¿½s card type is removed. Removing an objectï¿½s subtype doesnï¿½t affect its card types at all.
 
 205.1b Some effects change an objectï¿½s card type, supertype, or subtype but specify that the object retains a prior card type, supertype, or subtype. In such cases, all the objectï¿½s prior card types, supertypes, and subtypes are retained. This rule applies to effects that use the phrase ï¿½in addition to its typesï¿½ or that state that something is ï¿½still a [type, supertype, or subtype].ï¿½ Some effects state that an object becomes an ï¿½artifact creatureï¿½; these effects also allow the object to retain all of its prior card types and subtypes.
-Example: An ability reads, ï¿½All lands are 1/1 creatures that are still lands.ï¿½ The affected lands now have two card types: creature and land. If there were any lands that were also artifacts before the abilityï¿½s effect applied to them, those lands would become ï¿½artifact land creatures,ï¿½ not just ï¿½creatures,ï¿½ or ï¿½land creatures.ï¿½ The effect allows them to retain both the card type ï¿½artifactï¿½ and the card type ï¿½land.ï¿½ In addition, each land affected by the ability retains any land types and supertypes it had before the ability took effect.
-Example: An ability reads, ï¿½All artifacts are 1/1 artifact creatures.ï¿½ If a permanent is both an artifact and an enchantment, it will become an ï¿½artifact enchantment creature.ï¿½
+Example: An ability reads, ï¿½All lands are 1/1 creatures that are still lands.ï¿½ The affected lands now have two card types: creature and land. If there were any lands that were also artifacts before the abilityï¿½s effect applied to them, those lands would become ï¿½artifact land creatures,ï¿½ not just ï¿½creatures,ï¿½ or ï¿½land creatures.ï¿½ The effect allows them to retain both the artifact and land card types. In addition, each land affected by the ability retains any land types and supertypes it had before the ability took effect.
+Example: An ability reads, ï¿½All artifacts are 1/1 artifact creatures.ï¿½ If a permanent is both an artifact and an enchantment, it will become an artifact enchantment creature.
 
 205.2. Card Types
 
@@ -1173,12 +1177,12 @@ Example: When choosing a creature type, ï¿½Merfolkï¿½ or ï¿½Wizardï¿½ is accepta
 
 205.3g Artifacts have their own unique set of subtypes; these subtypes are called artifact types. The artifact types are Clue, Contraption, Equipment (see rule 301.5), Fortification (see rule 301.6), Treasure, and Vehicle (see rule 301.7).
 
-205.3h Enchantments have their own unique set of subtypes; these subtypes are called enchantment types. The enchantment types are Aura (see rule 303.4), Cartouche, Curse, and Shrine.
+205.3h Enchantments have their own unique set of subtypes; these subtypes are called enchantment types. The enchantment types are Aura (see rule 303.4), Cartouche, Curse, Saga (see rule 714), and Shrine.
 
 205.3i Lands have their own unique set of subtypes; these subtypes are called land types. The land types are Desert, Forest, Gate, Island, Lair, Locus, Mine, Mountain, Plains, Power-Plant, Swamp, Tower, and Urzaï¿½s.
      Of that list, Forest, Island, Mountain, Plains, and Swamp are the basic land types. See rule 305.6.
 
-205.3j Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Domri, Dovin, Elspeth, Freyalise, Garruk, Gideon, Huatli, Jace, Karn, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, Saheeli, Samut, Sarkhan, Sorin, Tamiyo, Teferi, Tezzeret, Tibalt, Ugin, Venser, Vraska, and Xenagos.
+205.3j Planeswalkers have their own unique set of subtypes; these subtypes are called planeswalker types. The planeswalker types are Ajani, Aminatou, Angrath, Arlinn, Ashiok, Bolas, Chandra, Dack, Daretti, Domri, Dovin, Elspeth, Estrid, Freyalise, Garruk, Gideon, Huatli, Jace, Jaya, Karn, Kaya, Kiora, Koth, Liliana, Nahiri, Narset, Nissa, Nixilis, Ral, Rowan, Saheeli, Samut, Sarkhan, Sorin, Tamiyo, Teferi, Tezzeret, Tibalt, Ugin, Venser, Vivien, Vraska, Will, Windgrace, Xenagos, Yanggu, and Yanling.
 
 205.3k Instants and sorceries share their lists of subtypes; these subtypes are called spell types. The spell types are Arcane and Trap.
 
@@ -1200,11 +1204,13 @@ Example: An ability reads, ï¿½All lands are 1/1 creatures that are still lands.ï
 
 205.4d Any permanent with the supertype ï¿½legendaryï¿½ is subject to the state-based action for legendary permanents, also called the ï¿½legend ruleï¿½ (see rule 704.5j).
 
-205.4e Any permanent with the supertype ï¿½worldï¿½ is subject to the state-based action for world permanents, also called the ï¿½world ruleï¿½ (see rule 704.5k).
+205.4e Any instant or sorcery spell with the supertype ï¿½legendaryï¿½ is subject to a casting restriction. A player canï¿½t cast a legendary instant or sorcery spell unless that player controls a legendary creature or a legendary planeswalker.
 
-205.4f Any permanent with the supertype ï¿½snowï¿½ is a snow permanent. Any permanent that doesnï¿½t have this supertype is a nonsnow permanent, regardless of its name.
+205.4f Any permanent with the supertype ï¿½worldï¿½ is subject to the state-based action for world permanents, also called the ï¿½world ruleï¿½ (see rule 704.5k).
 
-205.4g Any scheme card with the supertype ï¿½ongoingï¿½ is exempt from the state-based action for schemes (see rule 704.5v).
+205.4g Any permanent with the supertype ï¿½snowï¿½ is a snow permanent. Any permanent that doesnï¿½t have this supertype is a nonsnow permanent, regardless of its name.
+
+205.4h Any scheme card with the supertype ï¿½ongoingï¿½ is exempt from the state-based action for schemes (see rule 704.5w).
 
 206. Expansion Symbol
 
@@ -1212,7 +1218,7 @@ Example: An ability reads, ï¿½All lands are 1/1 creatures that are still lands.ï
 
 206.2. The color of the expansion symbol indicates the rarity of the card within its set. A red-orange symbol indicates the card is mythic rare. A gold symbol indicates the card is rare. A silver symbol indicates the card is uncommon. A black or white symbol indicates the card is common or is a basic land. A purple symbol signifies a special rarity; to date, only the Time Spiralï¿½ ï¿½timeshiftedï¿½ cards, which were rarer than that setï¿½s rare cards, have had purple expansion symbols. (Prior to the Exodusï¿½ set, all expansion symbols were black, regardless of rarity. Also, prior to the Sixth Edition core set, with the exception of the Simplified Chinese Fifth Edition core set, Magic core sets didnï¿½t have expansion symbols at all.)
 
-206.3. Previously, a spell or ability that affected cards from a particular set checked for that setï¿½s expansion symbol. These cards have received errata in the Oracle card reference to say they affect cards ï¿½with a name originally printedï¿½ in a particular set. See rule 700.6 for details.
+206.3. Previously, a spell or ability that affected cards from a particular set checked for that setï¿½s expansion symbol. These cards have received errata in the Oracle card reference to say they affect cards ï¿½with a name originally printedï¿½ in a particular set. See rule 700.7 for details.
 
 206.4. Players may include cards from any printing in their constructed decks if those cards appear in sets allowed in that format (or those cards are specifically allowed by the Magic Tournament Rules). See the Magic Tournament Rules for the current definitions of the constructed formats (WPN.Wizards.com/en/resources/rules-documents).
 
@@ -1245,7 +1251,7 @@ Example: Lost Order of Jarkeld has power and toughness each equal to 1+*. It has
 
 208.2b The card may have a static ability that creates a replacement effect that sets the creatureï¿½s power and toughness to one of a number of specific values as it enters the battlefield or is turned face up. (See rule 614, ï¿½Replacement Effects.ï¿½) Such an ability is worded ï¿½As [this creature] enters the battlefield . . . ,ï¿½ ï¿½As [this creature] is turned face up . . . ,ï¿½ or ï¿½[This creature] enters the battlefield as . . .ï¿½ and lists two or more specific power and toughness values (and may also list additional characteristics). The characteristics chosen or determined with these effects affect the creatureï¿½s copiable values. (See rule 706.2.) While the card isnï¿½t on the battlefield, its power and toughness are each considered to be 0.
 
-208.3. A noncreature permanent has no power or toughness, even if itï¿½s a card with a power and toughness printed on it (such as a Vehicle).
+208.3. A noncreature permanent has no power or toughness, even if itï¿½s a card with a power and toughness printed on it (such as a Vehicle). A noncreature object not on the battlefield has power or toughness only if it has a power and toughness printed on it.
 
 208.3a If an effect would be created that affects the power and/or toughness of a noncreature permanent, that effect is created even though it doesnï¿½t do anything unless that permanent becomes a creature.
 Example: Veteran Motorist has the ability ï¿½Whenever Veteran Motorist crews a Vehicle, that Vehicle gets +1/+1 until end of turn,ï¿½ and itï¿½s tapped to pay the crew cost of a Vehicle. This triggered ability resolves while the Vehicle it crewed isnï¿½t yet a creature. The continuous effect is created and will apply to the Vehicle once it becomes a creature.
@@ -1270,14 +1276,19 @@ Example: Veteran Motorist has the ability ï¿½Whenever Veteran Motorist crews a V
 
 212. Information Below the Text Box
 
-212.1. Each card features text printed below the text box that has no effect on game play.
+212.1. Each card features text printed below the text box that has no effect on game play. Not all card sets were printed with all of the information listed below on each card.
 
-212.1a The illustration credit for a card is printed on the first line below the text box. It follows the paintbrush icon or, on older cards, the abbreviation ï¿½Illus.ï¿½
+212.1a Most card sets feature collector numbers. This information is printed in the form [card number]/[total cards in the set]. Some cards, such as unique cards in Planeswalker Decks, have card numbers that exceed the listed total number of cards.
 
-212.1b Legal text (the fine print at the bottom of the card) lists the trademark and copyright information.
+212.1b A cardï¿½s rarity is indicated with a single letter following the collector number.
 
-212.1c Some card sets feature collector numbers. This information is printed in the form [card number]/[total cards in the set], immediately following the legal text.
+212.1c Some promotional cards include information to indicate the specific promotion the card is associated with.
 
+212.1d The three-character code representing the set in which a card is printed and the two-character code representing the language in which a card is printed are separated by a bullet point. If a card is premium, these codes are instead separated by a star.
+
+212.1e The illustration credit for a card follows the paintbrush icon or, on older cards, the abbreviation ï¿½Illus.ï¿½
+
+212.1f Legal text (the fine print at the bottom or bottom-right of the card) lists the trademark and copyright information.
 
 3. Card Types
 
@@ -1342,7 +1353,7 @@ Example: ï¿½Creature ï¿½ Goblin Wizardï¿½ means the card is a creature with the 
 
 302.6. A creatureï¿½s activated ability with the tap symbol or the untap symbol in its activation cost canï¿½t be activated unless the creature has been under its controllerï¿½s control continuously since their most recent turn began. A creature canï¿½t attack unless it has been under its controllerï¿½s control continuously since their most recent turn began. This rule is informally called the ï¿½summoning sicknessï¿½ rule.
 
-302.7. Damage dealt to a creature by a source with neither wither nor infect is marked on that creature (see rule 119.3). If the total damage marked on that creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action (see rule 704). All damage marked on a creature is removed when it regenerates (see rule 701.13, ï¿½Regenerateï¿½) and during the cleanup step (see rule 514.2).
+302.7. Damage dealt to a creature by a source with neither wither nor infect is marked on that creature (see rule 119.3). If the total damage marked on that creature is greater than or equal to its toughness, that creature has been dealt lethal damage and is destroyed as a state-based action (see rule 704). All damage marked on a creature is removed when it regenerates (see rule 701.14, ï¿½Regenerateï¿½) and during the cleanup step (see rule 514.2).
 
 303. Enchantments
 
@@ -1370,11 +1381,13 @@ Example: ï¿½Creature ï¿½ Goblin Wizardï¿½ means the card is a creature with the 
 
 303.4h If an effect attempts to put a permanent that isnï¿½t an Aura, Equipment, or Fortification onto the battlefield attached to an object or player, it enters the battlefield unattached.
 
-303.4i If an effect attempts to put an Aura onto the battlefield enchanting an object or player it canï¿½t legally enchant, the Aura remains in its current zone.
+303.4i If an effect attempts to put an Aura onto the battlefield attached to an object or player it canï¿½t legally enchant, the Aura remains in its current zone, unless that zone is the stack. In that case, the Aura is put into its ownerï¿½s graveyard instead of entering the battlefield. If the Aura is a token, it isnï¿½t created.
 
 303.4j If an effect attempts to attach an Aura on the battlefield to an object or player it canï¿½t legally enchant, the Aura doesnï¿½t move.
 
 303.4k An ability of a permanent that refers to the ï¿½enchanted [object or player]ï¿½ refers to whatever object or player that permanent is attached to, even if the permanent with the ability isnï¿½t an Aura.
+
+303.5. Some enchantments have the subtype ï¿½Saga.ï¿½ See rule 714 for more information about Saga cards.
 
 304. Instants
 
@@ -1386,7 +1399,7 @@ Example: ï¿½Creature ï¿½ Goblin Wizardï¿½ means the card is a creature with the 
 
 304.4. Instants canï¿½t enter the battlefield. If an instant would enter the battlefield, it remains in its previous zone instead.
 
-304.5. If text states that a player may do something ï¿½any time he or she could cast an instant,ï¿½ it means only that the player must have priority. The player doesnï¿½t need to have an instant he or she could actually cast. Effects that would preclude that player from casting a spell or casting an instant donï¿½t affect the playerï¿½s capability to perform that action (unless the action is actually casting a spell or casting an instant).
+304.5. If text states that a player may do something ï¿½any time they could cast an instant,ï¿½ it means only that the player must have priority. The player doesnï¿½t need to have an instant they could cast. Effects that would preclude that player from casting a spell or casting an instant donï¿½t affect the playerï¿½s capability to perform that action (unless the action is actually casting a spell or casting an instant).
 
 305. Lands
 
@@ -1405,7 +1418,7 @@ Example: ï¿½Creature ï¿½ Goblin Wizardï¿½ means the card is a creature with the 
 305.5. Land subtypes are always a single word and are listed after a long dash. Land subtypes are also called land types. Lands may have multiple subtypes. See rule 205.3i for the complete list of land types.
 Example: ï¿½Basic Land ï¿½ Mountainï¿½ means the card is a land with the subtype Mountain.
 
-305.6. The basic land types are Plains, Island, Swamp, Mountain, and Forest. If an object uses the words ï¿½basic land type,ï¿½ itï¿½s referring to one of these subtypes. A land with a basic land type has the intrinsic ability ï¿½{T}: Add [mana symbol] to your mana pool,ï¿½ even if the text box doesnï¿½t actually contain that text or the object has no text box. For Plains, [mana symbol] is {W}; for Islands, {U}; for Swamps, {B}; for Mountains, {R}; and for Forests, {G}. See rule 107.4a. See also rule 605, ï¿½Mana Abilities.ï¿½
+305.6. The basic land types are Plains, Island, Swamp, Mountain, and Forest. If an object uses the words ï¿½basic land type,ï¿½ itï¿½s referring to one of these subtypes. A land with a basic land type has the intrinsic ability ï¿½{T}: Add [mana symbol],ï¿½ even if the text box doesnï¿½t actually contain that text or the object has no text box. For Plains, [mana symbol] is {W}; for Islands, {U}; for Swamps, {B}; for Mountains, {R}; and for Forests, {G}. See rule 107.4a. See also rule 605, ï¿½Mana Abilities.ï¿½
 
 305.7. If an effect sets a landï¿½s subtype to one or more of the basic land types, the land no longer has its old land type. It loses all abilities generated from its rules text, its old land types, and any copy effects affecting that land, and it gains the appropriate mana ability for each new basic land type. Note that this doesnï¿½t remove any abilities that were granted to the land by other effects. Setting a landï¿½s subtype doesnï¿½t add or remove any card types (such as creature) or supertypes (such as basic, legendary, and snow) the land may have. If a land gains one or more land types in addition to its own, it keeps its land types and rules text, and it gains the new land types and mana abilities.
 
@@ -1435,7 +1448,7 @@ Example: ï¿½Basic Land ï¿½ Mountainï¿½ means the card is a land with the subtype
 
 306.6. Planeswalkers can be attacked. (See rule 508, ï¿½Declare Attackers Step.ï¿½)
 
-306.7. If noncombat damage would be dealt to a player by a source controlled by an opponent, that opponent may have that source deal that damage to a planeswalker the first player controls instead. This is a redirection effect (see rule 614.9) and is subject to the normal rules for ordering replacement effects (see rule 616). The opponent chooses whether to redirect the damage as the redirection effect is applied.
+306.7. Previously, planeswalkers were subject to a redirection effect that allowed a player to have noncombat damage that would be dealt to an opponent be dealt to a planeswalker under that opponentï¿½s control instead. This rule has been removed and certain cards have received errata in the Oracle card reference to deal damage directly to planeswalkers.
 
 306.8. Damage dealt to a planeswalker results in that many loyalty counters being removed from it.
 
@@ -1491,7 +1504,7 @@ Example: ï¿½Basic Land ï¿½ Mountainï¿½ means the card is a land with the subtype
 
 310.6. A face-up phenomenon card thatï¿½s turned face down becomes a new object.
 
-310.7. If a phenomenon card is face up in the command zone, and it isnï¿½t the source of a triggered ability that has triggered but not yet left the stack, the planar controller planeswalks the next time a player would receive priority. (This is a state-based action; see rule 704. See also rule 701.22, ï¿½Planeswalk.ï¿½)
+310.7. If a phenomenon card is face up in the command zone, and it isnï¿½t the source of a triggered ability that has triggered but not yet left the stack, the planar controller planeswalks the next time a player would receive priority. (This is a state-based action; see rule 704. See also rule 701.23, ï¿½Planeswalk.ï¿½)
 
 311. Vanguards
 
@@ -1623,7 +1636,7 @@ Example: Exquisite Archangel has an ability which reads ï¿½If you would lose the
 
 402.2. Each player has a maximum hand size, which is normally seven cards. A player may have any number of cards in their hand, but as part of their cleanup step, the player must discard excess cards down to the maximum hand size.
 
-402.3. A player may arrange his or her hand in any convenient fashion and look at it as much as he or she wishes. A player canï¿½t look at the cards in another playerï¿½s hand but may count those cards at any time.
+402.3. A player may arrange their hand in any convenient fashion and look at it at any time. A player canï¿½t look at the cards in another playerï¿½s hand but may count those cards at any time.
 
 403. Battlefield
 
@@ -1699,7 +1712,7 @@ Example: Exquisite Archangel has an ability which reads ï¿½If you would lose the
 
 407.2. When playing for ante, each player puts one random card from their deck into the ante zone after determining which player goes first but before players draw any cards. Cards in the ante zone may be examined by any player at any time. At the end of the game, the winner becomes the owner of all the cards in the ante zone.
 
-407.3. A few cards have the text ï¿½Remove [this card] from your deck before playing if youï¿½re not playing for ante.ï¿½ These are the only cards that can add or remove cards from the ante zone or change a cardï¿½s owner.
+407.3. A few cards have the text ï¿½Remove [this card] from your deck before playing if youï¿½re not playing for ante.ï¿½ These are the only cards that can add or remove cards from the ante zone or change a cardï¿½s owner. When not playing for ante, players canï¿½t include these cards in their decks or sideboards, and these cards canï¿½t be brought into the game from outside the game.
 
 407.4. To ante an object is to put that object into the ante zone from whichever zone itï¿½s currently in. The owner of an object is the only person who can ante that object.
 
@@ -1774,11 +1787,13 @@ Example: Exquisite Archangel has an ability which reads ï¿½If you would lose the
 
 505.3. First, but only if the players are playing an Archenemy game (see rule 904), the active player is the archenemy, and itï¿½s the active playerï¿½s precombat main phase, the active player sets the top card of their scheme deck in motion (see rule 701.24). This turn-based action doesnï¿½t use the stack.
 
-505.4. Second, the active player gets priority. (See rule 116, ï¿½Timing and Priority.ï¿½)
+505.4. Second, if the active player controls one or more Saga enchantments and itï¿½s the active playerï¿½s precombat main phase, the active player puts a lore counter on each Saga they control. (See rule 714, ï¿½Saga Cards.ï¿½) This turn-based action doesnï¿½t use the stack.
 
-505.4a The main phase is the only phase in which a player can normally cast artifact, creature, enchantment, planeswalker, and sorcery spells. The active player may cast these spells.
+505.5. Third, the active player gets priority. (See rule 116, ï¿½Timing and Priority.ï¿½)
 
-505.4b During either main phase, the active player may play one land card from his or her hand if the stack is empty, if the player has priority, and if he or she hasnï¿½t played a land this turn (unless an effect states the player may play additional lands). This action doesnï¿½t use the stack. Neither the land nor the action of playing the land is a spell or ability, so it canï¿½t be countered, and players canï¿½t respond to it with instants or activated abilities. (See rule 305, ï¿½Lands.ï¿½)
+505.5a The main phase is the only phase in which a player can normally cast artifact, creature, enchantment, planeswalker, and sorcery spells. The active player may cast these spells.
+
+505.5b During either main phase, the active player may play one land card from their hand if the stack is empty, if the player has priority, and if they havenï¿½t played a land this turn (unless an effect states the player may play additional lands). This action doesnï¿½t use the stack. Neither the land nor the action of playing the land is a spell or ability, so it canï¿½t be countered, and players canï¿½t respond to it with instants or activated abilities. (See rule 305, ï¿½Lands.ï¿½)
 
 506. Combat Phase
 
@@ -1788,7 +1803,7 @@ Example: Exquisite Archangel has an ability which reads ï¿½If you would lose the
 
 506.2a During the combat phase of a multiplayer game, there may be one or more defending players, depending on the variant being played and the options chosen for it. Unless all the attacking playerï¿½s opponents automatically become defending players during the combat phase, the attacking player chooses one of their opponents as a turn-based action during the beginning of combat step. (Note that the choice may be dictated by the variant being played or the options chosen for it.) That player becomes the defending player. See rule 802, ï¿½Attack Multiple Players Option,ï¿½ rule 803, ï¿½Attack Left and Attack Right Options,ï¿½ and rule 809, ï¿½Emperor Variant.ï¿½
 
-506.2b In the Two-Headed Giant multiplayer variant, the nonactive team is the defending team. See rule 810, ï¿½Two-Headed Giant Variant.ï¿½
+506.2b In multiplayer games using the shared team turns option, the active team is the attacking team and the nonactive team is the defending team. See rule 805, ï¿½Shared Team Turns Option.ï¿½
 
 506.3. Only a creature can attack or block. Only a player or a planeswalker can be attacked.
 
@@ -1836,7 +1851,7 @@ Example: Exquisite Archangel has an ability which reads ï¿½If you would lose the
 
 508. Declare Attackers Step
 
-508.1. First, the active player declares attackers. This turn-based action doesnï¿½t use the stack. To declare attackers, the active player follows the steps below, in order. If at any point during the declaration of attackers, the active player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 720, ï¿½Handling Illegal Actionsï¿½).
+508.1. First, the active player declares attackers. This turn-based action doesnï¿½t use the stack. To declare attackers, the active player follows the steps below, in order. If at any point during the declaration of attackers, the active player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 721, ï¿½Handling Illegal Actionsï¿½).
 
 508.1a The active player chooses which creatures that they control, if any, will attack. The chosen creatures must be untapped, and each one must either have haste or have been controlled by the active player continuously since the turn began.
 
@@ -1905,13 +1920,11 @@ Example: A permanent has the ability ï¿½Whenever a green creature attacks, destr
 
 508.7e In a multiplayer game using the limited range of influence option (see rule 801), the reselected player or planeswalker must be within the range of influence of the attacking creatureï¿½s controller.
 
-508.7f In a Two-Headed Giant game, the team or planeswalker the creature is attacking is reselected rather than the player or planeswalker. A team reselected this way must be an opposing team of the attacking creatureï¿½s controller.
-
 508.8. If no creatures are declared as attackers or put onto the battlefield attacking, skip the declare blockers and combat damage steps.
 
 509. Declare Blockers Step
 
-509.1. First, the defending player declares blockers. This turn-based action doesnï¿½t use the stack. To declare blockers, the defending player follows the steps below, in order. If at any point during the declaration of blockers, the defending player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 720, ï¿½Handling Illegal Actionsï¿½).
+509.1. First, the defending player declares blockers. This turn-based action doesnï¿½t use the stack. To declare blockers, the defending player follows the steps below, in order. If at any point during the declaration of blockers, the defending player is unable to comply with any of the steps listed below, the declaration is illegal; the game returns to the moment before the declaration (see rule 721, ï¿½Handling Illegal Actionsï¿½).
 
 509.1a The defending player chooses which creatures they control, if any, will block. The chosen creatures must be untapped. For each of the chosen creatures, the defending player chooses one creature for it to block thatï¿½s attacking that player or a planeswalker they control.
 
@@ -1989,10 +2002,10 @@ Example: The damage assignment order of an attacking Enormous Baloth (a 7/7 crea
 
 510.1d A blocking creature assigns combat damage to the creatures itï¿½s blocking. If it isnï¿½t currently blocking any creatures (if, for example, they were destroyed or removed from combat), it assigns no combat damage. If itï¿½s blocking exactly one creature, it assigns all its combat damage to that creature. If itï¿½s blocking two or more creatures, it assigns its combat damage to those creatures according to the damage assignment order announced for it. This may allow the blocking creature to divide its combat damage. However, it canï¿½t assign combat damage to a creature that itï¿½s blocking unless, when combat damage assignments are complete, each creature that precedes that blocked creature is assigned lethal damage. When checking for assigned lethal damage, take into account damage already marked on the creature and damage from other creatures thatï¿½s being assigned during the same combat damage step, but not any abilities or effects that might change the amount of damage thatï¿½s actually dealt. An amount of damage thatï¿½s greater than a creatureï¿½s lethal damage may be assigned to it.
 
-510.1e Once a player has assigned combat damage from each attacking or blocking creature he or she controls, the total damage assignment (not solely the damage assignment of any individual attacking or blocking creature) is checked to see if it complies with the above rules. If it doesnï¿½t, the combat damage assignment is illegal; the game returns to the moment before that player began to assign combat damage. (See rule 720, ï¿½Handling Illegal Actionsï¿½).
+510.1e Once a player has assigned combat damage from each attacking or blocking creature they control, the total damage assignment (not solely the damage assignment of any individual attacking or blocking creature) is checked to see if it complies with the above rules. If it doesnï¿½t, the combat damage assignment is illegal; the game returns to the moment before that player began to assign combat damage. (See rule 721, ï¿½Handling Illegal Actionsï¿½).
 
 510.2. Second, all combat damage thatï¿½s been assigned is dealt simultaneously. This turn-based action doesnï¿½t use the stack. No player has the chance to cast spells or activate abilities between the time combat damage is assigned and the time itï¿½s dealt.
-Example: Squadron Hawk (a 1/1 creature with flying) and Goblin Piker (a 2/1 creature) are attacking. Mogg Fanatic (a 1/1 creature with the ability ï¿½Sacrifice Mogg Fanatic: Mogg Fanatic deals 1 damage to target creature or playerï¿½) blocks the Goblin Piker. The defending player sacrifices Mogg Fanatic during the declare blockers step to deal 1 damage to the Squadron Hawk. The Hawk is destroyed. The Piker deals and is dealt no combat damage this turn. If the defending player instead left Mogg Fanatic on the battlefield, the Fanatic and the Piker would have dealt lethal damage to one another, but the Squadron Hawk couldnï¿½t have been dealt damage.
+Example: Squadron Hawk (a 1/1 creature with flying) and Goblin Piker (a 2/1 creature) are attacking. Mogg Fanatic (a 1/1 creature with the ability ï¿½Sacrifice Mogg Fanatic: Mogg Fanatic deals 1 damage to any target.ï¿½) blocks the Goblin Piker. The defending player sacrifices Mogg Fanatic during the declare blockers step to deal 1 damage to the Squadron Hawk. The Hawk is destroyed. The Piker deals and is dealt no combat damage this turn. If the defending player instead left Mogg Fanatic on the battlefield, the Fanatic and the Piker would have dealt lethal damage to one another, but the Squadron Hawk couldnï¿½t have been dealt damage.
 
 510.3. Third, the active player gets priority. (See rule 116, ï¿½Timing and Priority.ï¿½)
 
@@ -2041,18 +2054,18 @@ Example: Squadron Hawk (a 1/1 creature with flying) and Goblin Piker (a 2/1 crea
 
 601.1a Some effects still refer to ï¿½playingï¿½ a card. ï¿½Playing a cardï¿½ means playing that card as a land or casting that card as a spell, whichever is appropriate.
 
-601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2aï¿½d) and determination and payment of costs (rules 601.2fï¿½h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this process (see rule 601.3), ignoring any effect that would prohibit that spell from being cast based on information determined during that spellï¿½s proposal. (Such effects are considered during the check detailed in rule 601.2e.) If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before the casting of that spell was proposed (see rule 720, ï¿½Handling Illegal Actionsï¿½).
+601.2. To cast a spell is to take it from where it is (usually the hand), put it on the stack, and pay its costs, so that it will eventually resolve and have its effect. Casting a spell includes proposal of the spell (rules 601.2aï¿½d) and determination and payment of costs (rules 601.2fï¿½h). To cast a spell, a player follows the steps listed below, in order. A player must be legally allowed to cast the spell to begin this process (see rule 601.3). If, at any point during the casting of a spell, a player is unable to comply with any of the steps listed below, the casting of the spell is illegal; the game returns to the moment before the casting of that spell was proposed (see rule 721, ï¿½Handling Illegal Actionsï¿½).
 
 601.2a To propose the casting of a spell, a player first moves that card (or that copy of a card) from where it is to the stack. It becomes the topmost object on the stack. It has all the characteristics of the card (or the copy of a card) associated with it, and that player becomes its controller. The spell remains on the stack until itï¿½s countered, it resolves, or an effect moves it elsewhere.
 
 601.2b If the spell is modal, the player announces the mode choice (see rule 700.2). If the player wishes to splice any cards onto the spell (see rule 702.46), they reveal those cards in their hand. If the spell has alternative or additional costs that will be paid as itï¿½s being cast such as buyback or kicker costs (see rules 117.8 and 117.9), the player announces their intentions to pay any or all of those costs (see rule 601.2f). A player canï¿½t apply two alternative methods of casting or two alternative costs to a single spell. If the spell has a variable cost that will be paid as itï¿½s being cast (such as an {X} in its mana cost; see rule 107.3), the player announces the value of that variable. If the value of that variable is defined in the text of the spell by a choice that player would make later in the announcement or resolution of the spell, that player makes that choice at this time instead of that later time. If a cost that will be paid as the spell is being cast includes hybrid mana symbols, the player announces the nonhybrid equivalent cost they intend to pay. If a cost that will be paid as the spell is being cast includes Phyrexian mana symbols, the player announces whether they intend to pay 2 life or the corresponding colored mana cost for each of those symbols. Previously made choices (such as choosing to cast a spell with flashback from a graveyard or choosing to cast a creature with morph face down) may restrict the playerï¿½s options when making these choices.
 
-601.2c The player announces his or her choice of an appropriate player, object, or zone for each target the spell requires. A spell may require some targets only if an alternative or additional cost (such as a buyback or kicker cost), or a particular mode, was chosen for it; otherwise, the spell is cast as though it did not require those targets. If the spell has a variable number of targets, the player announces how many targets he or she will choose before he or she announces those targets. In some cases, the number of targets will be defined by the spellï¿½s text. Once the number of targets the spell has is determined, that number doesnï¿½t change, even if the information used to determine the number of targets does. The same target canï¿½t be chosen multiple times for any one instance of the word ï¿½targetï¿½ on the spell. However, if the spell uses the word ï¿½targetï¿½ in multiple places, the same object, player, or zone can be chosen once for each instance of the word ï¿½targetï¿½ (as long as it fits the targeting criteria). If any effects say that an object or player must be chosen as a target, the player chooses targets so that he or she obeys the maximum possible number of such effects without violating any rules or effects that say that an object or player canï¿½t be chosen as a target. The chosen players, objects, and/or zones each become a target of that spell. (Any abilities that trigger when those players, objects, and/or zones become the target of a spell trigger at this point; theyï¿½ll wait to be put on the stack until the spell has finished being cast.)
+601.2c The player announces their choice of an appropriate player, object, or zone for each target the spell requires. A spell may require some targets only if an alternative or additional cost (such as a kicker cost) or a particular mode was chosen for it; otherwise, the spell is cast as though it did not require those targets. Similarly, a spell may require alternative targets only if an alternative or additional cost was chosen for it. If the spell has a variable number of targets, the player announces how many targets they will choose before they announce those targets. In some cases, the number of targets will be defined by the spellï¿½s text. Once the number of targets the spell has is determined, that number doesnï¿½t change, even if the information used to determine the number of targets does. The same target canï¿½t be chosen multiple times for any one instance of the word ï¿½targetï¿½ on the spell. However, if the spell uses the word ï¿½targetï¿½ in multiple places, the same object, player, or zone can be chosen once for each instance of the word ï¿½targetï¿½ (as long as it fits the targeting criteria). If any effects say that an object or player must be chosen as a target, the player chooses targets so that they obey the maximum possible number of such effects without violating any rules or effects that say that an object or player canï¿½t be chosen as a target. The chosen players, objects, and/or zones each become a target of that spell. (Any abilities that trigger when those players, objects, and/or zones become the target of a spell trigger at this point; theyï¿½ll wait to be put on the stack until the spell has finished being cast.)
 Example: If a spell says ï¿½Tap two target creatures,ï¿½ then the same creature canï¿½t be chosen twice; the spell requires two different legal targets. A spell that says ï¿½Destroy target artifact and target land,ï¿½ however, can target the same artifact land twice because it uses the word ï¿½targetï¿½ in multiple places.
 
 601.2d If the spell requires the player to divide or distribute an effect (such as damage or counters) among one or more targets, the player announces the division. Each of these targets must receive at least one of whatever is being divided.
 
-601.2e The game checks to see if the proposed spell can legally be cast. If the proposed spell is illegal, the game returns to the moment before the casting of that spell was proposed (see rule 720, ï¿½Handling Illegal Actionsï¿½).
+601.2e The game checks to see if the proposed spell can legally be cast. If the proposed spell is illegal, the game returns to the moment before the casting of that spell was proposed (see rule 721, ï¿½Handling Illegal Actionsï¿½).
 
 601.2f The player determines the total cost of the spell. Usually this is just the mana cost. Some spells have additional or alternative costs. Some effects may increase or reduce the cost to pay, or may provide other alternative costs. Costs may include paying mana, tapping permanents, sacrificing permanents, discarding cards, and so on. The total cost is the mana cost or alternative cost (as determined in rule 601.2b), plus all additional costs and cost increases, and minus all cost reductions. If multiple cost reductions apply, the player may apply them in any order. If the mana component of the total cost is reduced to nothing by cost reduction effects, it is considered to be {0}. It canï¿½t be reduced to less than {0}. Once the total cost is determined, any effects that directly affect the total cost are applied. Then the resulting total cost becomes ï¿½locked in.ï¿½ If effects would change the total cost after this time, they have no effect.
 
@@ -2063,12 +2076,17 @@ Example: You cast Altarï¿½s Reap, which costs {1}{B} and has an additional cost 
 
 601.2i Once the steps described in 601.2aï¿½h are completed, effects that modify the characteristics of the spell as itï¿½s cast are applied, then the spell becomes cast. Any abilities that trigger when a spell is cast or put onto the stack trigger at this time. If the spellï¿½s controller had priority before casting it, they get priority.
 
-601.3. A player canï¿½t begin to cast a spell unless a rule or effect allows that player to cast it. If that player is no longer allowed to cast that spell after completing its proposal, the casting of the spell is illegal and the game returns to the moment before the casting of that spell was proposed (see rule 720, ï¿½Handling Illegal Actionsï¿½).
+601.3. A player canï¿½t begin to cast a spell unless a rule or effect allows that player to cast it. If that player is no longer allowed to cast that spell after completing its proposal, the casting of the spell is illegal and the game returns to the moment before the casting of that spell was proposed (see rule 721, ï¿½Handling Illegal Actionsï¿½).
 
-601.3a If an effect allows a player to cast a spell as though it had flash only if an alternative or additional cost is paid, that player may begin to cast that spell as though it had flash.
+601.3a If an effect prohibits a player from casting a spell with certain qualities, that player may consider any choices to be made during that spellï¿½s proposal that may cause those qualities to change. If any such choices could cause that effect to no longer prohibit that player from casting that spell, the player may begin to cast the spell, ignoring the effect.
+Example: A player controls Void Winnower, which reads in part, ï¿½Your opponents can't cast spells with even converted mana costs.ï¿½ That playerï¿½s opponent may begin to cast Rolling Thunder, a card whose mana cost is {X}{R}{R}, because the chosen value of X may cause the spellï¿½s converted mana cost to become odd.
 
-601.3b If an effect allows a player to cast a spell with certain characteristics as though it had flash, that player may consider any choices to be made during that spellï¿½s proposal that may cause it to have those characteristics. If any such choices could cause it to match these characteristics, that player may begin to cast that spell.
+601.3b If an effect allows a player to cast a spell with certain qualities as though it had flash, that player may consider any choices to be made during that spellï¿½s proposal that may cause that spellï¿½s qualities to change. If any such choices could cause that effect to apply, that player may begin to cast that spell as though it had flash.
 Example: An effect says that you may cast Aura spells as though they had flash, and you have a creature card with bestow in your hand. Because choosing the bestow abilityï¿½s alternative cost causes that spell to become an Aura spell, you may legally begin to cast that spell as though it had flash.
+
+601.3c If an effect allows a player to cast a spell as though it had flash only if an alternative or additional cost is paid, that player may begin to cast that spell as though it had flash.
+
+601.3d If a spell would have flash only if certain conditions are met, its controller may begin to cast that spell as though it had flash if those conditions are met.
 
 601.4. Some spells specify that one of their controllerï¿½s opponents does something the controller would normally do while itï¿½s being cast, such as choose a mode or choose targets. In these cases, the opponent does so when the spellï¿½s controller normally would do so.
 
@@ -2091,7 +2109,7 @@ Example: The activation cost of an ability that reads ï¿½{2}, {T}: You gain 1 li
 
 602.1d Previously, the action of using an activated ability was referred to on cards as ï¿½playingï¿½ that ability. Cards that were printed with that text have received errata in the Oracle card reference so they now refer to ï¿½activatingï¿½ that ability.
 
-602.2. To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect. Only an objectï¿½s controller (or its owner, if it doesnï¿½t have a controller) can activate its activated ability unless the object specifically says otherwise. Activating an ability follows the steps listed below, in order. If, at any point during the activation of an ability, a player is unable to comply with any of those steps, the activation is illegal; the game returns to the moment before that ability started to be activated (see rule 720, ï¿½Handling Illegal Actionsï¿½). Announcements and payments canï¿½t be altered after theyï¿½ve been made.
+602.2. To activate an ability is to put it onto the stack and pay its costs, so that it will eventually resolve and have its effect. Only an objectï¿½s controller (or its owner, if it doesnï¿½t have a controller) can activate its activated ability unless the object specifically says otherwise. Activating an ability follows the steps listed below, in order. If, at any point during the activation of an ability, a player is unable to comply with any of those steps, the activation is illegal; the game returns to the moment before that ability started to be activated (see rule 721, ï¿½Handling Illegal Actionsï¿½). Announcements and payments canï¿½t be altered after theyï¿½ve been made.
 
 602.2a The player announces that they are activating the ability. If an activated ability is being activated from a hidden zone, the card that has that ability is revealed. That ability is created on the stack as an object thatï¿½s not a card. It becomes the topmost object on the stack. It has the text of the ability that created it, and no other characteristics. Its controller is the player who activated the ability. The ability remains on the stack until itï¿½s countered, it resolves, or an effect moves it elsewhere.
 
@@ -2188,14 +2206,14 @@ Example: An ability that reads ï¿½Exile this creature at the beginning of the ne
 603.7g If a static ability allows a player to take an action and creates a delayed triggered ability if that player does so, the source of that delayed triggered ability is the object with that static ability. The controller of that delayed triggered ability is the same as the controller of that object at the time the action was taken.
 
 603.8. Some triggered abilities trigger when a game state (such as a player controlling no permanents of a particular card type) is true, rather than triggering when an event occurs. These abilities trigger as soon as the game state matches the condition. Theyï¿½ll go onto the stack at the next available opportunity. These are called state triggers. (Note that state triggers arenï¿½t the same as state-based actions.) A state-triggered ability doesnï¿½t trigger again until the ability has resolved, has been countered, or has otherwise left the stack. Then, if the object with the ability is still in the same zone and the game state still matches its trigger condition, the ability will trigger again.
-Example: A permanentï¿½s ability reads, ï¿½Whenever you have no cards in hand, draw a card.ï¿½ If its controller plays the last card from his or her hand, the ability will trigger once and wonï¿½t trigger again until it has resolved. If its controller casts a spell that reads ï¿½Discard your hand, then draw that many cards,ï¿½ the ability will trigger during the spellï¿½s resolution because the playerï¿½s hand was momentarily empty.
+Example: A permanentï¿½s ability reads, ï¿½Whenever you have no cards in hand, draw a card.ï¿½ If its controller plays the last card from their hand, the ability will trigger once and wonï¿½t trigger again until it has left the stack. If its controller casts a spell that reads ï¿½Discard your hand, then draw that many cards,ï¿½ the ability will trigger during the spellï¿½s resolution because the playerï¿½s hand was momentarily empty.
 
 603.9. Some triggered abilities trigger specifically when a player loses the game. These abilities trigger when a player loses or leaves the game, regardless of the reason, unless that player leaves the game as the result of a draw. See rule 104.3.
 
 603.10. Normally, objects that exist immediately after an event are checked to see if the event matched any trigger conditions, and continuous effects that exist at that time are used to determine what the trigger conditions are and what the objects involved in the event look like. However, some triggered abilities are exceptions to this rule; the game ï¿½looks back in timeï¿½ to determine if those abilities trigger, using the existence of those abilities and the appearance of objects immediately prior to the event. The list of exceptions is as follows:
 
 603.10a Some zone-change triggers look back in time. These are leaves-the-battlefield abilities, abilities that trigger when a card leaves a graveyard, and abilities that trigger when an object that all players can see is put into a hand or library.
-Example: Two creatures are on the battlefield along with an artifact that has the ability ï¿½Whenever a creature dies, you gain 1 life.ï¿½ Someone plays a spell that destroys all artifacts, creatures, and enchantments. The artifactï¿½s ability triggers twice, even though the artifact goes to its ownerï¿½s graveyard at the same time as the creatures.
+Example: Two creatures are on the battlefield along with an artifact that has the ability ï¿½Whenever a creature dies, you gain 1 life.ï¿½ Someone casts a spell that destroys all artifacts, creatures, and enchantments. The artifactï¿½s ability triggers twice, even though the artifact goes to its ownerï¿½s graveyard at the same time as the creatures.
 
 603.10b Abilities that trigger when a permanent phases out look back in time.
 
@@ -2212,8 +2230,8 @@ Example: Two creatures are on the battlefield along with an artifact that has th
 603.11. Some objects have a static ability thatï¿½s linked to one or more triggered abilities. (See rule 607, ï¿½Linked Abilities.ï¿½) These objects combine the abilities into one paragraph, with the static ability first, followed by each triggered ability thatï¿½s linked to it. A very few objects have triggered abilities which are written with the trigger condition in the middle of the ability, rather than at the beginning.
 Example: An ability that reads ï¿½Reveal the first card you draw each turn. Whenever you reveal a basic land card this way, draw a cardï¿½ is a static ability linked to a triggered ability.
 
-603.12. A resolving spell or ability may allow a player to take an action and create a triggered ability that triggers ï¿½when [a player] [does or doesnï¿½t]ï¿½ take that action. These reflexive triggered abilities follow the rules for delayed triggered abilities (see rule 603.7), except that theyï¿½re checked immediately after being created and trigger based on whether the trigger event occurred earlier during the resolution of the spell or ability that created them.
-Example: Heart-Piercer Manticore has an ability that reads ï¿½When Heart-Piercer Manticore enters the battlefield, you may sacrifice another creature. When you do, Heart-Piercer Manticore deals damage equal to that creatureï¿½s power to target creature or player.ï¿½ The reflexive triggered ability triggers only when you sacrifice another creature due to the original triggered ability, and not if you sacrifice a creature for any other reason.
+603.12. A resolving spell or ability may allow a player to take an action and create a triggered ability that triggers ï¿½when [a player] [does or doesnï¿½t]ï¿½ take that action or ï¿½when [something happens] this way.ï¿½ These reflexive triggered abilities follow the rules for delayed triggered abilities (see rule 603.7), except that theyï¿½re checked immediately after being created and trigger based on whether the trigger event occurred earlier during the resolution of the spell or ability that created them.
+Example: Heart-Piercer Manticore has an ability that reads ï¿½When Heart-Piercer Manticore enters the battlefield, you may sacrifice another creature. When you do, Heart-Piercer Manticore deals damage equal to that creatureï¿½s power to any target.ï¿½ The reflexive triggered ability triggers only when you sacrifice another creature due to the original triggered ability, and not if you sacrifice a creature for any other reason.
 
 604. Handling Static Abilities
 
@@ -2242,7 +2260,7 @@ Example: Heart-Piercer Manticore has an ability that reads ï¿½When Heart-Piercer
 605.1b A triggered ability is a mana ability if it meets all of the following criteria: it doesnï¿½t have a target, it triggers from the resolution of an activated mana ability (see rule 106.11a) or from mana being added to a playerï¿½s mana pool, and it could add mana to a playerï¿½s mana pool when it resolves.
 
 605.2. A mana ability remains a mana ability even if the game state doesnï¿½t allow it to produce mana.
-Example: A permanent has an ability that reads ï¿½{T}: Add {G} to your mana pool for each creature you control.ï¿½ This is still a mana ability even if you control no creatures or if the permanent is already tapped.
+Example: A permanent has an ability that reads ï¿½{T}: Add {G} for each creature you control.ï¿½ The ability is still a mana ability even if you control no creatures or if the permanent is already tapped.
 
 605.3. Activating an activated mana ability follows the rules for activating any other activated ability (see rule 602.2), with the following exceptions:
 
@@ -2255,7 +2273,7 @@ Example: A permanent has an ability that reads ï¿½{T}: Add {G} to your mana pool
 605.4. Triggered mana abilities follow all the rules for other triggered abilities (see rule 603, ï¿½Handling Triggered Abilitiesï¿½), with the following exception:
 
 605.4a A triggered mana ability doesnï¿½t go on the stack, so it canï¿½t be targeted, countered, or otherwise responded to. Rather, it resolves immediately after the mana ability that triggered it, without waiting for priority.
-Example: An enchantment reads, ï¿½Whenever a player taps a land for mana, that player adds one mana to his or her mana pool of any type that land produced.ï¿½ If a player taps lands for mana while casting a spell, the additional mana is added to the playerï¿½s mana pool immediately and can be used to pay for the spell.
+Example: An enchantment reads, ï¿½Whenever a player taps a land for mana, that player adds one mana of any type that land produced.ï¿½ If a player taps lands for mana while casting a spell, the additional mana is added immediately and can be used to pay for the spell.
 
 605.5. Abilities that donï¿½t meet the criteria specified in rules 605.1aï¿½b and spells arenï¿½t mana abilities.
 
@@ -2279,9 +2297,11 @@ Example: An enchantment reads, ï¿½Whenever a player taps a land for mana, that p
 
 607.1. An object may have two abilities printed on it such that one of them causes actions to be taken or objects or players to be affected and the other one directly refers to those actions, objects, or players. If so, these two abilities are linked: the second refers only to actions that were taken or objects or players that were affected by the first, and not by any other ability.
 
-607.1a An ability printed on an object within another ability that grants that ability to that object is still considered to be ï¿½printed onï¿½ that object for these purposes.
+607.1a An ability printed on an object within another ability that grants that ability to that object is considered to be ï¿½printed onï¿½ that object for these purposes.
 
-607.1b An ability printed on an object that fulfills both criteria described in rule 607.1 is linked to itself.
+607.1b An ability printed on either face of a double-faced card (see rule 711) is considered to be ï¿½printed onï¿½ that object for these purposes, regardless of which face is up.
+
+607.1c An ability printed on an object that fulfills both criteria described in rule 607.1 is linked to itself.
 
 607.2. There are different kinds of linked abilities.
 
@@ -2312,10 +2332,10 @@ Example: An enchantment reads, ï¿½Whenever a player taps a land for mana, that p
 607.3. If, within a pair of linked abilities, one ability refers to a single object as ï¿½the exiled card,ï¿½ ï¿½a card exiled with [this card],ï¿½ or a similar phrase, and the other ability has exiled multiple cards (usually because it was copied), the ability refers to each of the exiled cards. If that ability asks for any information about the exiled card, such as a characteristic or converted mana cost, it gets multiple answers. If these answers are used to determine the value of a variable, the sum of the answers is used. If that ability performs any actions on the exiled card, it performs that action on each exiled card.
 
 607.4. An ability may be part of more than one pair of linked abilities.
-Example: Paradise Plume has the following three abilities: ï¿½As Paradise Plume enters the battlefield, choose a color,ï¿½ ï¿½Whenever a player casts a spell of the chosen color, you may gain 1 life,ï¿½ and ï¿½{T}: Add one mana of the chosen color to your mana pool.ï¿½ The first and second abilities are linked. The first and third abilities are linked.
+Example: Paradise Plume has the following three abilities: ï¿½As Paradise Plume enters the battlefield, choose a color,ï¿½ ï¿½Whenever a player casts a spell of the chosen color, you may gain 1 life,ï¿½ and ï¿½{T}: Add one mana of the chosen color.ï¿½ The first and second abilities are linked. The first and third abilities are linked.
 
 607.5. If an object acquires a pair of linked abilities as part of the same effect, the abilities will be similarly linked to one another on that object even though they werenï¿½t printed on that object. They canï¿½t be linked to any other ability, regardless of what other abilities the object may currently have or may have had in the past.
-Example: Arc-Slogger has the ability ï¿½{R}, Exile the top ten cards of your library: Arc-Slogger deals 2 damage to target creature or player.ï¿½ Sisters of Stone Death has the ability ï¿½{B}{G}: Exile target creature blocking or blocked by Sisters of Stone Deathï¿½ and the ability ï¿½{2}{B}: Put a creature card exiled with Sisters of Stone Death onto the battlefield under your control.ï¿½ Quicksilver Elemental has the ability ï¿½{U}: Quicksilver Elemental gains all activated abilities of target creature until end of turn.ï¿½ If a player has Quicksilver Elemental gain Arc-Sloggerï¿½s ability, activates it, then has Quicksilver Elemental gain Sisters of Stone Deathï¿½s abilities, activates the exile ability, and then activates the return-to-the-battlefield ability, only the creature card Quicksilver Elemental exiled with Sisters of Stone Deathï¿½s ability can be returned to the battlefield. Creature cards Quicksilver Elemental exiled with Arc-Sloggerï¿½s ability canï¿½t be returned.
+Example: Arc-Slogger has the ability ï¿½{R}, Exile the top ten cards of your library: Arc-Slogger deals 2 damage to any target.ï¿½ Sisters of Stone Death has the ability ï¿½{B}{G}: Exile target creature blocking or blocked by Sisters of Stone Deathï¿½ and the ability ï¿½{2}{B}: Put a creature card exiled with Sisters of Stone Death onto the battlefield under your control.ï¿½ Quicksilver Elemental has the ability ï¿½{U}: Quicksilver Elemental gains all activated abilities of target creature until end of turn.ï¿½ If a player has Quicksilver Elemental gain Arc-Sloggerï¿½s ability, activates it, then has Quicksilver Elemental gain Sisters of Stone Deathï¿½s abilities, activates the exile ability, and then activates the return-to-the-battlefield ability, only the creature card Quicksilver Elemental exiled with Sisters of Stone Deathï¿½s ability can be returned to the battlefield. Creature cards Quicksilver Elemental exiled with Arc-Sloggerï¿½s ability canï¿½t be returned.
 
 608. Resolving Spells and Abilities
 
@@ -2325,9 +2345,9 @@ Example: Arc-Slogger has the ability ï¿½{R}, Exile the top ten cards of your lib
 
 608.2a If a triggered ability has an intervening ï¿½ifï¿½ clause, it checks whether the clauseï¿½s condition is true. If it isnï¿½t, the ability is removed from the stack and does nothing. Otherwise, it continues to resolve. See rule 603.4.
 
-608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target thatï¿½s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. The spell or ability is countered if all its targets, for every instance of the word ï¿½target,ï¿½ are now illegal. If the spell or ability is not countered, it will resolve normally. Illegal targets, if any, wonï¿½t be affected by parts of a resolving spellï¿½s effect for which theyï¿½re illegal. Other parts of the effect for which those targets are not illegal may still affect them. If the spell or ability creates any continuous effects that affect game rules (see rule 613.10), those effects donï¿½t apply to illegal targets. If part of the effect requires information about an illegal target, it fails to determine any such information. Any part of the effect that requires that information wonï¿½t happen.
-Example: Sorinï¿½s Thirst is a black instant that reads, ï¿½Sorinï¿½s Thirst deals 2 damage to target creature and you gain 2 life.ï¿½ If the creature isnï¿½t a legal target during the resolution of Sorinï¿½s Thirst (say, if the creature has gained protection from black or left the battlefield), then Sorinï¿½s Thirst is countered. Its controller doesnï¿½t gain any life.
-Example: Plague Spores reads, ï¿½Destroy target nonblack creature and target land. They canï¿½t be regenerated.ï¿½ Suppose the same animated land is chosen both as the nonblack creature and as the land, and the color of the creature land is changed to black before Plague Spores resolves. Plagues Spores isnï¿½t countered because the black creature land is still a legal target for the ï¿½target landï¿½ part of the spell. The ï¿½destroy target nonblack creatureï¿½ part of the spell wonï¿½t affect that permanent, but the ï¿½destroy target landï¿½ part of the spell will still destroy it. It canï¿½t be regenerated.
+608.2b If the spell or ability specifies targets, it checks whether the targets are still legal. A target thatï¿½s no longer in the zone it was in when it was targeted is illegal. Other changes to the game state may cause a target to no longer be legal; for example, its characteristics may have changed or an effect may have changed the text of the spell. If the source of an ability has left the zone it was in, its last known information is used during this process. If all its targets, for every instance of the word ï¿½target,ï¿½ are now illegal, the spell or ability doesnï¿½t resolve. Itï¿½s removed from the stack and, if itï¿½s a spell, put into its ownerï¿½s graveyard. Otherwise, the spell or ability will resolve normally. Illegal targets, if any, wonï¿½t be affected by parts of a resolving spellï¿½s effect for which theyï¿½re illegal. Other parts of the effect for which those targets are not illegal may still affect them. If the spell or ability creates any continuous effects that affect game rules (see rule 613.10), those effects donï¿½t apply to illegal targets. If part of the effect requires information about an illegal target, it fails to determine any such information. Any part of the effect that requires that information wonï¿½t happen.
+Example: Sorinï¿½s Thirst is a black instant that reads, ï¿½Sorinï¿½s Thirst deals 2 damage to target creature and you gain 2 life.ï¿½ If the creature isnï¿½t a legal target during the resolution of Sorinï¿½s Thirst (say, if the creature has gained protection from black or left the battlefield), then Sorinï¿½s Thirst doesnï¿½t resolve. Its controller doesnï¿½t gain any life.
+Example: Plague Spores reads, ï¿½Destroy target nonblack creature and target land. They canï¿½t be regenerated.ï¿½ Suppose the same creature land is chosen both as the nonblack creature and as the land, and the color of the creature land is changed to black before Plague Spores resolves. Plague Spores still resolves because the black creature land is still a legal target for the ï¿½target landï¿½ part of the spell. The ï¿½destroy target nonblack creatureï¿½ part of the spell wonï¿½t affect that permanent, but the ï¿½destroy target landï¿½ part of the spell will still destroy it. It canï¿½t be regenerated.
 
 608.2c The controller of the spell or ability follows its instructions in the order written. However, replacement effects may modify these actions. In some cases, later text on the card may modify the meaning of earlier text (for example, ï¿½Destroy target creature. It canï¿½t be regeneratedï¿½ or ï¿½Counter target spell. If that spell is countered this way, put it on top of its ownerï¿½s library instead of into its ownerï¿½s graveyard.ï¿½) Donï¿½t just apply effects step by step without thinking in these casesï¿½read the whole text and apply the rules of English to the text.
 
@@ -2550,7 +2570,7 @@ Example: One effect reads, ï¿½White creatures get +1/+1,ï¿½ and another reads, ï
 Example: A player can activate an ability to regenerate a creature in response to a spell that would destroy it. Once the spell resolves, though, itï¿½s too late to regenerate the creature.
 
 614.5. A replacement effect doesnï¿½t invoke itself repeatedly; it gets only one opportunity to affect an event or any modified events that may replace it.
-Example: A player controls two permanents, each with an ability that reads ï¿½If a creature you control would deal damage to a creature or player, it deals double that damage to that creature or player instead.ï¿½ A creature that normally deals 2 damage will deal 8 damageï¿½not just 4, and not an infinite amount.
+Example: A player controls two permanents, each with an ability that reads ï¿½If a creature you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.ï¿½ A creature that normally deals 2 damage will deal 8 damageï¿½not just 4, and not an infinite amount.
 
 614.6. If an event is replaced, it never happens. A modified event occurs instead, which may in turn trigger abilities. Note that the modified event may contain instructions that canï¿½t be carried out, in which case the impossible instruction is simply ignored.
 
@@ -2558,7 +2578,7 @@ Example: A player controls two permanents, each with an ability that reads ï¿½If
 
 614.7a If a source would deal 0 damage, it does not deal damage at all. Replacement effects that would increase the damage dealt by that source, or would have that source deal that damage to a different object or player, have no event to replace, so they have no effect.
 
-614.8. Regeneration is a destruction-replacement effect. The word ï¿½insteadï¿½ doesnï¿½t appear on the card but is implicit in the definition of regeneration. ï¿½Regenerate [permanent]ï¿½ means ï¿½The next time [permanent] would be destroyed this turn, instead remove all damage marked on it and tap it. If itï¿½s an attacking or blocking creature, remove it from combat.ï¿½ Abilities that trigger from damage being dealt still trigger even if the permanent regenerates. See rule 701.13.
+614.8. Regeneration is a destruction-replacement effect. The word ï¿½insteadï¿½ doesnï¿½t appear on the card but is implicit in the definition of regeneration. ï¿½Regenerate [permanent]ï¿½ means ï¿½The next time [permanent] would be destroyed this turn, instead remove all damage marked on it and tap it. If itï¿½s an attacking or blocking creature, remove it from combat.ï¿½ Abilities that trigger from damage being dealt still trigger even if the permanent regenerates. See rule 701.14.
 
 614.9. Some effects replace damage dealt to one creature, planeswalker, or player with the same damage dealt to another creature, planeswalker, or player; such effects are called redirection effects. If either creature or planeswalker is no longer on the battlefield when the damage would be redirected, or is no longer a creature or planeswalker when the damage would be redirected, the effect does nothing. If damage would be redirected to or from a player who has left the game, the effect does nothing.
 
@@ -2624,14 +2644,14 @@ Example: A player can activate an ability that prevents damage in response to a 
 
 615.6. If damage that would be dealt is prevented, it never happens. A modified event may occur instead, which may in turn trigger abilities. Note that the modified event may contain instructions that canï¿½t be carried out, in which case the impossible instruction is simply ignored.
 
-615.7. Some prevention effects generated by the resolution of a spell or ability refer to a specific amount of damageï¿½for example, ï¿½Prevent the next 3 damage that would be dealt to target creature or player this turn.ï¿½ These work like shields. Each 1 damage that would be dealt to the ï¿½shieldedï¿½ creature or player is prevented. Preventing 1 damage reduces the remaining shield by 1. If damage would be dealt to the shielded creature or player by two or more applicable sources at the same time, the player or the controller of the creature chooses which damage the shield prevents. Once the shield has been reduced to 0, any remaining damage is dealt normally. Such effects count only the amount of damage; the number of events or sources dealing it doesnï¿½t matter.
+615.7. Some prevention effects generated by the resolution of a spell or ability refer to a specific amount of damageï¿½for example, ï¿½Prevent the next 3 damage that would be dealt to any target this turn.ï¿½ These work like shields. Each 1 damage that would be dealt to the ï¿½shieldedï¿½ permanent or player is prevented. Preventing 1 damage reduces the remaining shield by 1. If damage would be dealt to the shielded permanent or player by two or more applicable sources at the same time, the player or the controller of the permanent chooses which damage the shield prevents. Once the shield has been reduced to 0, any remaining damage is dealt normally. Such effects count only the amount of damage; the number of events or sources dealing it doesnï¿½t matter.
 
 615.8. Some prevention effects generated by the resolution of a spell or ability refer to the next time a specific source would deal damage. These effects prevent the next instance of damage from that source, regardless of how much damage that is. Once an instance of damage from that source has been prevented, any subsequent instances of damage that would be dealt by that source are dealt normally.
 
 615.9. Some effects generated by the resolution of a spell or ability prevent damage from a source of a playerï¿½s choice with certain properties. When the source would deal damage, the shield rechecks the sourceï¿½s properties. If the properties no longer match, the damage isnï¿½t prevented or replaced and the shield isnï¿½t used up. See rule 609.7b.
 
 615.10. Some prevention effects generated by static abilities refer to a specific amount of damageï¿½for example, ï¿½If a source would deal damage to you, prevent 1 of that damage.ï¿½ Such an effect prevents only the indicated amount of damage in any applicable damage event at any given time. It will apply separately to damage from other applicable events that would happen at the same time, or at a different time.
-Example: Daunting Defender says ï¿½If a source would deal damage to a Cleric creature you control, prevent 1 of that damage.ï¿½ Pyroclasm says ï¿½Pyroclasm deals 2 damage to each creature.ï¿½ Pyroclasm will deal 1 damage to each Cleric creature controlled by Daunting Defenderï¿½s controller. It will deal 2 damage to each other creature that player controls.
+Example: Daunting Defender says ï¿½If a source would deal damage to a Cleric creature you control, prevent 1 of that damage.ï¿½ Pyroclasm says ï¿½Pyroclasm deals 2 damage to each creature.ï¿½ Pyroclasm will deal 1 damage to each Cleric creature controlled by Daunting Defenderï¿½s controller. It will deal 2 damage to each other creature.
 
 615.11. Some prevention effects prevent the next N damage that would be dealt to each of a number of untargeted creatures. Such an effect creates a prevention shield for each applicable creature when the spell or ability that generates that effect resolves.
 Example: Wojek Apothecary has an ability that says ï¿½{T}: Prevent the next 1 damage that would be dealt to target creature and each other creature that shares a color with it this turn.ï¿½ When the ability resolves, it gives the target creature and each other creature on the battlefield that shares a color with it at that time a shield preventing the next 1 damage that would be dealt to it. Changing creaturesï¿½ colors after the ability resolves doesnï¿½t add or remove shields, and creatures that enter the battlefield later in the turn donï¿½t get the shield.
@@ -2655,7 +2675,7 @@ Example: Wojek Apothecary has an ability that says ï¿½{T}: Prevent the next 1 da
 616.1d Any of the applicable replacement and/or prevention effects may be chosen.
 
 616.1e Once the chosen effect has been applied, this process is repeated (taking into account only replacement or prevention effects that would now be applicable) until there are no more left to apply.
-Example: Two permanents are on the battlefield. One is an enchantment that reads ï¿½If a card would be put into a graveyard from anywhere, instead exile it,ï¿½ and the other is a creature that reads ï¿½If [this creature] would be put into a graveyard from the battlefield, instead shuffle it into its ownerï¿½s library.ï¿½ If the creature is destroyed, its controller decides which replacement to apply first; the other does nothing.
+Example: Two permanents are on the battlefield. One is an enchantment that reads ï¿½If a card would be put into a graveyard from anywhere, instead exile it,ï¿½ and the other is a creature that reads ï¿½If [this creature] would die, instead shuffle it into its ownerï¿½s library.ï¿½ If the creature is destroyed, its controller decides which replacement to apply first; the other does nothing.
 Example: Essence of the Wild reads ï¿½Creatures you control enter the battlefield as a copy of Essence of the Wild.ï¿½ A player who controls Essence of the Wild casts Rusted Sentinel, which normally enters the battlefield tapped. As it enters the battlefield, the copy effect from Essence of the Wild is applied first. As a result, it no longer has the ability that causes it to enter the battlefield tapped. Rusted Sentinel will enter the battlefield as an untapped copy of Essence of the Wild.
 
 616.1f While following the steps in 616.1aï¿½d, one replacement or prevention effect may apply to an event, and another may apply to an event contained within the first event. In this case, the second effect canï¿½t be chosen until after the first effect has been chosen.

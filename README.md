@@ -19,11 +19,12 @@
  * [프로젝트 Blog](http://youbeebee.net/about){:target="_blank"} : 이 문서를 호스팅하는 블로그입니다.
  * [Daum Cafe magin](http://cafe.daum.net/magin){:target="_blank"} : 한국의 매직 커뮤니티입니다. 
  * [Judge Apps](http://apps.magicjudges.org){:target="_blank"} 
- * [yawgatog](http://www.yawgatog.com/resources/rules-changes){:target="_blank"} : 버전별 diff를 보여주는 사이트.
+ * [yawgatog](http://www.yawgatog.com/resources/rules-changes){:target="_blank"} : 버전별 diff를 보여주는 사이트. 익살란 이후 반영 안되고 있음.
  
 -----------------------------
 ## History
 
+ * 2018.09.XX - Update CR until 20180810()
  * 2017.11.21 - Update CR until 20170929(Ixalan)
  * 2017.08.04 - Update CR until 20170708(Hour of Devastation)
  * 2017.01.23 - Update CR until 20170120(Aether Revolt)
