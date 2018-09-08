@@ -1,6 +1,0 @@
-워드파일 수정 완료
-
-&
-
-홈페이지 https 지원 & Disques 수정해야
-https://blog.gaerae.com/2018/05/github-pages-custom-domains-https.html
