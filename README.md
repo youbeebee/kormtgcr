@@ -24,6 +24,7 @@
 -----------------------------
 ## History
 
+ * 2018.10.17 - Update CR until 20181005(Guilds of Ravnica)
  * 2018.09.08 - Update CR until 20180810(Coreset 2019)
  * 2017.11.21 - Update CR until 20170929(Ixalan)
  * 2017.08.04 - Update CR until 20170708(Hour of Devastation)
