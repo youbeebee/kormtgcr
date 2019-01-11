@@ -123,8 +123,8 @@
 706. 개체 복사 Copying Objects
 707. 뒷면 주문과 지속물 Face-Down Spells and Permanents
 708. 분할 카드 Split Cards
-709. Flip Cards
-710. Leveler Cards
+709. 플립 카드 Flip Cards
+710. 레벨러 카드 Leveler Cards
 711. 양면 카드 Double-Faced Cards
 712. 융합 카드 Meld Cards
 713. 체크리스트 카드 Checklist Cards
@@ -3316,32 +3316,32 @@ Example: 돌진을 가진 6/6 녹색 생물을 녹색으로부터 보호를 가�
 
 702.20c 같은 생물에 경계 능력이 여러 개가 있는 경우엔 하나만 적용됩니다.
 
-702.21. Banding (번역자 주-잘 쓰이지 않는 키워드라 번역하지 않음)
+702.21. 연합 Banding
 
-702.21a Banding은 전투에 관한 규칙을 변경하는 정적 능력입니다.
+702.21a 연합은 전투에 관한 규칙을 변경하는 정적 능력입니다.
 
-702.21b "Bands with other"는 Banding의 특별한 형태입니다. 어떤 효과가 지속물에서 Banding능력을 제거한다면, 그 지속물의 "Bands with other" 능력 또한 없어집니다.
+702.21b "Bands with other"는 연합의 특별한 형태입니다. 어떤 효과가 지속물에서 연합 능력을 제거한다면, 그 지속물의 "Bands with other" 능력 또한 없어집니다.
 
-702.21c As a player declares attackers, he or she may declare that one or more attacking creatures with banding and up to one attacking creature without banding (even if it has "bands with other") are all in a "band." He or she may also declare that one or more attacking [quality] creatures with "bands with other [quality]" and any number of other attacking [quality] creatures are all in a band. A player may declare as many attacking bands as he or she wants, but each creature may be a member of only one of them. (Defending players can’t declare bands but may use banding in a different way; see rule 702.21j.)
+702.21c 플레이어가 공격자를 선언할 때, 그는 연합을 가진 하나 이상의 생물과 연합이 없는 생물을 최대 하나까지(비록 "bands with other" 능력이더라도) "연합(band)" 되었다고 선언할 수 있습니다. 또한 하나 이상의 "bands with other [특성]"을 가진 [특성] 공격 생물과, 원하는 만큼의 [특성] 공격 생물을 band 되었다고 선언할 수 있습니다. 플레이어는 연합으로 공격 선언을 원하는 만큼 할 수 있지만, 각 생물은 이 중 하나에만 포함이 되어야 합니다. (방어 플레이어는 band를 선언할 수 없습니다. 하지만 다른 방법으로 연합 능력을 사용합니다. See rule 702.21j.)
 
-702.21d All creatures in an attacking band must attack the same player or planeswalker.
+702.21d 연합되어 공격하는 모든 생물은 같은 플레이어 또는 플레인즈워커를 공격해야 합니다.
 
-702.21e Once an attacking band has been announced, it lasts for the rest of combat, even if something later removes banding or "bands with other" from one or more of the creatures in the band.
+702.21e 일단 공격 band가 선언되면, 이후 band 내의 생물이 연합이나 "bands with other" 능력을 잃더라도 band는 남은 전투 동안 유지됩니다.
 
-702.21f An attacking creature that’s removed from combat is also removed from the band it was in.
+702.21f 공격중인 생물이 전투에서 제거되면 자신이 속해있던 band에서도 제거됩니다.
 
-702.21g Banding doesn’t cause attacking creatures to share abilities, nor does it remove any abilities. The attacking creatures in a band are separate permanents.
+702.21g 연합은 공격 생물들이 능력을 공유하게 하지 않으며, 마찬가지로 어떠한 능력도 잃게하지 않습니다. 연합되어 공격중인 생물들은 독립적인 지속물입니다.
 
-702.21h If an attacking creature becomes blocked by a creature, each other creature in the same band as the attacking creature becomes blocked by that same blocking creature.
-Example: A player attacks with a band consisting of a creature with flying and a creature with swampwalk. The defending player, who controls a Swamp, can block the flying creature if able. If he or she does, then the creature with swampwalk will also become blocked by the blocking creature(s).
+702.21h 공격중인 생물이 방어되면, 같은 band 내의 다른 공격 생물들도 같은 방어 생물에게 방어됩니다.
+Example: 플레이어가 비행과 늪잠입이 있는 생물을 연합해서 공격했습니다. 늪을 조종하고 있는 방어 플레이어는, 비행 생물을 방어할 수 있습니다. 만약 그렇게 한다면 늪잠입 생물 또한 방어 생물(들)에 의해 방어됩니다.
 
-702.21i If one member of a band would become blocked due to an effect, the entire band becomes blocked.
+702.21i band의 구성원 중 하나가 효과에 의해 방어될 때, band의 모든 구성원이 방어됩니다.
 
-702.21j During the combat damage step, if an attacking creature is being blocked by a creature with banding, or by both a [quality] creature with "bands with other [quality]" and another [quality] creature, the defending player (rather than the active player) chooses how the attacking creature’s damage is assigned. That player can divide that creature’s combat damage as he or she chooses among any number of creatures blocking it. This is an exception to the procedure described in rule 510.1c.
+702.21j 전투피해단 동안, 공격 생물이 연합이 있는 생물에게 방어되었거나 또는 "band with other [특성]"을 가진 [특성]생물과 또다른 [특성] 생물에게 방어되었다면, 방어 플레이어가 (액티브 플레이어 대신) 공격 생물의 피해 분배를 선택합니다. 이 플레이어는 그 생물의 전투 피해를 그 생물을 방어한 생물들에 원하는대로 분배할 수 있습니다. 이것은 규칙 510.1c.에 서술된 과정의 예외입니다.
 
-702.21k During the combat damage step, if a blocking creature is blocking a creature with banding, or both a [quality] creature with "bands with other [quality]" and another [quality] creature, the active player (rather than the defending player) chooses how the blocking creature’s damage is assigned. That player can divide that creature’s combat damage as he or she chooses among any number of creatures it’s blocking. This is an exception to the procedure described in rule 510.1d.
+702.21k 전투피해단 동안, 방어 생물이 연합이 있는 생물을 방어했거나 또는 "band with other [특성]"이 있는 [특성] 생물과 다른 [특성]생물을 모두 방어했다면, 액티브 플레이어가 (방어 플레이어 대신) 방어 생물의 피해 분배를 선택합니다. 이 플레이어는 그 생물의 전투 피해를 그 생물이 방어한 생물들에 원하는대로 분배할 수 있습니다. 이것은 규칙 510.1d.에 서술된 과정의 예외입니다.
 
-702.21m 같은 생물에 Banding 능력이 여러 개가 있는 경우엔 하나만 적용됩니다. 같은 생물에 같은 종류의 "bands with other" 능력이 여러 개가 있는 경우엔 하나만 적용됩니다.
+702.21m 같은 생물에 연합 능력이 여러 개가 있는 경우엔 하나만 적용됩니다. 같은 생물에 같은 종류의 "bands with other" 능력이 여러 개가 있는 경우엔 하나만 적용됩니다.
 
 702.22. 광란 Rampage
 
@@ -3849,7 +3849,6 @@ Example: 당신은 당신이 조종하지만 소유하지는 않는 마법진의
 702.89e 감염 규칙은 감염 능력을 가진 개체가 어느 구역에 있든지 상관 없이 작동합니다.
 
 702.89f 같은 개체에 감염 능력이 여러 개가 있는 경우엔 하나만 적용됩니다.
-
 
 702.90. 전투함성 Battle Cry
 
@@ -4381,7 +4380,7 @@ Example: Assault//Battery의 마나 비용은 {3}{R}{G}입니다. 색은 적색�
 
 708.4d 스택에 있는 융합된 주문의 특징은 양쪽 면이 합쳐진 특징과 같습니다. (See rule 702.101, "융합")
 
-709. Flip Cards
+709. 플립 카드 Flip Cards
 
 709.1. 플립 카드는 하나의 카드의 두 개의 카드 프레임이 있습니다. 똑바로 된 텍스트가 보통 상태의 특징입니다. 뒤집어진 텍스트는 추가적인 특징을 나타냅니다. 플립 카드의 뒷면은 일반적인 Magic 카드의 뒷면과 같습니다.
 
@@ -4400,7 +4399,7 @@ Example: Akki Lavarunner는 전설적 생물이 아니지만 플립되면 전설
 
 709.5. 플레이어는 카드 이름을 호명할 때 플립 카드의 또 다른 이름을 호명할 수 있습니다.
 
-710. Leveler Cards
+710. 레벨러 카드 Leveler Cards
 
 710.1. 각 레벨러 카드는 텍스트 박스가 줄이 그어져 나뉘어 있으며 세 개의 공격력/방어력 박스가 있습니다. 레벨러 카드의 텍스트 박스에는 두 개의 레벨 심볼이 있습니다.
 
