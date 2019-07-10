@@ -60,11 +60,11 @@ function markdown_change(){
 function symbol_change(){
 	##심볼변환
 	#한단어 : 
-	sed -i 's/{\([T|Q|C|W|B|U|R|G|E|S|P|X]\|PW\|CHAOS\|[0-9]\{1,2\}\)}/![symbol\1](\/assets\/symbols\/\1.gif)/g' "$file"
+	sed -i 's/{\([T|Q|C|W|B|U|R|G|E|S|P|X]\|PW\|CHAOS\|[0-9]\{1,2\}\)}/![{\1}](\/assets\/symbols\/\1.gif)/g' "$file"
 	#sed -i 's/{\([T|Q|C|W|B|U|R|G|E|S|P|X]\|PW\|CHAOS\|[0-9]\{1,2\}\)}/![{\1}](\/assets\/symbols\/\1.gif)/g' "$file"
 
 	#하이브리드:
-	sed -i 's/{\([WUBRG2]\)\/\([WUBRGP]\)}/![symbol\1\2](\/assets\/symbols\/\1\2.gif)/g' "$file" 
+	sed -i 's/{\([WUBRG2]\)\/\([WUBRGP]\)}/![{\1\2}](\/assets\/symbols\/\1\2.gif)/g' "$file" 
 	#sed -i 's/{\([WUBRG2]\)\/\([WUBRGP]\)}/![{\1\2}](\/assets\/symbols\/\1\2.gif)/g' "$file" 
 	echo "Symbol change complete."
 }

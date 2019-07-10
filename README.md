@@ -24,6 +24,7 @@
 -----------------------------
 ## History
 
+ * 2019.07.10 - Update CR (M20)
  * 2018.11.29 - Update IPG - 20181005
  * 2018.10.17 - Update CR until 20181005(Guilds of Ravnica)
  * 2018.09.08 - Update CR until 20180810(Coreset 2019)
