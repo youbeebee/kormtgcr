@@ -1,6 +1,6 @@
 ﻿매직: 더 개더링 종합 규칙서
 
-이 규칙은 2019년 10월 4일부터 시행됩니다.
+이 규칙은 2020년 1월 24일부터 시행됩니다.
 
 소개
 
@@ -620,6 +620,8 @@ Example: Jade Mage는 "{2}{G}: 1/1 녹색 묘목 생물 토큰을 전장에 놓�
 
 111.10b 음식 토큰은 "{2}, {T}, 이 마법물체를 희생한다: 당신은 생명 3점을 얻는다."는 능력을 가진 무색 음식 마법물체 토큰입니다.
 
+111.10c 금 토큰은 "이 마법물체를 희생한다: 원하는 색의 마나 한 개를 추가한다."는 능력을 가진 무색 금 마법물체 토큰입니다.
+
 112. 주문
 
 112.1. 주문은 스택에 있는 카드를 말합니다. 발동(cast)(See rule 601, "Casting Spells") 하는데 첫 번째 단계로서, 카드는 주문이 되고 원래 있던 구역(보통은 플레이어의 손)에서 스택의 가장 위로 이동합니다. (See rule 405, "Stack.") 주문은 그것이 해결되거나(See rule 608, "Resolving Spells and Abilities") 무효화(counter)(See rule 701.5)되거나 다른 방식으로 스택을 떠날 때까지 스택에 남아있습니다. 더 많은 정보를 원하신다면, 6절 "Spells, Abilities, and Effects."을 보세요.
@@ -1219,18 +1221,18 @@ Example: 생물 타입으로 "인어" 또는 "마법사"를 선택하는 것은 
 
 205.3f 많은 카드들에 적혀진 서브타입들은 더 이상 쓰이지 않을 수도 있습니다. 많은 카드들이 소급되어 서브타입이 바뀌었습니다. 카드의 서브타입을 확인할 때는 오라클 카드 레퍼런스를 사용하세요. (See rule 108.1)
 
-205.3g 마법물체는 마법물체 타입이라 불리는 고유한 서브타입들을 가집니다. 마법물체 타입에는 단서(Clue), Contraption, 장비(Equipment)(See rule 301.5), 음식(Food), Fortification (See rule 301.6), 보물(Treasure), 탑승물(See rule 301.7)이 있습니다.
+205.3g 마법물체는 마법물체 타입이라 불리는 고유한 서브타입들을 가집니다. 마법물체 타입에는 단서(Clue), Contraption, 장비(Equipment)(See rule 301.5), 음식(Food), Fortification (See rule 301.6), 금(Gold), 보물(Treasure), 탑승물(See rule 301.7)이 있습니다.
 
 205.3h 부여마법은 부여마법 타입이라 불리는 고유한 서브타입들을 가집니다. 부여마법 타입에는 마법진(Aura)(See rule 303.4), 카르투슈(Cartouche), 저주(Curse), 서사시(Sage, See rule 714.), Shrine가 있습니다.
 
 205.3i 대지는 대지 타입이라 불리는 고유한 서브타입들을 가집니다. 대지 타입에는 사막(Desert), 숲(Forest), 관문(Gate), 섬(Island), Lair, Locus, 광산(Mine), 산(Mountain), 들(Plain), 발전소(Power-Plant), 늪(Swamp), 탑(Tower), 우르자의(Urza's)가 있습니다.
      이 중에, 숲, 섬, 산, 들, 늪은 기본 대지 타입입니다. See rule 305.6.
 
-205.3j 플레인즈워커는 플레인즈워커 타입이라 불리는 고유한 서브타입들을 가집니다. 플레인즈워커 타입에는 아자니(Ajani), Aminatou, 앙그라스(Angrath), 아를린(Arlinn), 아시오크(Ashiok), 볼라스(Bolas), 찬드라(Chandra), 닥(Dack), Daretti, 다브리엘(Davriel), 돔리(Domri), 도빈(Dovin) 엘스페스(Elspeth), Estrid, Freyalise, 개럭(Garruk), 기드온(Gideon), 화틀리(Huatli), 제이스(Jace), 자야(Jaya), 카른(Karn), 카스미나(Kasmina), 카야(Kaya), 키오라(Kiora), Koth, 릴리아나(Liliana), 나히리(Nahiri), 나르셋(Narset), 니사(Nissa), 닉실리스(Nixilis), 랄(Ral), Rowan, 사힐리(Saheeli), 사무트(Samut), 샤르칸(Sarkhan), 세라(Serra), 소린(Sorin), 타미요(Tamiyo), 테페리(Teferi), 테요(Teyo) 테제렛(Tezzeret), 티발트(Tibalt), 우진(Ugin), Venser, 비비안(Vivien), 브라스카(Vraska), Will, Windgrace, 렌(Wrenn), 제나고스(Xenagos), 양구(Yanggu), Yanling가 있습니다.
+205.3j 플레인즈워커는 플레인즈워커 타입이라 불리는 고유한 서브타입들을 가집니다. 플레인즈워커 타입에는 아자니(Ajani), Aminatou, 앙그라스(Angrath), 아를린(Arlinn), 아시오크(Ashiok), 볼라스(Bolas), 칼릭스(Calix), 찬드라(Chandra), 닥(Dack), Daretti, 다브리엘(Davriel), 돔리(Domri), 도빈(Dovin) 엘스페스(Elspeth), Estrid, Freyalise, 개럭(Garruk), 기드온(Gideon), 화틀리(Huatli), 제이스(Jace), 자야(Jaya), 카른(Karn), 카스미나(Kasmina), 카야(Kaya), 키오라(Kiora), Koth, 릴리아나(Liliana), 나히리(Nahiri), 나르셋(Narset), 니사(Nissa), 닉실리스(Nixilis), 랄(Ral), Rowan, 사힐리(Saheeli), 사무트(Samut), 샤르칸(Sarkhan), 세라(Serra), 소린(Sorin), 타미요(Tamiyo), 테페리(Teferi), 테요(Teyo) 테제렛(Tezzeret), 티발트(Tibalt), 우진(Ugin), Venser, 비비안(Vivien), 브라스카(Vraska), Will, Windgrace, 렌(Wrenn), 제나고스(Xenagos), 양구(Yanggu), Yanling가 있습니다.
 
 205.3k 순간마법과 집중마법은 주문 타입이라 불리는 서브타입을 공유합니다. 주문 타입에는 모험(Adventure), 비술(Arcane), 함정(Trap)이 있습니다.
 
-205.3m 생물과 tribal은 생물 타입이라 불리는 서브타입을 공유합니다. 생물 타입에는 Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Army, Artificer, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demon, Deserter, Devil, Dinosaur, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mouse, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Sculpture, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warlock, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, Zubera가 있습니다.
+205.3m 생물과 tribal은 생물 타입이라 불리는 서브타입을 공유합니다. 생물 타입은 다음과 같습니다. Advisor, Aetherborn, Ally, Angel, Antelope, Ape, Archer, Archon, Army, Artificer, Assassin, Assembly-Worker, Atog, Aurochs, Avatar, Azra, Badger, Barbarian, Basilisk, Bat, Bear, Beast, Beeble, Berserker, Bird, Blinkmoth, Boar, Bringer, Brushwagg, Camarid, Camel, Caribou, Carrier, Cat, Centaur, Cephalid, Chimera, Citizen, Cleric, Cockatrice, Construct, Coward, Crab, Crocodile, Cyclops, Dauthi, Demigod, Demon, Deserter, Devil, Dinosaur, Djinn, Dragon, Drake, Dreadnought, Drone, Druid, Dryad, Dwarf, Efreet, Egg, Elder, Eldrazi, Elemental, Elephant, Elf, Elk, Eye, Faerie, Ferret, Fish, Flagbearer, Fox, Frog, Fungus, Gargoyle, Germ, Giant, Gnome, Goat, Goblin, God, Golem, Gorgon, Graveborn, Gremlin, Griffin, Hag, Harpy, Hellion, Hippo, Hippogriff, Homarid, Homunculus, Horror, Horse, Hound, Human, Hydra, Hyena, Illusion, Imp, Incarnation, Insect, Jackal, Jellyfish, Juggernaut, Kavu, Kirin, Kithkin, Knight, Kobold, Kor, Kraken, Lamia, Lammasu, Leech, Leviathan, Lhurgoyf, Licid, Lizard, Manticore, Masticore, Mercenary, Merfolk, Metathran, Minion, Minotaur, Mole, Monger, Mongoose, Monk, Monkey, Moonfolk, Mouse, Mutant, Myr, Mystic, Naga, Nautilus, Nephilim, Nightmare, Nightstalker, Ninja, Noble, Noggle, Nomad, Nymph, Octopus, Ogre, Ooze, Orb, Orc, Orgg, Ouphe, Ox, Oyster, Pangolin, Peasant, Pegasus, Pentavite, Pest, Phelddagrif, Phoenix, Pilot, Pincher, Pirate, Plant, Praetor, Prism, Processor, Rabbit, Rat, Rebel, Reflection, Rhino, Rigger, Rogue, Sable, Salamander, Samurai, Sand, Saproling, Satyr, Scarecrow, Scion, Scorpion, Scout, Sculpture, Serf, Serpent, Servo, Shade, Shaman, Shapeshifter, Sheep, Siren, Skeleton, Slith, Sliver, Slug, Snake, Soldier, Soltari, Spawn, Specter, Spellshaper, Sphinx, Spider, Spike, Spirit, Splinter, Sponge, Squid, Squirrel, Starfish, Surrakar, Survivor, Tentacle, Tetravite, Thalakos, Thopter, Thrull, Treefolk, Trilobite, Triskelavite, Troll, Turtle, Unicorn, Vampire, Vedalken, Viashino, Volver, Wall, Warlock, Warrior, Weird, Werewolf, Whale, Wizard, Wolf, Wolverine, Wombat, Worm, Wraith, Wurm, Yeti, Zombie, and Zubera.
 
 205.3n 차원 카드는 차원 타입이라고 불리는 고유한 서브타입을 공유합니다. 차원 타입에는 Alara, Arkhos, Azgol, Belenon, Bolas’s Meditation Realm, Dominaria, Equilor, Ergamon, Fabacin, Innistrad, Iquatana, Ir, Kaldheim, Kamigawa, Karsus, Kephalai, Kinshala, Kolbahan, Kyneth, Lorwyn, Luvion, Mercadia, Mirrodin, Moag, Mongseng, Muraganda, New Phyrexia, Phyrexia, Pyrulea, Rabiah, Rath, Ravnica, Regatha, Segovia, Serra’s Realm, Shadowmoor, Shandalar, Ulgrotha, Valla, Vryn, Wildfire, Xerex, Zendikar가 있습니다.
 
@@ -2137,7 +2139,7 @@ Example: 어떤 효과가 마법진 주문을 섬광이 있는 것처럼 발동�
 
 601.3d 주문이 특정 상태를 만족할 경우에만 섬광을 가질 경우, 조종자는 그 조건을 만족했을 경우 주문이 섬광을 가진 것처럼 발동을 시작할 수 있습니다.
 
-601.3e 규칙이나 효과가 카드 또는 카드의 복사본을 발동하는 것을 결정하는 데에 대체 특징 또는 특징의 일부만을 확인할 경우, 발동을 시작하는 것을 결정하기 전에 대체 특징이 원래 특징을 대신합니다.
+601.3e 어떤 규칙이나 효과는 카드 또는 카드의 복사본을 발동하는 것이 적법한지 결정하기 위해 대체 특징 또는 그 특징의 일부를 확인합니다. 결정할 땐 이 대체 특징이 원래 개체의 특징을 덮어씁니다. 이 개체에 적용될 수 있는 지속 효과 또한 고려됩니다.
 Example: Garruk's Horde는 "당신은 서고 맨 위 카드가 생물이라면 그것을 발동할 수 있다."는 능력을 가지고 있습니다. 당신이 Garruk's Horde를 조종하고 서고 맨 위의 카드가 변이를 가진 비생물 주문이라면 당신은 이 카드를 변이 능력으로 발동할 수 있습니다.
 Example: Melek, Izzet Paragon은 "당신은 서고 맨 위 카드가 순간마법 또는 집중마법이라면 그 카드를 발동할 수 있다."는 능력을 가지고 있습니다. 당신이 멜렉을 조종하고 서고 맨 위 카드가 Giant Killer(모험 순간마법 Chop Down을 가진 모험 생물)라면, 당신은 Giant Killer는 발동할 수 없지만 Chop Down으로는 발동할 수 있습니다. 만약 Garruk's Horde를 조종했다면 Chop Down은 발동할 수 없지만 Giant Killer로는 발동할 수 있습니다.
 
@@ -3825,7 +3827,7 @@ Example: 당신은 당신이 조종하지만 소유하지는 않는 마법진의
 
 702.73. 환기 Evoke
 
-702.73a 환기는 두 개의 능력을 나타내는 키워드입니다. 하나는 환기 능력을 가진 카드를 발동할 수 있는 모든 구역에서 적용되는 정적 능력과, 전장에서 적용되는 격발 능력입니다. "환기 [비용]"은 "당신은 이 카드를 마나 비용 대신 [비용]을 지불하고 발동할 수 있다."와 "이 지속물이 전장에 들어올 때, 만약 환기 비용이 지불되었다면, 이 지속물의 조종자는 이 지속물을 희생한다."를 의미합니다. 환기 비용을 지불하는 것은 대체 비용을 지불하는 것에 대한 규칙인 규칙 601.2b와 601.2e–h를 따릅니다.
+702.73a 환기는 두 개의 능력을 나타내는 키워드입니다. 하나는 환기 능력을 가진 카드를 발동할 수 있는 모든 구역에서 적용되는 정적 능력과, 전장에서 적용되는 격발 능력입니다. "환기 [비용]"은 "당신은 이 카드를 마나 비용 대신 [비용]을 지불하고 발동할 수 있다."와 "이 지속물이 전장에 들어올 때, 만약 환기 비용이 지불되었다면, 이 지속물의 조종자는 이 지속물을 희생한다."를 의미합니다. 환기 비용으로 카드를 발동하는 것은 대체 비용을 지불하는 것에 대한 규칙인 규칙 601.2b와 601.2e–h를 따릅니다.
 
 702.74. 은닉 Hideaway
 
@@ -3833,7 +3835,7 @@ Example: 당신은 당신이 조종하지만 소유하지는 않는 마법진의
 
 702.75. Prowl
 
-702.75a Prowl은 스택에 있을 때만 동작하는 정적 능력입니다. "Prowl [비용]"은 "만약 플레이어가 이 턴에 당신이 조종하고 이 카드와 생물 타입을 하나라도 공유하는 원천에 의해 전투 피해를 입었을 경우(피해를 입었을 시점에 당신이 조종하고 있으면 됨), 당신은 이 주문의 마나 비용 대신 [비용]을 지불할 수 있다."를 의미합니다. 주문의 Prowl 비용을 지불하는 것은 대체 비용 지불에 대한 규칙인 규칙601.2b와 601.2e–h를 따릅니다.
+702.75a Prowl은 스택에 있을 때만 동작하는 정적 능력입니다. "Prowl [비용]"은 "만약 플레이어가 이 턴에 당신이 조종하고 이 카드와 생물 타입을 하나라도 공유하는 원천에 의해 전투 피해를 입었을 경우(피해를 입었을 시점에 당신이 조종하고 있으면 됨), 당신은 이 주문의 마나 비용 대신 [비용]을 지불할 수 있다."를 의미합니다. Prowl 비용으로 카드를 발동하는 것은 대체 비용 지불에 대한 규칙인 규칙601.2b와 601.2e–h를 따릅니다.
 
 702.76. Reinforce
 
@@ -3903,7 +3905,7 @@ Example: 당신은 당신이 조종하지만 소유하지는 않는 마법진의
 
 702.87a 반동 능력은 몇몇 순간마법이나 집중마법에서 나타납니다. 이 능력은 이 능력을 가진 주문이 스택에 있을 때 적용돼서 지연 격발 능력을 생성하는 정적 능력을 말합니다. "반동"은 "이 주문을 손에서 발동했다면, 이 주문이 해결될 때 무덤에 넣는 대신 추방한 후 당신의 다음 유지단 시작에 이 주물을 추방 구역에서 마나 비용 없이 발동할 수 있다."를 의미합니다.
 
-702.87b 반동 능력에 의해 카드를 마나 비용 없이 발동하는 것은 대체 비용에 대한 규칙인 규칙 601.2b와 601.2e–h를 따릅니다.
+702.87b 카드를 반동 능력으로 발동하는 것은 대체 비용에 대한 규칙인 규칙 601.2b와 601.2e–h를 따릅니다.
 
 702.87c 같은 주문에 반동 능력이 여러 개가 있는 경우엔 하나만 적용됩니다.
 
@@ -3941,7 +3943,7 @@ Example: 당신은 당신이 조종하지만 소유하지는 않는 마법진의
 
 702.93. 기적 Miracle
 
-702.93a 기적은 격발 능력과 결합된 정적 능력입니다. (See rule 603.11). "기적 [비용]"은 "당신이 이 카드를 뽑을 때, 이 카드가 당신이 이번 턴에 뽑은 첫 번째 카드라면 당신은 이 카드를 공개할 수 있다. 만약 이렇게 공개했다면, 당신은 원래 마나 비용 대신 기적 비용을 지불하고 이 카드를 발동할 수 있다."라는 뜻입니다.
+702.93a 기적은 격발 능력과 결합된 정적 능력입니다. (See rule 603.11.) "기적 [비용]"은 "당신이 이 카드를 뽑을 때, 이 카드가 당신이 이번 턴에 뽑은 첫 번째 카드라면 당신은 이 카드를 공개할 수 있다. 만약 이렇게 공개했다면, 당신은 원래 마나 비용 대신 기적 비용을 지불하고 이 카드를 발동할 수 있다."라는 뜻입니다.
 
 702.93b 플레이어가 카드를 기적 능력으로 공개했다면, 그 플레이어는 그 카드가 손을 떠나거나, 능력이 해결되거나, 능력이 다른 이유로 스택을 떠날 때까지 공개한 채로 플레이합니다. (See rule 701.15a.)
 
@@ -3959,7 +3961,7 @@ Example: 당신은 당신이 조종하지만 소유하지는 않는 마법진의
 
 702.95. 과부하 Overload
 
-702.95a 과부하는 과부하를 가진 주문이 스택에 있을 때 동작하는 두 가지 정적 능력을 일컫는 키워드입니다. 과부하 [비용]은 "당신은 이 주문의 마나 비용 대신 [비용]을 지불할 수 있다" 및 "당신이 이 주문의 과부하 비용을 지불하기로 했다면, 이 주문의 내용이 다음과 같이 바뀐다"를 뜻합니다. 과부하 능력은 대체비용 지불에 관한 규정 601.2b 및 601.2e-h에 따릅니다.
+702.95a 과부하는 과부하를 가진 주문이 스택에 있을 때 동작하는 두 가지 정적 능력을 일컫는 키워드입니다. 과부하 [비용]은 "당신은 이 주문의 마나 비용 대신 [비용]을 지불할 수 있다" 및 "당신이 이 주문의 과부하 비용을 지불하기로 했다면, 이 주문의 내용이 다음과 같이 바뀐다"를 뜻합니다. 카드를 과부하 능력으로 발동하는 것은 대체비용 지불에 관한 규정 601.2b 및 601.2e-h에 따릅니다.
 
 702.95b 플레이어가 어떤 주문의 과부하 비용을 지불하기로 결정한다면 해당 주문은 목표를 요구하지 않습니다. 따라서 과부하 비용을 지불한 주문은 과부하 능력을 지불하지 않고 발동했을 때 합법적으로 목표로 삼지 못하던 물체에 영향을 줄 수 있습니다.
 
@@ -4009,17 +4011,19 @@ Example: 당신은 당신이 조종하지만 소유하지는 않는 마법진의
 
 702.102. 권능 Bestow
 
-702.102a 권능은 두 가지 정적 능력을 나타냅니다. 하나는 권능을 가진 카드가 스택에 있는 동안 활성화되고, 다른 하나는 카드가 스택과 전장에 있을 때 모두 활성화됩니다. "권능 [비용]"은 "마나 비용을 지불하는 대신에 [비용]을 지불하고 이 카드를 발동할 수 있다"와 "이 카드의 권능 비용을 지불하면, 이 카드는 마법진 부여마법이 되며 생물에게 부여 능력을 얻는다."라는 뜻입니다. 이들 효과는 해당 주문이 해결될 때 목표로 정한 생물이 유효하지 않거나 지속물이 되어 목표에서 떨어져 나갈 때까지 지속됩니다. 카드의 권능 비용 지불 방법은 대체비용 지불에 관한 규정 601.2b 및 601.2e-h를 따릅니다.
+702.102a 권능은 카드를 발동할 수 있는 모든 구역에서 적용되는 정적 능력입니다. "권능 [비용]"은 "이 주문을 발동하면서 당신은 권능으로 발동하기를 선택할 수 있다. 그렇게 한다면, 마나 비용 대신 [비용]을 지불한다."라는 뜻입니다. 주문을 권능으로 발동하는 것은 대체비용 지불에 관한 규정 601.2b 및 601.2e-h를 따릅니다. 
 
-702.102b 주문의 조종자가 권능 비용을 지불하기로 결정한다면 그 플레이어는 생물에게 부여하는 능력과 규칙 601.2c에 따라 그 마법진 주문에 유효한 목표를 선택합니다. 규칙 303.4을 추가로 참조하세요.
+702.102b 권능으로 지불한 주문이 스택에 올라가면 부여마법 마법진이 되며 생물에 부여 능력을 얻습니다. 이것은 권능 마법진 주문이고, 해결되면 권능 마법진 지속물이 됩니다. 이 효과는 주문 또는 지속물이 권능이 아니게 될 때까지 지속됩니다. (See rules 702.102d–f) 이 주문은 마법진 주문이기 때문에, 조종자는 반드시 생물에 부여 능력 및 규칙 601.2c에 적법한 목표를 선택해야 합니다. See also rule 303.4.
 
-702.105c 주문이 적법하게 발동할 수 있는지 체크한 이후에 조종자는 그 주문의 권능 비용을 지불합니다. See rule 601.2e
+702.102c 주문을 권능으로 발동할 때, 발동할 수 있는지를 결정하기 위해 권능 능력으로 대체된 특징들만 평가됩니다.
+Example: Aether Storm은 "생물 주문은 발동할 수 없다."는 능력을 가진 부여마법입니다. 이 효과는 권능을 가진 생물 카드가 권능으로 발동되는 것을 막을 수 없습니다.
+Example: Garruk’s Horde는 "당신의 서고 맨 위의 카드가 생물 카드면 그것을 발동할 수 있다."는 능력을 가지고 있습니다. 당신이 Garruk’s Horde를 조종하고 있고 서고의 맨 위 카드가 권능을 가진 생물 카드인 경우, 당신은 이 카드를 생물로 발동할 수 있지만 권능으로는 발동할 수 없습니다.
 
-702.105d 권능 능력이 있는 마법진 주문이 해결되기 시작할 때 그 목표가 유효하지 않은 경우, 그 주문을 마법진으로 만드는 효과가 사라집니다. 그 주문은 생물 주문으로 해결되어 그 조종자의 조종 하에 전장에 들어옵니다. 이는 규칙 608.3a의 예외입니다.
+702.102d 권능 마법진 주문이 해결되는 시점에 목표가 적법하지 않다면, 권능은 사라지며 그 주문을 마법진으로 만드는 효과 또한 끝납니다. 그 주문은 생물 주문으로 해결되어 주문의 조종자의 조종 하에 전장에 들어옵니다. 이는 규칙 608.3a의 예외입니다.
 
-702.105e 권능 능력이 있는 마법진이 적법하지 않은 개체나 플레이어에게 부착되어 있는 경우, 그 마법진은 떨어집니다. 이는 규칙 704.5.m의 예외입니다.
+702.102e 권능 마법진이 떨어질 경우 권능은 사라집니다. 적법하지 않은 개체 또는 플레이어에 부착된 권능 마법진은 떨어지며 권능은 사라집니다. 이는 규칙 704.5.m의 예외입니다.
 
-702.102f 권능을 가진 마법진이 부착되지 않은 상태로 페이즈 인 되면 권능 능력으로 발동했던 효과가 끝납니다. See rule 702.25, "Phasing."
+702.102f 권능 마법진이 부착되지 않은 상태로 페이즈 인 되면 권능은 사라집니다. See rule 702.25, "Phasing."
 
 702.103. 조공 Tribute
 
@@ -4059,7 +4063,7 @@ Example: 당신은 당신이 조종하지만 소유하지는 않는 마법진의
 
 702.108. 질주 Dash
 
-702.108a 질주는 질주가 있는 카드가 스택에 있을 때 기능하는 정적 능력 두 개 (그 중 하나는 지연 격발 능력을 생성한다)와 질주가 있는 객체가 전장에 있을 때 기능하는 정적 능력 하나를 합친 세 가지 능력을 나타냅니다. "질주 [비용]"은 "당신은 이 카드의 마나 비용 대신 [비용]을 지불해 발동할 수 있다.", "이 주문의 질주 비용을 지불하기로 선택했다면, 다음 종료단 시작에 이 주문이 지속물이 된 객체를 소유자의 손으로 되돌린다." 및 "당신이 이 지속물의 질주 비용을 지불한 한, 이 지속물은 신속을 가진다."는 뜻입니다. 카드의 질주 비용 지불 방법은 대체비용 지불에 관한 규칙 601.2b 및 601.2e-h를 따릅니다.
+702.108a 질주는 질주가 있는 카드가 스택에 있을 때 기능하는 정적 능력 두 개 (그 중 하나는 지연 격발 능력을 생성한다)와 질주가 있는 객체가 전장에 있을 때 기능하는 정적 능력 하나를 합친 세 가지 능력을 나타냅니다. "질주 [비용]"은 "당신은 이 카드의 마나 비용 대신 [비용]을 지불해 발동할 수 있다.", "이 주문의 질주 비용을 지불하기로 선택했다면, 다음 종료단 시작에 이 주문이 지속물이 된 객체를 소유자의 손으로 되돌린다." 및 "당신이 이 지속물의 질주 비용을 지불한 한, 이 지속물은 신속을 가진다."는 뜻입니다. 카드를 질주 비용으로 발동하는 것은 대체비용 지불에 관한 규칙 601.2b 및 601.2e-h를 따릅니다.
 
 702.109. 수탈 Exploit
 
@@ -4085,7 +4089,7 @@ Example: 당신은 당신이 조종하지만 소유하지는 않는 마법진의
 
 702.112. 각성 Awaken
 
-702.112a 각성은 일부 순간마법이나 집중마법에 등장합니다. 이는 각성을 가진 주문이 스택에 있을 때 기능하는 정적 능력과 주문 능력 두 개를 나타냅니다. "각성 N-[비용]"은 "이 주문의 마나 비용 대신 [비용]을 지불하고 이 주문을 발동할 수 있다."와 "이 주문의 각성 비용이 지불되면 당신이 조종하는 대지를 목표로 정한다. 그 대지에 +1/+1 카운터 N개를 놓고 그 대지는 신속을 가진 0/0 정령 생물이 된다. 그 생물은 여전히 대지다."를 의미합니다. 카드의 각성 비용 지불 방법은 대체비용 지불에 관한 규칙 601.2b 및 601.2e-h를 따릅니다.
+702.112a 각성은 일부 순간마법이나 집중마법에 등장합니다. 이는 각성을 가진 주문이 스택에 있을 때 기능하는 정적 능력과 주문 능력 두 개를 나타냅니다. "각성 N-[비용]"은 "이 주문의 마나 비용 대신 [비용]을 지불하고 이 주문을 발동할 수 있다."와 "이 주문의 각성 비용이 지불되면 당신이 조종하는 대지를 목표로 정한다. 그 대지에 +1/+1 카운터 N개를 놓고 그 대지는 신속을 가진 0/0 정령 생물이 된다. 그 생물은 여전히 대지다."를 의미합니다. 카드를 각성 비용으로 발동하는 것은 대체비용 지불에 관한 규칙 601.2b 및 601.2e-h를 따릅니다.
 
 702.112b 각성을 가진 주문의 조종자는 주문의 각성 비용을 지불하는 경우에만 각성 주문 능력의 목표를 정할 수 있습니다. 그렇지 않다면 그 주문은 능력의 목표가 없는 것처럼 발동됩니다.
 
@@ -4107,7 +4111,7 @@ Example: 당신은 당신이 조종하지만 소유하지는 않는 마법진의
 
 702.116. 격동 Surge
 
-702.116a 격동은 격동을 가진 주문이 스택에 있을 때 작동하는 정적 능력입니다. "격동 [비용]"은 "당신이나 팀원이 이번 턴에 다른 주문을 발동했다면, 당신은 주문의 마나 비용 대신 [비용]을 지불할 수 있다."를 의미합니다. 주문의 격동 비용을 지불하는 것은 대체비용 지불에 관한 규칙 601.2b 및 601.2e-h를 따릅니다.
+702.116a 격동은 격동을 가진 주문이 스택에 있을 때 작동하는 정적 능력입니다. "격동 [비용]"은 "당신이나 팀원이 이번 턴에 다른 주문을 발동했다면, 당신은 주문의 마나 비용 대신 [비용]을 지불할 수 있다."를 의미합니다. 주문을 격동 비용으로 발동하는 것은 대체비용 지불에 관한 규칙 601.2b 및 601.2e-h를 따릅니다.
 
 702.117. 은폐 Skulk
 
@@ -4119,7 +4123,7 @@ Example: 당신은 당신이 조종하지만 소유하지는 않는 마법진의
 
 702.118. 출현 Emerge
 
-702.118a 출현은 출현을 가진 주문이 스택에 쌓일 때 작동하는 두 가지 정적능력을 표현합니다. "출현 [비용]"은 "마나비용을 지불하는 대신 [비용]을 지불하고 생물을 희생하여 주문을 발동할 수 있다." 와 "이 주문의 출현 비용을 지불하기로 했다면, 총 비용은 희생한 생물의 전환마나비용과 같은 일반 마나량만큼 줄어든다."를 의미합니다. 카드의 출현 비용 지불 방법은 대체비용 지불에 관한 규정 601.2b 및 601.2f-h를 따릅니다.
+702.118a 출현은 출현을 가진 주문이 스택에 쌓일 때 작동하는 두 가지 정적능력을 표현합니다. "출현 [비용]"은 "마나비용을 지불하는 대신 [비용]을 지불하고 생물을 희생하여 주문을 발동할 수 있다." 와 "이 주문의 출현 비용을 지불하기로 했다면, 총 비용은 희생한 생물의 전환마나비용과 같은 일반 마나량만큼 줄어든다."를 의미합니다. 카드를 출현 비용으로 발동하는 것은 대체비용 지불에 관한 규정 601.2b 및 601.2f-h를 따릅니다.
 
 702.118b 주문의 출현 비용을 지불하기로 결정할 때 어떤 생물을 희생할 것인지 결정하고(see rule 601.2b), 총 비용을 지불할 때 그 생물을 희생합니다(see rule 601.2h).
 
@@ -4235,7 +4239,15 @@ Example: 당신은 당신이 조종하지만 소유하지는 않는 마법진의
 
 702.136. 구경거리 Spectacle
 
-702.136a 구경거리는 스택에서 작용하는 정적능력입다. "구경거리 [비용]"은 "상대가 이 턴에 생명점을 잃었다면 당신은 이 주문을 마나 비용을 지불하는 대신 [비용]을 지불할 수 있다."를 의미합니다. 주문의 구경거리 비용 지불 방법은 대체비용 지불에 관한 규칙 601.2b 및 601.2f-h를 따릅니다.
+702.136a 구경거리는 스택에서 작용하는 정적능력입다. "구경거리 [비용]"은 "상대가 이 턴에 생명점을 잃었다면 당신은 이 주문을 마나 비용을 지불하는 대신 [비용]을 지불할 수 있다."를 의미합니다. 주문을 구경거리 비용으로 발동하는 것은 대체비용 지불에 관한 규칙 601.2b 및 601.2f-h를 따릅니다.
+
+702.137. 탈출 Escape
+
+702.137a 탈출은 탈출을 가진 카드가 플레이어의 무덤에 있는 동안 작동하는 정적능력을 나타냅니다. "탈출 [비용]"은 "당신은 이 카드의 마나 비용 대신 [비용]을 지불하여 이 카드를 당신의 무덤에서 발동할 수 있다."를 의미합니다. 탈출 능력을 사용하여 주문을 발동하는 것은 601.2b 및 601.2f-h 중 대체비용 지불에 관한 규정을 따릅니다.
+
+702.137b 주문 또는 지속물은 해당 주문 또는 해결되어 해당 지속물이 된 주문이 탈출 능력을 사용해 무덤에서 발동된 경우 "탈출한" 것입니다.
+
+702.137c "[이 지속물]은 . . . 을 가지고 탈출한다."는 "이 지속물이 탈출했다면, 그 지속물은 . . . 을 가지고 전장에 들어온다."를 의미합니다. 해당 능력은 "그 지속물이 이런 식으로 전장에 들어온다면,"으로 격발되는 격발능력에 연결되어 있을 수 있습니다. (See rule 603.11.) 그러한 격발능력은 해당 지속물이 전장에 들어올 때 그 지속물의 대체효과가 적용된 뒤에 격발하며, 이는 해당 대체효과가 아무런 효과를 가지지 않더라도 마찬가지입니다.
 
 703. 턴에 기반한 행동
 
@@ -4994,6 +5006,8 @@ Example: 롭은 알렉스를 룬발톱 곰으로 공격하고 카리사를 산�
 
 805.4c 팀의 각 플레이어들은 각 팀의 턴 중에 대지를 플레이할 수 있습니다.
 
+805.4d 단 또는 단계의 시작에 격발되는 능력은 그 시점이 "각 플레이어", "각 상대"의 단/단계인 경우 여러번 격발될 수 있습니다. 이 능력은 능력의 격발 조건, 효과, 삽입된 if 절에 나온 플레이어/상대에 맞는 적절한 플레이어의 시점에 한 번 격발됩니다.
+
 805.5. 개별 플레이어가 아니라 팀이 우선권을 가집니다.
 
 805.5a 플레이어는 자신의 팀이 우선권을 가지고 있는 동안 주문을 발동하고, 능력을 활성화하고, 특별 행동을 수행할 수 있습니다.
@@ -5455,4 +5469,4 @@ Example: Wort의 색 아이덴티티는 적녹입니다. Wort가 장군인 덱�
 
 <생략>
 
-유한회사 위자드 오브 더 코스트에 의해 발행됨. 사서함 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, Oracle, Arabian Nights, Antiquities, Homelands, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica: City of Guilds, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, Scars of Mirrodin, Innistrad, Return to Ravnica, Khans of Tarkir, Magic Origins, Shadows over Innistrad, Eldritch Moon, Magic: The Gathering-Conspiracy, Ixalan, Rivals of Ixalan, Unglued, Unstable, Dominaria, and Planeswalker Decks는 미국 및 다른 국가에서 위자드사의 상표입니다. Unhinged는 Horn Abbot Ltd.의 상표이며 허가하에 사용됩니다. ©2019 Wizards. U.S. Pat. No. RE 37,957.
+유한회사 위자드 오브 더 코스트에 의해 발행됨. 사서함 707, Renton, WA 98057-0707, USA. Wizards of the Coast, Magic: The Gathering, Magic, Oracle, Arabian Nights, Antiquities, Homelands, Exodus, Odyssey, Mirrodin, Kamigawa, Ravnica: City of Guilds, Time Spiral, Future Sight, Lorwyn, Shadowmoor, Zendikar, Scars of Mirrodin, Innistrad, Return to Ravnica, Khans of Tarkir, Magic Origins, Shadows over Innistrad, Eldritch Moon, Magic: The Gathering-Conspiracy, Ixalan, Rivals of Ixalan, Unglued, Unstable, Dominaria, and Planeswalker Decks는 미국 및 다른 국가에서 위자드사의 상표입니다. Unhinged는 Horn Abbot Ltd.의 상표이며 허가하에 사용됩니다. ©2020 Wizards. U.S. Pat. No. RE 37,957.
