@@ -7,7 +7,7 @@
 -----------------------------
 ## Notice
 
-이 문서는 위자드 오브 더 코스트의 인증을 받지 않은 비공식 번역입니다. 규칙에 대한 공신력 있는판정을 위해서는 [wizards.com](http://magic.wizards.com/en/game-info/gameplay/rules-and-formats/rules){:target="_blank"}의 영문 CR을 이용하시고 이 문서는 참고용으로만 사용하는 것을 권장합니다.
+이 문서는 위자드 오브 더 코스트의 인증을 받지 않은 비공식 번역입니다. 규칙에 대한 공신력 있는 판정을 위해서는 [wizards.com](http://magic.wizards.com/en/game-info/gameplay/rules-and-formats/rules){:target="_blank"}의 영문 CR을 이용하시고 이 문서는 참고용으로만 사용하는 것을 권장합니다.
 한글판이 나오지 않은 용어의 경우 [DotP][dotp]{:target="_blank"}의 번역을 참고했으며, 정식판에서는 변경될 수 있습니다.
 본 문서는 자유롭게 인용, 발췌 및 복사 가능합니다.(단, 상업적 용도로 이용할 경우 위자드가 이놈! 할 수는 있음)
 
@@ -19,11 +19,11 @@
  * [프로젝트 Blog](http://youbeebee.net/about){:target="_blank"} : 이 문서를 호스팅하는 블로그입니다.
  * [Daum Cafe magin](http://cafe.daum.net/magin){:target="_blank"} : 한국의 매직 커뮤니티입니다. 
  * [Judge Apps](http://apps.magicjudges.org){:target="_blank"} 
- * [yawgatog](http://www.yawgatog.com/resources/rules-changes){:target="_blank"} : 버전별 diff를 보여주는 사이트. 익살란 이후 반영 안되고 있음.
  
 -----------------------------
 ## History
 
+ * 2020.01.28 - Update CR (TBD)
  * 2019.10.07 - Update CR (ELD)
  * 2019.07.10 - Update CR (M20)
  * 2018.11.29 - Update IPG - 20181005
