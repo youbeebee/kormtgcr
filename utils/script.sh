@@ -8,7 +8,7 @@
 ##argument check
 if [ 1 -ne $# ]
 then
-	echo "arg error"
+	printf "arg error!\nUsage: ${0} ../MagicCompRules_KR.txt\n"
 	exit 1
 else
 	originalfile=$1
@@ -16,7 +16,7 @@ else
 fi
 
 ##Backup
-file="temp_$originalfile"
+file="temp_file"
 cp "$originalfile" "$file"
 
 ##헤더(목차)/테일 날리기(txt가 유니코드UTF-8로 저장되어야 함)
@@ -39,7 +39,7 @@ function markdown_change(){
 	##소문단 md 문법 적용
 	sed -i 's/\(^[0-9]\{3\}\.[0-9]\+[a-z]\+\)\( .\+$\)/<a name="\1"><\/a>\n<p class="clause" markdown="1">**\1**\2<\/p>/g' "$file"
 	
-	#--예외 : 205.3i-j, 509.1b, 810.7b 항목에 대한 문법 적용
+	#--예외 : 205.3i, 509.1b 항목에 대한 문법 적용
 	sed -i 's/\(^     .\+$\)/<p class="clause" markdown="1">\1<\/p>/g' "$file"
 	
 	##example 서식 적용
@@ -220,5 +220,5 @@ seerule_change
 split_chapter
 clean_up
 
-echo "Success!"
+echo "End!"
 exit 0
