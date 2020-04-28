@@ -1,4 +1,4 @@
-## Magic:the Gathering Korean Rulebook Project.
+﻿## Magic:the Gathering Korean Rulebook Project.
 
 매직 더 개더링 종합 규칙서(Comprehensive Rules) 및 위반처리지침(Infraction Procedure Guide)의 한국어 번역 프로젝트입니다.
 
@@ -23,15 +23,17 @@
 -----------------------------
 ## History
 
+ * 2020.04.28 - Update CR (IKO)
+ * 2020.01.28 - Update JAR
  * 2020.01.28 - Update CR (TBD)
  * 2019.10.07 - Update CR (ELD)
  * 2019.07.10 - Update CR (M20)
  * 2018.11.29 - Update IPG - 20181005
- * 2018.10.17 - Update CR until 20181005(Guilds of Ravnica)
- * 2018.09.08 - Update CR until 20180810(Coreset 2019)
- * 2017.11.21 - Update CR until 20170929(Ixalan)
- * 2017.08.04 - Update CR until 20170708(Hour of Devastation)
- * 2017.01.23 - Update CR until 20170120(Aether Revolt)
- * 2016.11.11 - Update CR until 20161111(Commander 2016)
- * 2016.10.24 - Update CR until 20160930(Kaladesh)
- * 2016.10.22 - Update CR until 20160722(Eldritch Moon)
+ * 2018.10.17 - Update CR 20181005(Guilds of Ravnica)
+ * 2018.09.08 - Update CR 20180810(Coreset 2019)
+ * 2017.11.21 - Update CR 20170929(Ixalan)
+ * 2017.08.04 - Update CR 20170708(Hour of Devastation)
+ * 2017.01.23 - Update CR 20170120(Aether Revolt)
+ * 2016.11.11 - Update CR 20161111(Commander 2016)
+ * 2016.10.24 - Update CR 20160930(Kaladesh)
+ * 2016.10.22 - Update CR 20160722(Eldritch Moon)
