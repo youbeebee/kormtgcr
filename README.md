@@ -19,10 +19,12 @@
  * [프로젝트 Blog](http://youbeebee.net/about){:target="_blank"} : 이 문서를 호스팅하는 블로그입니다.
  * [Daum Cafe magin](http://cafe.daum.net/magin){:target="_blank"} : 한국의 매직 커뮤니티입니다. 
  * [Judge Apps](http://apps.magicjudges.org){:target="_blank"} 
+ * [온라인 Diff 툴](https://text-compare.com/){:target="_blank"} 
  
 -----------------------------
 ## History
 
+ * 2020.06.26 - Update CR (M21)
  * 2020.04.28 - Update CR (IKO)
  * 2020.01.28 - Update JAR
  * 2020.01.28 - Update CR (TBD)
