@@ -11,5 +11,3 @@ http://www.levihackwith.com/javascript-performance-tip-precompile-your-regular-e
 원문 비교(저지위키? 셀베이션? 개인?)
 마우스 커서 올리면 토글창
 카드이름 인식?
-홈페이지 https 지원 & Disques 수정해야
-(https://blog.gaerae.com/2018/05/github-pages-custom-domains-https.html)
