@@ -1279,8 +1279,7 @@ Example: 생물 타입으로 "인어" 또는 "마법사"를 선택하는 것은 
 
 205.3h 부여마법은 부여마법 타입이라 불리는 고유한 서브타입들을 가집니다. 부여마법 타입에는 마법진(Aura)(See rule 303.4), 카르투슈(Cartouche), 직업(Class)(See rule 717), 저주(Curse), 룬(Rune), 서사시(Saga, See rule 715.), 파편(Shard), 성지(Shrine)가 있습니다.
 
-205.3i 대지는 대지 타입이라 불리는 고유한 서브타입들을 가집니다. 대지 타입에는 사막(Desert), 숲(Forest), 관문(Gate), 섬(Island), Lair, Locus, 광산(Mine), 산(Mountain), 들(Plain), 발전소(Power-Plant), 늪(Swamp), 탑(Tower), 우르자의(Urza's)가 있습니다.
-     이 중에, 숲, 섬, 산, 들, 늪은 기본 대지 타입입니다. See rule 305.6.
+205.3i 대지는 대지 타입이라 불리는 고유한 서브타입들을 가집니다. 대지 타입에는 사막(Desert), 숲(Forest), 관문(Gate), 섬(Island), Lair, Locus, 광산(Mine), 산(Mountain), 들(Plain), 발전소(Power-Plant), 늪(Swamp), 탑(Tower), 우르자의(Urza's)가 있습니다. 이 중에, 숲, 섬, 산, 들, 늪은 기본 대지 타입입니다. See rule 305.6.
 
 205.3j 플레인즈워커는 플레인즈워커 타입이라 불리는 고유한 서브타입들을 가집니다. 플레인즈워커 타입에는 아자니(Ajani), Aminatou, 앙그라스(Angrath), 아를린(Arlinn), 아시오크(Ashiok), 바하무트(Bahamut), 바스리(Basri), 볼라스(Bolas), 칼릭스(Calix), 찬드라(Chandra), 닥(Dack), 다콘(Dakkon), Daretti, 다브리엘(Davriel), 디하다(Dihada), 돔리(Domri), 도빈(Dovin), 엘리윅(Ellywick), 엘스페스(Elspeth), Estrid, Freyalise, 개럭(Garruk), 기드온(Gideon), 그리스트(Grist), 화틀리(Huatli), 제이스(Jace), 자야(Jaya), Jeska, 카른(Karn), 카스미나(Kasmina), 카야(Kaya), 키오라(Kiora), Koth, 릴리아나(Liliana), 롤스(Lolth), 루카(Lukka), 모덴카이넨(Mordenkainen), 나히리(Nahiri), 나르셋(Narset), 니코(Niko), 니사(Nissa), 닉실리스(Nixilis), 랄(Ral), Rowan, 사힐리(Saheeli), 사무트(Samut), 샤르칸(Sarkhan), 세라(Serra), 소린(Sorin), Szat, 타미요(Tamiyo), 테페리(Teferi), 테요(Teyo) 테제렛(Tezzeret), 티발트(Tibalt), Tyvar, 우진(Ugin), Venser, 비비안(Vivien), 브라스카(Vraska), Will, Windgrace, 렌(Wrenn), 제나고스(Xenagos), 양구(Yanggu), 얀링(Yanling), 자리엘(Zariel)이 있습니다.
 
@@ -2522,10 +2521,7 @@ Example: 플레이어가 "당신이 활성화하는 플레인즈워커들의 충
 Example: Paradise Plume은 다음 세 능력을 가집니다.: "Paradise Plume이 전장에 들어오면서, 색을 선택한다", "플레이어가 선택한 색깔의 주문을 발동할 때마다, 당신은 생명 1점을 얻는다.", "{T}: 선택된 색깔의 마나 한 개를 추가한다." 첫 번째 능력과 두 번째 능력은 연결되어 있습니다. 첫 번째 능력과 세 번째 능력은 연결되어 있습니다.
 
 607.5. 개체가 원래 카드가 가진 능력이 아닐지라도 같은 효과에 의해 한 쌍의 연결 능력을 얻는다면, 그 능력들은 서로 연결되어 있습니다. 그 능력들은 개체가 현재 어떤 능력을 가지고 있고, 과거에 가지고 있었는지와 관련 없이 다른 능력들과는 연결될 수 없습니다.
-Example: Arc-Slogger는 다음과 같은 능력을 가집니다. "{R}, 서고 맨 위의 카드 열 장을 추방한다: Arc-Slogger는 원하는 목표에게 피해 2점을 입힌다."  
-Sisters of Stone Death는 다음과 같은 능력을 가집니다. "{B}{G}: Sisters of Stone Death를 방어하거나 에게 방어된 생물 하나를 목표로 정한다. 그 생물을 추방한다.", "{2}{B}:Sisters of Stone Death에 의해 추방된 생물 카드를 당신의 조종하에 전장에 놓는다."  
-Quicksilver Elemental은 다음과 같은 능력을 가집니다. "{U}:Quicksilver Elemental은 턴 끝까지 목표 생물의 모든 활성화 능력을 가진다."  
-만약 Quicksilver Elemental이 Arc-Slogger의 능력을 가지고 활성화 시키고, Sisters of Stone Death의 능력을 가졌다면, Quicksilver Elemental이 Sisters of Stone Death의 능력을 이용해 추방한 생물 카드만이 전장에 되돌아올 수 있습니다. Arc-Slogger의 능력을 사용해 추방된 카드는 되돌릴 수 없습니다.
+Example: Arc-Slogger는 다음과 같은 능력을 가집니다. "{R}, 서고 맨 위의 카드 열 장을 추방한다: Arc-Slogger는 원하는 목표에게 피해 2점을 입힌다.", Sisters of Stone Death는 다음과 같은 능력을 가집니다. "{B}{G}: Sisters of Stone Death를 방어하거나 에게 방어된 생물 하나를 목표로 정한다. 그 생물을 추방한다.", "{2}{B}:Sisters of Stone Death에 의해 추방된 생물 카드를 당신의 조종하에 전장에 놓는다.", Quicksilver Elemental은 다음과 같은 능력을 가집니다. "{U}:Quicksilver Elemental은 턴 끝까지 목표 생물의 모든 활성화 능력을 가진다.", 만약 Quicksilver Elemental이 Arc-Slogger의 능력을 가지고 활성화 시키고, Sisters of Stone Death의 능력을 가졌다면, Quicksilver Elemental이 Sisters of Stone Death의 능력을 이용해 추방한 생물 카드만이 전장에 되돌아올 수 있습니다. Arc-Slogger의 능력을 사용해 추방된 카드는 되돌릴 수 없습니다.
 
 607.5a 개체가 선택이 언급된 능력을 얻었지만, 그것이 (a) 그 능력과 연결된 능력이 복사되지 않았거나, (b) 연결된 능력은 복사되었지만 선택이 이루어지지 않았다면, 그 선택은 "정의되지 않음"으로 간주됩니다. 정의되지 않은 선택을 가진 능력은, 능력의 그 부분은 아무 것도 하지 않습니다.
 Example: Voice of All이 전장에 들어왔으며 Unstable Shapeshifter가 그것을 복사했습니다. Voice of All은 "Voice of All이 전장에 들어오면서 색을 선택한다."는 능력과 "Voice of All은 선택한 색으로부터 보호를 가진다."을 가집니다. Unstable Shapeshifter는 Voice of All로 전장에 들어온 것이 아니기 때문에 색을 선택한적이 없습니다. 따라서 보호 능력을 가지지 않습니다.
@@ -2766,11 +2762,7 @@ Example: Rune of Flight는 부여된 장비에 "장착된 생물은 비행을 �
 
 613.8. 한 레이어/서브레이어 안에서, 어떤 순서로 효과가 적용되는지 결정하는 데에는 때때로 종속 시스템(dependency system)을 사용합니다. 만약 종속성이 존재한다면, 타임스탬프 시스템을 덮어씁니다.
 
-613.8a 어떤 효과가  
-(a)다른 효과와 같은 레이어(또는 서브레이어)에서 적용된다.  
-(b)한 효과를 적용하는 것이 다른 효과의 텍스트나, 적용되는 방식, 적용되는 개체에 영향을 미친다.  
-(c)두 효과 모두 특징 정의 능력이 아니거나 두 효과 모두 특징 정의 능력이다.  
-일 경우, 그 효과는 다른 효과에 "종속"되어 있다고 합니다. 그렇지 않다면, 그 효과는 다른 효과와 독립적인 것으로 간주합니다.
+613.8a 어떤 효과가 다음과 같을 경우, 그 효과는 다른 효과에 "종속"되어 있다고 합니다. 그렇지 않다면, 그 효과는 다른 효과와 독립적인 것으로 간주합니다.  (a)다른 효과와 같은 레이어(또는 서브레이어)에서 적용된다.  (b)한 효과를 적용하는 것이 다른 효과의 텍스트나, 적용되는 방식, 적용되는 개체에 영향을 미친다.  (c)두 효과 모두 특징 정의 능력이 아니거나 두 효과 모두 특징 정의 능력이다.  
 
 613.8b 한 효과가 하나 이상의 다른 효과에 종속적이라면 이 효과들이 모두 적용될 때까지 기다렸다가 적용합니다. 여러 개의 종속적인 효과들이 이렇게 동시에 적용된다면, 각각에 관련해 타임스탬프 순서를 적용합니다. 만약 여러 종속적인 효과들이 서로 루프를 이룬다면, 이 규칙은 무시되고 타임스탬프 순서에 따라 적용됩니다.
 
@@ -5749,7 +5741,6 @@ Example: 교차 팀전에서 A, B, C 세 팀이 플레이를 합니다. A1, B1, 
 901.9c 주사위에서 플레인즈워커 심볼 {PW}가 나온다면, "플레인즈워킹 능력"이 격발되어 스택에 쌓입니다. 액티브 플레이어가 우선권을 받습니다. (See rule 901.8.)
 
 901.9d 차원 주사위를 굴리면 주사위를 굴릴 때마다 격발되는 능력이 격발됩니다. 하지만, 결과를 다른 주사위 또는 주어진 숫자와 비교하는 것을 포함한 주사위 굴림의 수치를 참조하는 모든 효과는 차원 주사위 굴림에서는 무시됩니다. See 706, "Rolling a Die."
-Rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result of a die roll, including ones that compare the results of that roll to other rolls or to a given number, ignores the rolling of the planar die. See 706, “Rolling a Die.”
 
 901.10. 플레이어가 게임을 떠날 때, 현상의 능력을 제외한 그 플레이어가 조종하는 모든 개체는 게임을 떠납니다. 그 중에 앞면인 차원 카드와 현상 카드가 포함되어 있다면, 차원 조종자는 자신의 차원 덱의 맨 윗장을 뒤집습니다. 이것은 상태 참조 행동입니다. 이것은 플레이어가 게임을 떠나는 즉시 수행됩니다.
 
