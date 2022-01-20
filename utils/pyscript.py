@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""태그 자동화 스크립트
+"""태그 자동화 파이썬 스크립트
  * Date: 2022-01-19
  * Author:	B.F.M.
  * Usage: python3 thisfile.py ../MagicCompRules_KR.txt
 """
+import datetime
 import os
 import sys
 import re
@@ -32,7 +33,7 @@ def trim(text):
         print('Trim Error!')
         sys.exit()
 
-    return trimed_txt[1]
+    return trimed_txt[1].strip()
 
 
 def apply_markdown(t):
@@ -114,7 +115,7 @@ def apply_footnote(t):
 
 
 def apply_card_tag(t):
-    """카드 이름 태그로 변환
+    """카드 이름에 툴팁을 띄우기 위한 태그 추가
     기능은 구현되어 있으나 룰텍스트에 적용은 안함
     [[xxxx]] -> <mtg-card>xxxx</mtg-card>
     """
@@ -131,7 +132,53 @@ def regex_replace(pattern, repl, string):
 
 
 def split_chapter(t):
-    return t
+    """텍스트를 챕터별로 파일로 쪼갠 뒤 jekyll 헤더 추가
+    """
+    date = datetime.date.today()
+    year = date.strftime('%Y')
+    month = date.strftime('%m')
+    day = date.strftime('%d')
+
+    template = '---\nlayout: post\ntitle: {title}\ncategories: [OnlineCR]\ntags: [cr, online]\n' \
+        'comments: true\ndescription: {desc}\n---\n\n{{% include toc.md %}}\n\n\n{contents}\n\n\n----\n'
+
+    titles_kr = ['1. 게임의 컨셉', '2. 카드의 구성', '3. 카드의 타입',
+                 '4. 구역', '5. 턴의 구조', '6. 주문, 능력, 효과',
+                 '7. 추가 규칙', '8. 다인전 규칙', '9. 캐주얼 규칙']
+
+    titles = ['1. 게임의 컨셉 Game Concepts', '2. 카드의 구성 Parts of a Card', '3. 카드의 타입 Card Types',
+              '4. 구역 Zones', '5. 턴의 구조 Turn Structure', '6. 주문, 능력, 효과 Spells, Abilities, and Effects',
+              '7. 추가 규칙 Additional Rules', '8. 다인전 규칙 Multiplayer Rules', '9. 캐주얼 규칙 Casual Variants']
+
+    chapters = split_text(t)
+
+    for i, ch in enumerate(chapters):
+        file_name = '{y}-{m}-{d}-{idx}00.md'.format(y=year, m=month, d=day, idx=i+1)
+        page = template.format(title=titles_kr[i], desc=titles[i], contents=ch)
+
+        create_page(file_name, page)
+
+
+def split_text(t):
+    chapters = []
+    for chapter in t.split('\n\n\n'):
+        chapter = chapter.strip()
+        chapter = '\n'.join(chapter.split('\n')[2:])  # 제목 삭제를 위해 첫 두 줄 제거
+        chapters.append(chapter)
+
+    return chapters
+    # return [chapter.strip() for chapter in t.split('\n\n\n')]
+
+
+def create_page(name, contents):
+    path = './cr/'
+    if not os.path.exists(path):
+        os.makedirs(path)
+
+    print('Create {n}'.format(n=name))
+
+    with open(path+name, 'w') as f:
+        f.write(contents)
 
 
 if __name__ == '__main__':
@@ -139,17 +186,18 @@ if __name__ == '__main__':
     text = open_file(filename)
 
     print('START')
+
     text = trim(text)
-    print('Delete Header & Footer')
+    print('Delete Header & Footer complete.')
 
     text = apply_markdown(text)
     print('Tag apply complete.')
 
-    text = apply_symbol(text)
-    print('Symbol change complete.')
-
     text = apply_url(text)
     print('URL change complete.')
+
+    text = apply_symbol(text)
+    print('Symbol change complete.')
 
     text = apply_seerule(text)
     print('See rule xxx change complete.')
@@ -160,5 +208,6 @@ if __name__ == '__main__':
     text = apply_card_tag(text)
     print('Card name tagging complete.')
 
+    split_chapter(text)
+
     print('END')
-    print(text)
