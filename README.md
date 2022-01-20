@@ -44,3 +44,5 @@
  * 2016.11.11 - Update CR 20161111(Commander 2016)
  * 2016.10.24 - Update CR 20160930(Kaladesh)
  * 2016.10.22 - Update CR 20160722(Eldritch Moon)
+ * 2016.10.22 - git으로 관리 시작
+ * 2013.xx.xx - CR 번역 시작
