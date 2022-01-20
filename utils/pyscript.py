@@ -117,6 +117,7 @@ def apply_footnote(t):
 def apply_card_tag(t):
     """카드 이름에 툴팁을 띄우기 위한 태그 추가
     기능은 구현되어 있으나 룰텍스트에 적용은 안함
+	미사용
     [[xxxx]] -> <mtg-card>xxxx</mtg-card>
     """
     pattern = r'\[\[\(.+?\)\]\]'  # +? -> non greedy qualifier
@@ -204,9 +205,6 @@ if __name__ == '__main__':
 
     text = apply_footnote(text)
     print('Footnote change complete.')
-
-    text = apply_card_tag(text)
-    print('Card name tagging complete.')
 
     split_chapter(text)
 
